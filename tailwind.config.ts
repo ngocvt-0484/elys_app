@@ -14,8 +14,8 @@ const config: Config = {
         ink: "#000000",
       },
       fontFamily: {
-        heading: ["var(--font-heading)"],
-        body: ["var(--font-body)"],
+        heading: ["var(--font-heading)", "ui-serif", "Georgia", "serif"],
+        body: ["var(--font-body)", "ui-sans-serif", "system-ui", "sans-serif"],
       },
     },
   },
