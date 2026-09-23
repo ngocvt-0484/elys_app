@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "siteName": "ELYSIDERM",
+    "defaultTitle": "ELYSIDERM | Eirlys' — Premium K-Dermocosmetics",
+    "defaultDescription": "ELYSIDERM | Eirlys' delivers healthy, radiant, balanced skin care grounded in Korean dermatological science."
+  },
+  "header": { "subtitle": "VIETNAM", "ctaConsult": "Consult Now" },
+  "nav": {
+    "home": "Home",
+    "about": "About Elysiderm",
+    "collections": "Collections",
+    "technology": "Technology & Ingredients",
+    "why": "Why Elysiderm",
+    "contact": "Contact"
+  },
+  "footer": {
+    "description": "Premium dermocosmetics inspired by Korean skin care science.",
+    "exploreTitle": "Explore",
+    "policyTitle": "Policies & Support",
+    "careTitle": "Care Center",
+    "addressValue": "18th Floor, Saigon Centre, 65 Le Loi, Ben Nghe, District 1, Ho Chi Minh City",
+    "hotlineLabel": "Hotline",
+    "hotlineValue": "1800 8998",
+    "emailLabel": "Email",
+    "emailValue": "concierge@elysiderm.vn",
+    "hoursValue": "Mon – Sun: 09:00 – 21:00",
+    "privacy": "Privacy Policy",
+    "returns": "Return Policy",
+    "terms": "Terms of Use",
+    "copyright": "© {year} ELYSIDERM Vietnam. All rights belong to Elysiderm-Cosmetics Korea Group."
+  },
+  "home": {
+    "hero": {
+      "tag": "Korean-standard skin care",
+      "titleLine1": "Refined beauty begins",
+      "titleLine2Emphasis": "with healthy skin",
+      "description": "Discover Korean-standard skin care with ELYSIDERM — nurturing your skin every day with carefully curated products for a modern, natural and pure beauty.",
+      "ctaPrimary": "Explore Collections",
+      "ctaSecondary": "Get a Free Skin Consultation",
+      "trustBadges": ["Skin Care", "Refined & Gentle", "Modern Science", "Made in Korea"]
+    },
+    "strengths": {
+      "tag": "Exclusively ELYSIDERM",
+      "title": "Reveal Your Natural Radiance",
+      "description": "ELYSIDERM believes true beauty starts from healthy skin, nurtured the right way and understood at its core.",
+      "items": [
+        { "title": "Refined & Gentle", "body": "Gentle formulas with Glutathione, Ceramide NP and Panthenol, suitable even for sensitive skin." },
+        { "title": "Lasting, Visible Results", "body": "We prioritize sustainable results that nurture healthy skin from within, not instant fixes." },
+        { "title": "Dedicated Guidance", "body": "Our dermatology consultants walk with you throughout your skin care journey." }
+      ]
+    },
+    "products": {
+      "tag": "Featured Collection",
+      "title": "Pure, Radiant Skin Rituals",
+      "description": "Our most loved signature products, curated from the Eirlys' ecosystem.",
+      "viewAll": "View all products"
+    },
+    "spotlight": {
+      "tag": "Skin Science Breakthrough",
+      "title": "Skin care, refined for everyday life",
+      "description": "A blend of regenerative nourishment and sun protection technology keeps skin nourished and protected against environmental stress, even on your busiest days.",
+      "spfBadgeTitle": "SPF 50+",
+      "spfBadgeDescription": "Broad-spectrum protection, feather-light texture.",
+      "cta": "Sign up for offers made for you",
+      "ingredients": [
+        { "name": "Ceramide NP", "description": "Strengthens the skin barrier." },
+        { "name": "Panthenol (B5)", "description": "Soothes and repairs instantly." },
+        { "name": "Niacinamide", "description": "Improves skin tone evenness." },
+        { "name": "Arbutin & Adenosine", "description": "Supports brightening and renewal." }
+      ]
+    },
+    "why": {
+      "title": "Why Women Trust Elysiderm",
+      "description": "The difference comes from Korean standards paired with a deep understanding of Vietnamese skin.",
+      "items": [
+        { "title": "Korean Standard", "body": "Formulas developed to Korean dermocosmetic standards." },
+        { "title": "Refined Design", "body": "Minimal, elevated packaging and product experience." },
+        { "title": "Effortless to Use", "body": "A simple routine that fits modern, busy lifestyles." },
+        { "title": "In-depth Guidance", "body": "1:1 consultation with our specialists throughout your journey." }
+      ]
+    },
+    "ctaBanner": {
+      "tag": "The Skin Care Experience",
+      "title": "A Moment Made for Your Skin",
+      "description": "Every skin care step is a precious moment to slow down, listen to your skin, and cherish yourself in your own way.",
+      "button": "Start Your Routine Now"
+    },
+    "testimonials": {
+      "title": "Notes From Modern Women",
+      "items": [
+        { "quote": "My skin became noticeably brighter and more even after a few weeks. The texture is light and comfortable.", "name": "Phuong Linh", "role": "Office Employee" },
+        { "quote": "Crystal Tone Up sunscreen suits my oily skin perfectly — no clogging, and a natural tone-up finish.", "name": "Thao Nguyen", "role": "Flower Shop Owner" },
+        { "quote": "The consultation was so attentive, helping me choose exactly what my sensitive skin needed.", "name": "Mai Anh", "role": "Teacher" }
+      ]
+    },
+    "leadForm": {
+      "title": "Ready to start your skin care journey?",
+      "description": "Leave your details so the ELYSIDERM team can give you a free consultation tailored to your skin.",
+      "bullets": ["Free consultation within 24h", "Exclusive offers for new customers", "Absolute privacy for your information"]
+    }
+  },
+  "product": {
+    "breadcrumbHome": "Home",
+    "breadcrumbCollections": "Eirlys' Collections",
+    "badges": { "best-seller": "Best Seller", "korean-patent-formula": "Korean Patent Formula" },
+    "labInfo": "ELYSIDERM Korea Derma-Lab · Sub-brand Eirlys'",
+    "ratingLabel": "{rating} · {count} verified reviews",
+    "soldLabel": "{count}+ sold in Vietnam and Korea",
+    "krwReferenceLabel": "Listed price in Korea",
+    "philosophyLabel": "Product Philosophy",
+    "keyActivesLabel": "Proven Breakthrough Actives",
+    "stockLabel": "Only {count} left from this month's Seoul shipment",
+    "addToCart": "Add to Cart",
+    "consultAndBuy": "Consult & Buy Now",
+    "trust": [
+      { "title": "Free Shipping", "body": "For orders over 500,000 VND" },
+      { "title": "100% Authentic", "body": "Officially imported from Seoul" },
+      { "title": "1:1 Dermatologist", "body": "Dedicated routine follow-up" }
+    ],
+    "routineTitle": "3-Step Ritual for Glass Skin",
+    "routineDescription": "A synergistic 3-step set: regenerating serum – biomimetic moisture cream – full-spectrum sun protection.",
+    "routineStepLabel": "Step {n}",
+    "routineSelected": "Selected",
+    "routineViewDetail": "View details",
+    "bundleCta": "Get the bundle for only",
+    "tabs": { "technology": "Technology & Ingredients", "usage": "How to Use", "reviews": "Real Reviews" },
+    "scienceFirstTitle": "Science First",
+    "scienceFirstBody": "Science is the foundation of every skin care solution — transparent down to the exact percentage of every active.",
+    "inciLabel": "Full Ingredient List (INCI)",
+    "relatedTitle": "More From This Collection"
+  },
+  "leadForm": {
+    "fields": {
+      "name": "Full name",
+      "phone": "Phone number",
+      "email": "Email",
+      "interest": "Product of interest",
+      "interestOther": "Other / Not sure yet",
+      "note": "Note (optional)"
+    },
+    "submit": "Send Consultation Request",
+    "submitting": "Sending...",
+    "success": "Thank you! The ELYSIDERM team will reach out to you shortly.",
+    "errors": {
+      "name": "Please enter your name",
+      "phone": "Invalid phone number",
+      "generic": "Something went wrong, please try again",
+      "missingEndpoint": "Submission endpoint is not configured.",
+      "submitFailed": "Submission failed, please try again"
+    }
+  },
+  "collections": { "title": "Collections", "description": "Explore the full ELYSIDERM | Eirlys' skin care range." },
+  "about": {
+    "title": "About Elysiderm",
+    "intro": "ELYSIDERM is a premium dermocosmetics brand inspired by Korean skin care science, delivering solutions that nurture healthy, radiant, balanced skin safely and sustainably.",
+    "visionTitle": "Vision",
+    "vision": "To become a globally trusted skin care and beauty brand, elevating everyday skin care through scientific innovation, refined aesthetics and quality.",
+    "missionTitle": "Mission",
+    "mission": "To create skin care solutions grounded in modern science, combining advanced technology, in-depth research and international quality standards.",
+    "valuesTitle": "Core Values",
+    "values": [
+      { "title": "Science First", "body": "Science is the foundation of every skin care solution." },
+      { "title": "Integrity in Quality", "body": "Committed to quality, transparency and trust in every product." },
+      { "title": "Purposeful Innovation", "body": "Innovating with intent to create real, lasting value." },
+      { "title": "Timeless Elegance", "body": "Pursuing refinement in design, experience and brand philosophy." },
+      { "title": "Lasting Impact", "body": "Building sustainable value for customers, partners and community." }
+    ]
+  },
+  "technology": {
+    "title": "Technology & Ingredients",
+    "intro": "Every ELYSIDERM | Eirlys' product starts with transparent ingredient research and modern Korean formulation technology.",
+    "pillarsTitle": "Three Technology Pillars",
+    "pillars": [
+      { "title": "Clinical Research", "body": "Independent dermatological testing before any formula goes to market." },
+      { "title": "Transparent Actives", "body": "We disclose the exact percentage of key actives in every product." },
+      { "title": "Biomimetic Technology", "body": "Biocompatible textures that let nutrients absorb deeply without irritation." }
+    ]
+  },
+  "why": {
+    "title": "Why Choose Elysiderm",
+    "intro": "Rather than chasing trends, ELYSIDERM stands with our customers through reliable, science-backed solutions.",
+    "items": [
+      { "title": "Korean Standard", "body": "Formulas developed to Korean dermocosmetic standards." },
+      { "title": "Refined Design", "body": "Minimal, elevated packaging and product experience." },
+      { "title": "Effortless to Use", "body": "A simple routine that fits modern, busy lifestyles." },
+      { "title": "In-depth Guidance", "body": "1:1 consultation with our specialists throughout your journey." }
+    ]
+  },
+  "contact": { "title": "Contact", "description": "Leave your details and the ELYSIDERM team will reach out to you shortly." },
+  "policies": {
+    "privacyTitle": "Privacy Policy",
+    "privacyBody": "ELYSIDERM is committed to protecting customer data, using contact information only for consultation and customer care, and never sharing it with third parties without consent.",
+    "returnsTitle": "Return Policy",
+    "returnsBody": "Products may be returned within 7 days if the seal is intact, unused, and accompanied by a proof of purchase.",
+    "termsTitle": "Terms of Use",
+    "termsBody": "All content on this website is owned by ELYSIDERM. Please contact us before copying or using it for commercial purposes."
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "siteName": "ELYSIDERM",
+    "defaultTitle": "ELYSIDERM | Eirlys' — 프리미엄 한국 더모코스메틱",
+    "defaultDescription": "ELYSIDERM | Eirlys'는 한국 피부과학을 기반으로 건강하고 빛나는 균형 잡힌 피부를 위한 솔루션을 제공합니다."
+  },
+  "header": { "subtitle": "베트남", "ctaConsult": "지금 상담하기" },
+  "nav": {
+    "home": "홈",
+    "about": "엘리시더미 소개",
+    "collections": "컬렉션",
+    "technology": "기술 & 성분",
+    "why": "엘리시더미를 선택하는 이유",
+    "contact": "문의하기"
+  },
+  "footer": {
+    "description": "한국 피부과학에서 영감을 받은 프리미엄 더모코스메틱.",
+    "exploreTitle": "둘러보기",
+    "policyTitle": "정책 & 고객지원",
+    "careTitle": "고객센터",
+    "addressValue": "호치민시 1군 벤응에동 레러이 65번지, 사이공센터 18층",
+    "hotlineLabel": "고객센터",
+    "hotlineValue": "1800 8998",
+    "emailLabel": "이메일",
+    "emailValue": "concierge@elysiderm.vn",
+    "hoursValue": "월요일 – 일요일: 09:00 – 21:00",
+    "privacy": "개인정보 처리방침",
+    "returns": "교환 및 환불 정책",
+    "terms": "이용약관",
+    "copyright": "© {year} ELYSIDERM 베트남. 모든 권리는 Elysiderm-Cosmetics Korea 그룹에 있습니다."
+  },
+  "home": {
+    "hero": {
+      "tag": "한국 스킨케어 표준",
+      "titleLine1": "세련된 아름다움은",
+      "titleLine2Emphasis": "건강한 피부에서 시작됩니다",
+      "description": "ELYSIDERM과 함께 한국 스킨케어 표준을 경험하세요 — 현대적이고 자연스러우며 순수한 아름다움을 위해 엄선된 제품으로 매일 피부를 가꿔보세요.",
+      "ctaPrimary": "컬렉션 둘러보기",
+      "ctaSecondary": "무료 피부 상담 받기",
+      "trustBadges": ["스킨케어", "섬세하고 순한", "현대 과학", "메이드 인 코리아"]
+    },
+    "strengths": {
+      "tag": "ELYSIDERM만의 특별함",
+      "title": "본연의 자연스러운 아름다움을 만나다",
+      "description": "ELYSIDERM은 진정한 아름다움은 올바르게 관리되고 깊이 이해된 건강한 피부에서 시작된다고 믿습니다.",
+      "items": [
+        { "title": "섬세하고 순한 케어", "body": "글루타치온, 세라마이드 NP, 판테놀이 함유된 순한 제형으로 민감성 피부에도 적합합니다." },
+        { "title": "시간이 증명하는 효과", "body": "즉각적인 효과보다 피부 속부터 건강해지는 지속 가능한 결과를 우선합니다." },
+        { "title": "세심한 동행", "body": "피부과 상담 전문가가 스킨케어 여정 내내 함께합니다." }
+      ]
+    },
+    "products": {
+      "tag": "인기 컬렉션",
+      "title": "맑고 빛나는 스킨 리추얼",
+      "description": "Eirlys' 에코시스템에서 엄선한 가장 사랑받는 시그니처 제품들입니다.",
+      "viewAll": "전체 상품 보기"
+    },
+    "spotlight": {
+      "tag": "피부 과학의 혁신",
+      "title": "매일이 더 세심해지는 스킨케어",
+      "description": "재생 영양 성분과 자외선 차단 기술의 조화로, 가장 바쁜 하루에도 피부는 충분히 영양을 공급받고 보호받습니다.",
+      "spfBadgeTitle": "SPF 50+",
+      "spfBadgeDescription": "광범위 자외선 차단, 깃털처럼 가벼운 발림성.",
+      "cta": "나만을 위한 혜택 받아보기",
+      "ingredients": [
+        { "name": "세라마이드 NP", "description": "피부 장벽을 강화합니다." },
+        { "name": "판테놀 (B5)", "description": "즉각적인 진정과 재생 효과." },
+        { "name": "나이아신아마이드", "description": "피부 톤을 고르게 정돈합니다." },
+        { "name": "알부틴 & 아데노신", "description": "브라이트닝과 재생을 돕습니다." }
+      ]
+    },
+    "why": {
+      "title": "여성들이 엘리시더미를 신뢰하는 이유",
+      "description": "한국의 표준과 베트남 피부에 대한 깊은 이해가 만든 차이입니다.",
+      "items": [
+        { "title": "한국 스타일", "body": "한국 더모코스메틱 표준에 따라 개발된 제형." },
+        { "title": "세련된 디자인", "body": "미니멀하고 고급스러운 패키지와 사용 경험." },
+        { "title": "간편한 사용법", "body": "바쁜 현대인의 라이프스타일에 맞는 간단한 루틴." },
+        { "title": "깊이 있는 케어", "body": "전문가와의 1:1 상담이 여정 내내 함께합니다." }
+      ]
+    },
+    "ctaBanner": {
+      "tag": "스킨케어 경험",
+      "title": "당신의 피부를 위한 특별한 순간",
+      "description": "스킨케어의 매 순간은 속도를 늦추고, 피부의 소리에 귀 기울이며, 자신을 아끼는 소중한 시간입니다.",
+      "button": "지금 루틴 시작하기"
+    },
+    "testimonials": {
+      "title": "현대 여성들의 진솔한 이야기",
+      "items": [
+        { "quote": "몇 주 사용 후 피부가 눈에 띄게 밝아지고 톤이 고르게 되었어요. 발림성도 가볍고 편안합니다.", "name": "프엉 린", "role": "직장인" },
+        { "quote": "크리스탈 톤업 선크림이 제 지성 피부에 정말 잘 맞아요, 답답하지 않고 자연스럽게 톤업됩니다.", "name": "타오 응우옌", "role": "플라워샵 운영자" },
+        { "quote": "상담이 정말 세심해서 제 민감성 피부에 꼭 맞는 제품을 고를 수 있었어요.", "name": "마이 아잉", "role": "교사" }
+      ]
+    },
+    "leadForm": {
+      "title": "스킨케어 여정을 시작할 준비가 되셨나요?",
+      "description": "정보를 남겨주시면 ELYSIDERM 팀이 당신의 피부에 맞는 무료 상담을 제공해드립니다.",
+      "bullets": ["24시간 이내 무료 상담", "신규 고객 전용 혜택", "개인정보 철저히 보호"]
+    }
+  },
+  "product": {
+    "breadcrumbHome": "홈",
+    "breadcrumbCollections": "Eirlys' 컬렉션",
+    "badges": { "best-seller": "베스트셀러", "korean-patent-formula": "한국 특허 포뮬러" },
+    "labInfo": "ELYSIDERM Korea Derma-Lab · 서브 브랜드 Eirlys'",
+    "ratingLabel": "{rating} · 검증된 리뷰 {count}개",
+    "soldLabel": "베트남·한국 누적 판매 {count}개+",
+    "krwReferenceLabel": "한국 정가",
+    "philosophyLabel": "제품 철학",
+    "keyActivesLabel": "입증된 혁신 활성 성분",
+    "stockLabel": "이번 달 서울 입고분 중 {count}개 남음",
+    "addToCart": "장바구니에 담기",
+    "consultAndBuy": "상담 및 바로 구매",
+    "trust": [
+      { "title": "무료 배송", "body": "50만 동 이상 주문 시" },
+      { "title": "100% 정품", "body": "서울 정식 수입" },
+      { "title": "1:1 피부과 상담", "body": "세심한 루틴 관리" }
+    ],
+    "routineTitle": "유리 피부를 깨우는 3단계 리추얼",
+    "routineDescription": "재생 세럼 – 생체모방 보습 크림 – 전방위 자외선 차단으로 이어지는 시너지 3단계 세트.",
+    "routineStepLabel": "{n}단계",
+    "routineSelected": "선택됨",
+    "routineViewDetail": "자세히 보기",
+    "bundleCta": "번들 특가",
+    "tabs": { "technology": "기술 & 성분", "usage": "사용 방법", "reviews": "실제 리뷰" },
+    "scienceFirstTitle": "Science First",
+    "scienceFirstBody": "과학은 모든 스킨케어 솔루션의 기초입니다 — 모든 활성 성분의 정확한 함량까지 투명하게 공개합니다.",
+    "inciLabel": "전체 성분 목록 (INCI)",
+    "relatedTitle": "이 컬렉션의 다른 제품"
+  },
+  "leadForm": {
+    "fields": {
+      "name": "이름",
+      "phone": "전화번호",
+      "email": "이메일",
+      "interest": "관심 제품",
+      "interestOther": "기타 / 아직 미정",
+      "note": "메모 (선택)"
+    },
+    "submit": "상담 요청 보내기",
+    "submitting": "전송 중...",
+    "success": "감사합니다! ELYSIDERM 팀이 곧 연락드리겠습니다.",
+    "errors": {
+      "name": "이름을 입력해 주세요",
+      "phone": "전화번호가 올바르지 않습니다",
+      "generic": "오류가 발생했습니다. 다시 시도해 주세요",
+      "missingEndpoint": "제출 엔드포인트가 설정되지 않았습니다.",
+      "submitFailed": "전송에 실패했습니다. 다시 시도해 주세요"
+    }
+  },
+  "collections": { "title": "컬렉션", "description": "ELYSIDERM | Eirlys'의 전체 스킨케어 라인을 만나보세요." },
+  "about": {
+    "title": "엘리시더미 소개",
+    "intro": "ELYSIDERM은 한국 피부과학에서 영감을 받은 프리미엄 더모코스메틱 브랜드로, 안전하고 지속 가능한 방식으로 건강하고 빛나는 균형 잡힌 피부를 위한 솔루션을 제공합니다.",
+    "visionTitle": "비전",
+    "vision": "과학적 혁신, 세련된 심미성, 품질을 통해 일상적인 스킨케어 경험을 높이는, 전 세계가 신뢰하는 스킨케어·뷰티 브랜드가 되는 것입니다.",
+    "missionTitle": "미션",
+    "mission": "첨단 기술, 심도 있는 연구, 국제 품질 기준을 결합한 현대 과학 기반의 스킨케어 솔루션을 만듭니다.",
+    "valuesTitle": "핵심 가치",
+    "values": [
+      { "title": "Science First", "body": "과학은 모든 스킨케어 솔루션의 기초입니다." },
+      { "title": "Integrity in Quality", "body": "모든 제품에서 품질, 투명성, 신뢰를 지킵니다." },
+      { "title": "Purposeful Innovation", "body": "진정한 가치를 만드는 목적 있는 혁신을 추구합니다." },
+      { "title": "Timeless Elegance", "body": "디자인, 경험, 브랜드 철학에서 세련됨을 추구합니다." },
+      { "title": "Lasting Impact", "body": "고객, 파트너, 커뮤니티를 위한 지속 가능한 가치를 만듭니다." }
+    ]
+  },
+  "technology": {
+    "title": "기술 & 성분",
+    "intro": "모든 ELYSIDERM | Eirlys' 제품은 투명한 성분 연구와 현대적인 한국 제형 기술에서 시작됩니다.",
+    "pillarsTitle": "3대 기술 기둥",
+    "pillars": [
+      { "title": "임상 연구", "body": "모든 포뮬러는 출시 전 독립적인 피부과 테스트를 거칩니다." },
+      { "title": "투명한 활성 성분", "body": "모든 제품의 핵심 활성 성분 함량을 정확히 공개합니다." },
+      { "title": "생체모방 기술", "body": "자극 없이 영양분이 깊이 흡수되는 생체 적합 텍스처." }
+    ]
+  },
+  "why": {
+    "title": "엘리시더미를 선택하는 이유",
+    "intro": "트렌드를 좇기보다, ELYSIDERM은 신뢰할 수 있는 과학 기반 솔루션으로 고객과 함께합니다.",
+    "items": [
+      { "title": "한국 스타일", "body": "한국 더모코스메틱 표준에 따라 개발된 제형." },
+      { "title": "세련된 디자인", "body": "미니멀하고 고급스러운 패키지와 사용 경험." },
+      { "title": "간편한 사용법", "body": "바쁜 현대인의 라이프스타일에 맞는 간단한 루틴." },
+      { "title": "깊이 있는 케어", "body": "전문가와의 1:1 상담이 여정 내내 함께합니다." }
+    ]
+  },
+  "contact": { "title": "문의하기", "description": "정보를 남겨주시면 ELYSIDERM 팀이 곧 연락드리겠습니다." },
+  "policies": {
+    "privacyTitle": "개인정보 처리방침",
+    "privacyBody": "ELYSIDERM은 고객 정보를 보호하며, 연락처 정보는 상담 및 고객 관리 목적으로만 사용하고 동의 없이 제3자와 공유하지 않습니다.",
+    "returnsTitle": "교환 및 환불 정책",
+    "returnsBody": "봉인이 훼손되지 않고 미사용 상태이며 구매 영수증이 있는 경우 7일 이내 교환 및 환불이 가능합니다.",
+    "termsTitle": "이용약관",
+    "termsBody": "본 웹사이트의 모든 콘텐츠는 ELYSIDERM의 소유입니다. 복제 또는 상업적 사용 전에 반드시 문의해 주세요."
+  }
+}

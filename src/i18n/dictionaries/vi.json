@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "siteName": "ELYSIDERM",
+    "defaultTitle": "ELYSIDERM | Eirlys' — Dược mỹ phẩm cao cấp chuẩn Hàn Quốc",
+    "defaultDescription": "ELYSIDERM | Eirlys' mang đến giải pháp chăm sóc da khoẻ mạnh, sáng mịn và cân bằng dựa trên nền tảng khoa học da liễu Hàn Quốc."
+  },
+  "header": { "subtitle": "VIỆT NAM", "ctaConsult": "Tư vấn ngay" },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Về Elysiderm",
+    "collections": "Bộ sưu tập",
+    "technology": "Công nghệ & Thành phần",
+    "why": "Vì sao chọn Elysiderm",
+    "contact": "Liên hệ"
+  },
+  "footer": {
+    "description": "Dược mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc.",
+    "exploreTitle": "Khám phá",
+    "policyTitle": "Chính sách & Hỗ trợ",
+    "careTitle": "Trung tâm chăm sóc",
+    "addressValue": "Tầng 18, Saigon Centre, 65 Lê Lợi, Bến Nghé, Quận 1, TP. Hồ Chí Minh",
+    "hotlineLabel": "Hotline",
+    "hotlineValue": "1800 8998",
+    "emailLabel": "Email",
+    "emailValue": "concierge@elysiderm.vn",
+    "hoursValue": "Thứ 2 – Chủ nhật: 09:00 – 21:00",
+    "privacy": "Chính sách bảo mật",
+    "returns": "Chính sách đổi trả",
+    "terms": "Quy định sử dụng",
+    "copyright": "© {year} ELYSIDERM Việt Nam. Toàn bộ quyền thuộc về tập đoàn Elysiderm-Cosmetics Korea."
+  },
+  "home": {
+    "hero": {
+      "tag": "Chăm sóc da chuẩn Hàn Quốc",
+      "titleLine1": "Vẻ đẹp tinh tế bắt đầu",
+      "titleLine2Emphasis": "từ làn da khoẻ",
+      "description": "Khám phá giải pháp chăm sóc da chuẩn Hàn Quốc cùng ELYSIDERM — nâng niu làn da mỗi ngày bằng những sản phẩm được lựa chọn kỹ lưỡng dành cho vẻ đẹp hiện đại, tự nhiên và thuần khiết.",
+      "ctaPrimary": "Khám phá bộ sưu tập",
+      "ctaSecondary": "Nhận tư vấn da miễn phí",
+      "trustBadges": ["Chăm sóc da", "Tinh tế & Dịu nhẹ", "Khoa học hiện đại", "Made in Korea"]
+    },
+    "strengths": {
+      "tag": "Đặc quyền dành riêng ELYSIDERM",
+      "title": "Chạm đến vẻ đẹp tự nhiên nguyên bản",
+      "description": "ELYSIDERM tin rằng vẻ đẹp đích thực khởi nguồn từ một làn da khoẻ mạnh, được nuôi dưỡng đúng cách và thấu hiểu tận gốc rễ.",
+      "items": [
+        { "title": "Tinh Tế & Lành Tính", "body": "Công thức dịu nhẹ với Glutathione, Ceramide NP và Panthenol, phù hợp cả làn da nhạy cảm." },
+        { "title": "Hiệu Quả Rõ Nét Theo Thời Gian", "body": "Ưu tiên hiệu quả bền vững, nuôi dưỡng làn da khoẻ mạnh từ bên trong thay vì kết quả tức thời." },
+        { "title": "Đồng Hành Tận Tâm", "body": "Đội ngũ tư vấn da liễu đồng hành cùng bạn trong suốt hành trình chăm sóc da." }
+      ]
+    },
+    "products": {
+      "tag": "Bộ sưu tập nổi bật",
+      "title": "Liệu thức sáng khoẻ tinh khôi",
+      "description": "Những sản phẩm chủ đạo được yêu thích nhất, chọn lọc từ hệ sinh thái Eirlys'.",
+      "viewAll": "Xem tất cả sản phẩm"
+    },
+    "spotlight": {
+      "tag": "Đột phá khoa học da",
+      "title": "Chăm sóc da theo cách tinh tế hơn mỗi ngày",
+      "description": "Sự hoà quyện giữa dưỡng chất tái tạo và công nghệ chống nắng giúp làn da luôn được nuôi dưỡng và bảo vệ trước tác động của môi trường, ngay cả khi bận rộn nhất.",
+      "spfBadgeTitle": "SPF 50+",
+      "spfBadgeDescription": "Bảo vệ phổ rộng, kết cấu mỏng nhẹ.",
+      "cta": "Đăng ký nhận ưu đãi dành riêng cho bạn",
+      "ingredients": [
+        { "name": "Ceramide NP", "description": "Củng cố hàng rào bảo vệ da." },
+        { "name": "Panthenol (B5)", "description": "Làm dịu và phục hồi tức thì." },
+        { "name": "Niacinamide", "description": "Cải thiện đều màu da." },
+        { "name": "Arbutin & Adenosine", "description": "Hỗ trợ sáng da và tái tạo." }
+      ]
+    },
+    "why": {
+      "title": "Vì sao phụ nữ tin chọn Elysiderm",
+      "description": "Sự khác biệt đến từ chuẩn mực Hàn Quốc và sự thấu hiểu làn da người Việt.",
+      "items": [
+        { "title": "Phong Cách Hàn Quốc", "body": "Công thức phát triển theo tiêu chuẩn dermocosmetic Hàn Quốc." },
+        { "title": "Thiết Kế Tinh Tế", "body": "Bao bì và trải nghiệm sử dụng tối giản, sang trọng." },
+        { "title": "Dễ Dàng Sử Dụng", "body": "Quy trình chăm sóc da đơn giản, phù hợp nhịp sống hiện đại." },
+        { "title": "Đồng Hành Chuyên Sâu", "body": "Tư vấn 1:1 cùng đội ngũ chuyên môn xuyên suốt hành trình." }
+      ]
+    },
+    "ctaBanner": {
+      "tag": "Trải nghiệm chăm sóc da",
+      "title": "Khoảnh khắc dành riêng cho làn da của bạn",
+      "description": "Mỗi bước chăm sóc da là một khoảng thời gian quý giá để bạn chậm lại, lắng nghe làn da và trân trọng chính mình theo cách riêng.",
+      "button": "Bắt đầu quy trình ngay"
+    },
+    "testimonials": {
+      "title": "Lời tâm sự từ phụ nữ hiện đại",
+      "items": [
+        { "quote": "Làn da mình sáng và đều màu rõ rệt sau vài tuần sử dụng. Kết cấu sản phẩm nhẹ, dễ chịu.", "name": "Phương Linh", "role": "Nhân viên văn phòng" },
+        { "quote": "Chống nắng Crystal Tone Up rất hợp với da dầu của mình, không gây bí và nâng tone tự nhiên.", "name": "Thảo Nguyên", "role": "Chủ tiệm hoa" },
+        { "quote": "Phần tư vấn rất tận tình, giúp mình chọn đúng sản phẩm phù hợp với làn da nhạy cảm.", "name": "Mai Anh", "role": "Giáo viên" }
+      ]
+    },
+    "leadForm": {
+      "title": "Sẵn sàng bắt đầu hành trình chăm sóc làn da?",
+      "description": "Để lại thông tin để đội ngũ ELYSIDERM tư vấn miễn phí lộ trình phù hợp với làn da của bạn.",
+      "bullets": ["Nhận tư vấn miễn phí trong 24h", "Ưu đãi độc quyền dành cho khách hàng mới", "Bảo mật thông tin cá nhân tuyệt đối"]
+    }
+  },
+  "product": {
+    "breadcrumbHome": "Trang chủ",
+    "breadcrumbCollections": "Bộ sưu tập Eirlys'",
+    "badges": { "best-seller": "Bán chạy nhất", "korean-patent-formula": "Công thức bằng sáng chế Hàn Quốc" },
+    "labInfo": "ELYSIDERM Korea Derma-Lab · Sub-brand Eirlys'",
+    "ratingLabel": "{rating} · {count} đánh giá xác thực",
+    "soldLabel": "Đã bán {count}+ tại Việt Nam và Hàn Quốc",
+    "krwReferenceLabel": "Giá niêm yết tại Hàn Quốc",
+    "philosophyLabel": "Triết lý sản phẩm",
+    "keyActivesLabel": "Hoạt chất đột phá được chứng minh",
+    "stockLabel": "Còn lại {count} sản phẩm trong đợt hàng từ Seoul tháng này",
+    "addToCart": "Thêm vào giỏ",
+    "consultAndBuy": "Tư vấn & đặt mua ngay",
+    "trust": [
+      { "title": "Miễn phí giao hàng", "body": "Cho đơn hàng từ 500.000 VNĐ" },
+      { "title": "100% Chính hãng", "body": "Nhập khẩu chính ngạch Seoul" },
+      { "title": "Bác sĩ da liễu 1:1", "body": "Theo dõi lộ trình tận tình" }
+    ],
+    "routineTitle": "Liệu trình 3 bước đánh thức làn da thuỷ tinh",
+    "routineDescription": "Bộ sản phẩm cộng hưởng tối đa theo chu trình khép kín: tinh chất tái tạo – kem dưỡng ẩm màng sinh học – kem chống nắng bảo vệ toàn diện.",
+    "routineStepLabel": "Bước {n}",
+    "routineSelected": "Đang chọn",
+    "routineViewDetail": "Xem chi tiết",
+    "bundleCta": "Mua combo chỉ",
+    "tabs": { "technology": "Công nghệ & Thành phần", "usage": "Hướng dẫn sử dụng", "reviews": "Đánh giá thực tế" },
+    "scienceFirstTitle": "Science First",
+    "scienceFirstBody": "Lấy khoa học làm nền tảng cho mọi giải pháp chăm sóc da. Minh bạch từng % độ hoạt chất.",
+    "inciLabel": "Bảng thành phần toàn diện (INCI)",
+    "relatedTitle": "Sản phẩm trong cùng bộ sưu tập"
+  },
+  "leadForm": {
+    "fields": {
+      "name": "Họ và tên",
+      "phone": "Số điện thoại",
+      "email": "Email",
+      "interest": "Sản phẩm quan tâm",
+      "interestOther": "Khác / Chưa chắc chắn",
+      "note": "Ghi chú (tuỳ chọn)"
+    },
+    "submit": "Gửi yêu cầu tư vấn ngay",
+    "submitting": "Đang gửi...",
+    "success": "Cảm ơn bạn! Đội ngũ ELYSIDERM sẽ liên hệ tư vấn trong thời gian sớm nhất.",
+    "errors": {
+      "name": "Vui lòng nhập họ tên",
+      "phone": "Số điện thoại không hợp lệ",
+      "generic": "Có lỗi xảy ra, vui lòng thử lại",
+      "missingEndpoint": "Chưa cấu hình nơi nhận thông tin.",
+      "submitFailed": "Gửi thông tin thất bại, vui lòng thử lại"
+    }
+  },
+  "collections": { "title": "Bộ sưu tập", "description": "Khám phá toàn bộ sản phẩm chăm sóc da ELYSIDERM | Eirlys'." },
+  "about": {
+    "title": "Về Elysiderm",
+    "intro": "ELYSIDERM là thương hiệu dược mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc, mang đến các giải pháp nuôi dưỡng làn da khoẻ mạnh, sáng mịn và cân bằng một cách an toàn, bền vững.",
+    "visionTitle": "Tầm nhìn",
+    "vision": "Trở thành thương hiệu chăm sóc da và làm đẹp được tin cậy trên toàn cầu, nâng tầm trải nghiệm chăm sóc da hằng ngày thông qua đổi mới khoa học, thẩm mỹ tinh tế và chất lượng.",
+    "missionTitle": "Sứ mệnh",
+    "mission": "Kiến tạo những giải pháp chăm sóc da dựa trên nền tảng khoa học hiện đại, kết hợp công nghệ tiên tiến, nghiên cứu chuyên sâu và tiêu chuẩn chất lượng quốc tế.",
+    "valuesTitle": "Giá trị cốt lõi",
+    "values": [
+      { "title": "Science First", "body": "Lấy khoa học làm nền tảng cho mọi giải pháp chăm sóc da." },
+      { "title": "Integrity in Quality", "body": "Cam kết chất lượng, minh bạch và đáng tin cậy trong mọi sản phẩm." },
+      { "title": "Purposeful Innovation", "body": "Đổi mới có định hướng để tạo ra giá trị thực và hiệu quả lâu dài." },
+      { "title": "Timeless Elegance", "body": "Theo đuổi sự tinh tế trong thiết kế, trải nghiệm và triết lý thương hiệu." },
+      { "title": "Lasting Impact", "body": "Kiến tạo những giá trị bền vững cho khách hàng, đối tác và cộng đồng." }
+    ]
+  },
+  "technology": {
+    "title": "Công nghệ & Thành phần",
+    "intro": "Mọi sản phẩm ELYSIDERM | Eirlys' đều bắt đầu từ nghiên cứu thành phần minh bạch và công nghệ bào chế hiện đại của Hàn Quốc.",
+    "pillarsTitle": "Ba trụ cột công nghệ",
+    "pillars": [
+      { "title": "Nghiên cứu lâm sàng", "body": "Kiểm nghiệm da liễu độc lập trước khi thương mại hoá mọi công thức." },
+      { "title": "Hoạt chất minh bạch", "body": "Công bố rõ tỷ lệ % của các hoạt chất chủ đạo trong từng sản phẩm." },
+      { "title": "Công nghệ màng sinh học", "body": "Kết cấu tương thích sinh học giúp dưỡng chất thẩm thấu sâu mà không gây kích ứng." }
+    ]
+  },
+  "why": {
+    "title": "Vì sao chọn Elysiderm",
+    "intro": "Không chạy theo xu hướng, ELYSIDERM lựa chọn đồng hành cùng khách hàng bằng những giải pháp khoa học đáng tin cậy.",
+    "items": [
+      { "title": "Phong Cách Hàn Quốc", "body": "Công thức phát triển theo tiêu chuẩn dermocosmetic Hàn Quốc." },
+      { "title": "Thiết Kế Tinh Tế", "body": "Bao bì và trải nghiệm sử dụng tối giản, sang trọng." },
+      { "title": "Dễ Dàng Sử Dụng", "body": "Quy trình chăm sóc da đơn giản, phù hợp nhịp sống hiện đại." },
+      { "title": "Đồng Hành Chuyên Sâu", "body": "Tư vấn 1:1 cùng đội ngũ chuyên môn xuyên suốt hành trình." }
+    ]
+  },
+  "contact": { "title": "Liên hệ", "description": "Để lại thông tin, đội ngũ ELYSIDERM sẽ liên hệ tư vấn cho bạn trong thời gian sớm nhất." },
+  "policies": {
+    "privacyTitle": "Chính sách bảo mật",
+    "privacyBody": "ELYSIDERM cam kết bảo mật thông tin khách hàng, chỉ sử dụng dữ liệu liên hệ để tư vấn và chăm sóc khách hàng, không chia sẻ cho bên thứ ba khi chưa có sự đồng ý.",
+    "returnsTitle": "Chính sách đổi trả",
+    "returnsBody": "Sản phẩm được đổi trả trong vòng 7 ngày nếu còn nguyên tem, chưa qua sử dụng và có hoá đơn mua hàng.",
+    "termsTitle": "Quy định sử dụng",
+    "termsBody": "Nội dung trên website thuộc quyền sở hữu của ELYSIDERM. Vui lòng liên hệ trước khi sao chép hoặc sử dụng cho mục đích thương mại."
+  }
+}
