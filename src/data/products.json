@@ -1,0 +1,236 @@
+[
+  {
+    "slug": "eirlys-alpha-melight-refining-serum",
+    "collection": "alpha-melight",
+    "routineStep": 1,
+    "price": 650000,
+    "images": ["/images/products/alpha-melight-refining-serum-1.jpg"],
+    "featured": false,
+    "rating": 4.8,
+    "reviewCount": 64,
+    "name": {
+      "vi": "Eirlys' Alpha-Melight™ Refining Serum",
+      "en": "Eirlys' Alpha-Melight™ Refining Serum",
+      "ko": "Eirlys' Alpha-Melight™ Refining Serum"
+    },
+    "shortDescription": {
+      "vi": "Huyết thanh cô đặc lấp đầy rãnh nhăn, ức chế melanin và mở đường cho kem dưỡng thẩm thấu sâu hơn.",
+      "en": "A concentrated serum that smooths fine lines, curbs melanin, and preps skin to absorb the next step more deeply.",
+      "ko": "잔주름을 채우고 멜라닌을 억제하며, 다음 단계 크림이 더 깊이 흡수되도록 준비해주는 고농축 세럼입니다."
+    }
+  },
+  {
+    "slug": "eirlys-alpha-melight-intensive-cream",
+    "collection": "alpha-melight",
+    "routineStep": 2,
+    "price": 680000,
+    "originalPrice": 850000,
+    "krwReferencePrice": 37000,
+    "images": [
+      "/images/products/alpha-melight-intensive-cream-1.jpg",
+      "/images/products/alpha-melight-intensive-cream-2.jpg",
+      "/images/products/alpha-melight-intensive-cream-3.jpg",
+      "/images/products/alpha-melight-intensive-cream-4.jpg"
+    ],
+    "featured": false,
+    "rating": 5.0,
+    "reviewCount": 128,
+    "soldCount": 3420,
+    "stockCount": 15,
+    "badges": ["best-seller", "korean-patent-formula"],
+    "name": {
+      "vi": "Eirlys' Alpha-Melight™ Intensive Cream",
+      "en": "Eirlys' Alpha-Melight™ Intensive Cream",
+      "ko": "Eirlys' Alpha-Melight™ Intensive Cream"
+    },
+    "subtitle": {
+      "vi": "Kem Dưỡng Trắng & Căng Bóng Phục Hồi Chuyên Sâu (50ml / 1.69 fl. oz.)",
+      "en": "Intensive Brightening & Plumping Repair Cream (50ml / 1.69 fl. oz.)",
+      "ko": "속깊은 브라이트닝 & 탄력 리페어 크림 (50ml / 1.69 fl. oz.)"
+    },
+    "shortDescription": {
+      "vi": "Kem dưỡng chuyên sâu, hỗ trợ ức chế melanin tận gốc.",
+      "en": "An intensive cream that helps target melanin at its root.",
+      "ko": "멜라닌을 근본적으로 억제하는 데 도움을 주는 집중 크림입니다."
+    },
+    "description": {
+      "vi": "Trọng tâm của liệu trình Alpha-Melight™, kết hợp Alpha-Bisabolol, Glutathione và Ceramide NP giúp làn da khoẻ mạnh, đều màu và rạng rỡ hơn theo thời gian.",
+      "en": "The centerpiece of the Alpha-Melight™ ritual, combining Alpha-Bisabolol, Glutathione and Ceramide NP for healthier, more even, more radiant skin over time.",
+      "ko": "Alpha-Melight™ 리추얼의 핵심 제품으로, 알파비사보롤, 글루타치온, 세라마이드 NP가 결합되어 시간이 지날수록 더 건강하고 고르며 빛나는 피부로 가꿔줍니다."
+    },
+    "philosophyQuote": {
+      "vi": "\"Reveal Your Natural Radiance – Khơi mở vẻ đẹp rạng rỡ tự nhiên\". Kết cấu vàng óng siêu thẩm thấu trong 30 giây, mang lại làn da bóng nước Glass Skin suốt 24 giờ mà không hề bết dính.",
+      "en": "\"Reveal Your Natural Radiance.\" A golden, ultra-absorbing texture that sinks in within 30 seconds, delivering 24-hour Glass Skin glow without any stickiness.",
+      "ko": "\"Reveal Your Natural Radiance – 자연스러운 빛을 깨우다\". 30초 만에 흡수되는 골든 텍스처로, 끈적임 없이 24시간 유리 피부 광채를 선사합니다."
+    },
+    "keyActives": [
+      {
+        "name": "Alpha-Melight™ (Alpha-Bisabolol)",
+        "percentage": "0.5%",
+        "description": {
+          "vi": "Ức chế enzym sinh melanin, hỗ trợ làm mờ đốm nâu.",
+          "en": "Inhibits melanin-producing enzymes, helping fade brown spots.",
+          "ko": "멜라닌 생성 효소를 억제하여 갈색 반점을 옅어지게 돕습니다."
+        }
+      },
+      {
+        "name": "Glutathione 99%",
+        "description": {
+          "vi": "Chống oxy hoá mạnh, hỗ trợ da sáng đều màu.",
+          "en": "A powerful antioxidant that supports brighter, more even skin.",
+          "ko": "강력한 항산화 성분으로 피부 톤을 밝고 고르게 정돈합니다."
+        }
+      },
+      {
+        "name": "Ceramide NP",
+        "description": {
+          "vi": "Củng cố hàng rào lipid, giữ ẩm chuyên sâu.",
+          "en": "Strengthens the lipid barrier for deep hydration.",
+          "ko": "지질 장벽을 강화해 깊은 보습을 돕습니다."
+        }
+      },
+      {
+        "name": "Panthenol B5 & Niacinamide",
+        "description": {
+          "vi": "Làm dịu và phục hồi tức thì.",
+          "en": "Soothes and repairs instantly.",
+          "ko": "즉각적인 진정과 재생 효과."
+        }
+      }
+    ],
+    "ingredientStats": [
+      { "label": { "vi": "Alpha-Bisabolol", "en": "Alpha-Bisabolol", "ko": "알파비사보롤" }, "value": "0.5%" },
+      { "label": { "vi": "Glutathione Tinh Khiết", "en": "Pure Glutathione", "ko": "고순도 글루타치온" }, "value": "99%" },
+      { "label": { "vi": "Ceramide NP Bio", "en": "Ceramide NP Bio", "ko": "세라마이드 NP 바이오" }, "value": "10.000ppm" },
+      { "label": { "vi": "Sodium Hyaluronate", "en": "Sodium Hyaluronate", "ko": "소듐 히알루로네이트" }, "value": "5D" }
+    ],
+    "fullIngredientList": [
+      "Water", "Butylene Glycol", "Glycerin", "Caprylic/Capric Triglyceride", "Alpha-Bisabolol",
+      "Glutathione", "Ceramide NP", "Sodium Hyaluronate", "Panthenol", "Niacinamide", "Adenosine",
+      "Camellia Sinensis Leaf Extract", "Centella Asiatica Extract", "1,2-Hexanediol", "Ethylhexylglycerin"
+    ],
+    "usageSteps": [
+      {
+        "vi": "Sau bước làm sạch và cân bằng da, lấy lượng vừa đủ ra lòng bàn tay.",
+        "en": "After cleansing and toning, take an adequate amount into your palm.",
+        "ko": "세안과 토너 사용 후 적당량을 손바닥에 덜어냅니다."
+      },
+      {
+        "vi": "Thoa đều lên mặt và cổ, massage nhẹ nhàng theo chuyển động tròn.",
+        "en": "Apply evenly to face and neck, gently massaging in circular motions.",
+        "ko": "얼굴과 목에 고르게 바른 후 원을 그리듯 부드럽게 마사지합니다."
+      },
+      {
+        "vi": "Sử dụng sáng và tối để đạt hiệu quả tối ưu.",
+        "en": "Use morning and night for optimal results.",
+        "ko": "아침저녁으로 사용하면 더욱 효과적입니다."
+      }
+    ],
+    "reviews": [
+      {
+        "author": "Ngọc Hân",
+        "rating": 5,
+        "text": {
+          "vi": "Da mình sáng và căng bóng thấy rõ chỉ sau 2 tuần, không hề gây bí da.",
+          "en": "My skin visibly brightened and plumped in just 2 weeks, without feeling clogged.",
+          "ko": "2주 만에 피부가 눈에 띄게 밝고 탱탱해졌어요, 답답함도 없었습니다."
+        }
+      },
+      {
+        "author": "Thu Trang",
+        "rating": 5,
+        "text": {
+          "vi": "Kết cấu mỏng nhẹ, thấm nhanh, rất hợp với da hỗn hợp thiên dầu của mình.",
+          "en": "Lightweight texture that absorbs quickly, great for my combination-oily skin.",
+          "ko": "가볍고 빠르게 흡수되는 제형이라 복합성/지성 피부인 저에게 잘 맞아요."
+        }
+      },
+      {
+        "author": "Bảo Trâm",
+        "rating": 4.5,
+        "text": {
+          "vi": "Sản phẩm tốt, giá hơi cao nhưng xứng đáng để đầu tư lâu dài.",
+          "en": "Great product, a bit pricey but worth the long-term investment.",
+          "ko": "제품은 좋지만 가격이 다소 있는 편이에요. 그래도 장기적으로 투자할 가치가 있습니다."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "eirlys-crystal-tone-up-sunscreen",
+    "collection": "alpha-melight",
+    "routineStep": 3,
+    "price": 590000,
+    "images": ["/images/products/crystal-tone-up-sunscreen-1.jpg"],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 96,
+    "name": {
+      "vi": "Eirlys' Crystal Tone Up Sunscreen",
+      "en": "Eirlys' Crystal Tone Up Sunscreen",
+      "ko": "Eirlys' 크리스탈 톤업 선크림"
+    },
+    "shortDescription": {
+      "vi": "Màng lọc chống nắng phổ rộng SPF50+ PA++++, nâng tông nhẹ nhàng và kiểm soát dầu.",
+      "en": "Broad-spectrum SPF50+ PA++++ sun filter that gently tones up and controls shine.",
+      "ko": "부드럽게 톤업하고 유분을 조절하는 광범위 SPF50+ PA++++ 자외선 차단제."
+    }
+  },
+  {
+    "slug": "eirlys-glutathione-cream",
+    "collection": "glutathione",
+    "price": 650000,
+    "images": ["/images/products/glutathione-cream-1.jpg"],
+    "featured": true,
+    "rating": 4.7,
+    "reviewCount": 52,
+    "name": {
+      "vi": "Eirlys' Glutathione Tone-Up Cream",
+      "en": "Eirlys' Glutathione Tone-Up Cream",
+      "ko": "Eirlys' 글루타치온 톤업 크림"
+    },
+    "shortDescription": {
+      "vi": "Kem dưỡng chuyên sâu hỗ trợ làn da sáng khoẻ, đều màu.",
+      "en": "An intensive cream that supports brighter, more even-toned skin.",
+      "ko": "더 밝고 고른 톤의 피부를 위한 집중 크림입니다."
+    }
+  },
+  {
+    "slug": "eirlys-sunscreen-box-set",
+    "collection": "sunscreen",
+    "price": 990000,
+    "images": ["/images/products/sunscreen-box-set-1.jpg"],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 41,
+    "name": {
+      "vi": "Eirlys' Sunscreen Box Set",
+      "en": "Eirlys' Sunscreen Box Set",
+      "ko": "Eirlys' 선크림 박스 세트"
+    },
+    "shortDescription": {
+      "vi": "Bộ chống nắng phổ rộng dành cho cả gia đình, tiện lợi mang theo.",
+      "en": "A broad-spectrum sunscreen set for the whole family, travel-friendly.",
+      "ko": "온 가족을 위한 광범위 자외선 차단 세트, 휴대하기 편리합니다."
+    }
+  },
+  {
+    "slug": "eirlys-daily-cleanser-3t-care",
+    "collection": "cleanser",
+    "price": 320000,
+    "images": ["/images/products/daily-cleanser-3t-care-1.jpg"],
+    "featured": true,
+    "rating": 4.6,
+    "reviewCount": 38,
+    "name": {
+      "vi": "Eirlys' Daily Cleanser 3T Care",
+      "en": "Eirlys' Daily Cleanser 3T Care",
+      "ko": "Eirlys' 데일리 클렌저 3T 케어"
+    },
+    "shortDescription": {
+      "vi": "Sữa rửa mặt dịu nhẹ, làm sạch sâu mà không làm khô da.",
+      "en": "A gentle cleanser that clears deeply without drying out skin.",
+      "ko": "피부를 건조하게 하지 않으면서 깊이 세정하는 순한 클렌저입니다."
+    }
+  }
+]
