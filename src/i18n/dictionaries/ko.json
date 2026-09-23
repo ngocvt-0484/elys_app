@@ -20,7 +20,7 @@
     "careTitle": "고객센터",
     "addressValue": "호치민시 1군 벤응에동 레러이 65번지, 사이공센터 18층",
     "hotlineLabel": "고객센터",
-    "hotlineValue": "1800 8998",
+    "hotlineValue": "1800 899899",
     "emailLabel": "이메일",
     "emailValue": "concierge@elysiderm.vn",
     "hoursValue": "월요일 – 일요일: 09:00 – 21:00",
@@ -56,11 +56,17 @@
       "viewAll": "전체 상품 보기"
     },
     "spotlight": {
-      "tag": "피부 과학의 혁신",
+      "tag": "스킨케어 포커스",
       "title": "매일이 더 세심해지는 스킨케어",
       "description": "재생 영양 성분과 자외선 차단 기술의 조화로, 가장 바쁜 하루에도 피부는 충분히 영양을 공급받고 보호받습니다.",
+      "spfBadgeTag": "자외선 차단 지수",
       "spfBadgeTitle": "SPF 50+",
-      "spfBadgeDescription": "광범위 자외선 차단, 깃털처럼 가벼운 발림성.",
+      "spfBadgeDescription": "PA++++ 등급으로 장파장 UVA 손상의 98%를 차단합니다.",
+      "heroIngredient": {
+        "tag": "골드 성분",
+        "name": "글루타치온",
+        "description": "멜라닌 생성을 근본적으로 억제하여 자연스럽게 톤을 고르게 정돈합니다."
+      },
       "cta": "나만을 위한 혜택 받아보기",
       "ingredients": [
         { "name": "세라마이드 NP", "description": "피부 장벽을 강화합니다." },
@@ -86,11 +92,12 @@
       "button": "지금 루틴 시작하기"
     },
     "testimonials": {
+      "tag": "실제 후기",
       "title": "현대 여성들의 진솔한 이야기",
       "items": [
-        { "quote": "몇 주 사용 후 피부가 눈에 띄게 밝아지고 톤이 고르게 되었어요. 발림성도 가볍고 편안합니다.", "name": "프엉 린", "role": "직장인" },
-        { "quote": "크리스탈 톤업 선크림이 제 지성 피부에 정말 잘 맞아요, 답답하지 않고 자연스럽게 톤업됩니다.", "name": "타오 응우옌", "role": "플라워샵 운영자" },
-        { "quote": "상담이 정말 세심해서 제 민감성 피부에 꼭 맞는 제품을 고를 수 있었어요.", "name": "마이 아잉", "role": "교사" }
+        { "quote": "몇 주 사용 후 피부가 눈에 띄게 밝아지고 톤이 고르게 되었어요. 발림성도 가볍고 편안합니다.", "name": "프엉 린", "role": "직장인", "rating": 5 },
+        { "quote": "크리스탈 톤업 선크림이 제 지성 피부에 정말 잘 맞아요, 답답하지 않고 자연스럽게 톤업됩니다.", "name": "타오 응우옌", "role": "플라워샵 운영자", "rating": 5 },
+        { "quote": "상담이 정말 세심해서 제 민감성 피부에 꼭 맞는 제품을 고를 수 있었어요.", "name": "마이 아잉", "role": "교사", "rating": 5 }
       ]
     },
     "leadForm": {

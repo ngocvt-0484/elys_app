@@ -20,7 +20,7 @@
     "careTitle": "Care Center",
     "addressValue": "18th Floor, Saigon Centre, 65 Le Loi, Ben Nghe, District 1, Ho Chi Minh City",
     "hotlineLabel": "Hotline",
-    "hotlineValue": "1800 8998",
+    "hotlineValue": "1800 899899",
     "emailLabel": "Email",
     "emailValue": "concierge@elysiderm.vn",
     "hoursValue": "Mon – Sun: 09:00 – 21:00",
@@ -56,11 +56,17 @@
       "viewAll": "View all products"
     },
     "spotlight": {
-      "tag": "Skin Science Breakthrough",
+      "tag": "Skincare Spotlight",
       "title": "Skin care, refined for everyday life",
       "description": "A blend of regenerative nourishment and sun protection technology keeps skin nourished and protected against environmental stress, even on your busiest days.",
+      "spfBadgeTag": "Sun Protection Index",
       "spfBadgeTitle": "SPF 50+",
-      "spfBadgeDescription": "Broad-spectrum protection, feather-light texture.",
+      "spfBadgeDescription": "PA++++ blocks 98% of damage from long-wave UVA rays.",
+      "heroIngredient": {
+        "tag": "Gold Ingredient",
+        "name": "Glutathione",
+        "description": "Inhibits melanin production at the source, evening out skin tone naturally."
+      },
       "cta": "Sign up for offers made for you",
       "ingredients": [
         { "name": "Ceramide NP", "description": "Strengthens the skin barrier." },
@@ -86,11 +92,12 @@
       "button": "Start Your Routine Now"
     },
     "testimonials": {
+      "tag": "Real Reviews",
       "title": "Notes From Modern Women",
       "items": [
-        { "quote": "My skin became noticeably brighter and more even after a few weeks. The texture is light and comfortable.", "name": "Phuong Linh", "role": "Office Employee" },
-        { "quote": "Crystal Tone Up sunscreen suits my oily skin perfectly — no clogging, and a natural tone-up finish.", "name": "Thao Nguyen", "role": "Flower Shop Owner" },
-        { "quote": "The consultation was so attentive, helping me choose exactly what my sensitive skin needed.", "name": "Mai Anh", "role": "Teacher" }
+        { "quote": "My skin became noticeably brighter and more even after a few weeks. The texture is light and comfortable.", "name": "Phuong Linh", "role": "Office Employee", "rating": 5 },
+        { "quote": "Crystal Tone Up sunscreen suits my oily skin perfectly — no clogging, and a natural tone-up finish.", "name": "Thao Nguyen", "role": "Flower Shop Owner", "rating": 5 },
+        { "quote": "The consultation was so attentive, helping me choose exactly what my sensitive skin needed.", "name": "Mai Anh", "role": "Teacher", "rating": 5 }
       ]
     },
     "leadForm": {

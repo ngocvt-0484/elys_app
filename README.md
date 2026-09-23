@@ -40,6 +40,21 @@ npm run build   # outputs static files to out/
    deployed Google Apps Script Web App URL.
 5. Trigger a deploy — every push to the connected branch redeploys automatically.
 
+## Deploy to Vercel
+
+`vercel.json` in this repo pins the output directory to `out/` (this project's static export
+folder) — without it, Vercel falls back to expecting a `public/` folder and the build fails with
+"No Output Directory named public found". It also sets `cleanUrls: true`, since `next build`
+exports routes as flat files (`out/vi.html`, `out/vi/about.html`, ...) rather than
+`out/vi/index.html` — without `cleanUrls`, requests to `/vi` or `/vi/about` 404 because they don't
+match a file name exactly.
+
+1. Push this repository to GitHub, then import it in the Vercel dashboard.
+2. Framework Preset: `Next.js` (Vercel should auto-detect it from `next.config.mjs`).
+3. Environment variables (Production and Preview): `NEXT_PUBLIC_LEAD_FORM_ENDPOINT` set to the
+   deployed Google Apps Script Web App URL — required at build time, since this is a static export.
+4. Deploy.
+
 ## Internationalization
 
 - 3 locales: `vi` (default), `en`, `ko`, all under `/vi`, `/en`, `/ko`.

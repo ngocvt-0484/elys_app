@@ -20,7 +20,7 @@
     "careTitle": "Trung tâm chăm sóc",
     "addressValue": "Tầng 18, Saigon Centre, 65 Lê Lợi, Bến Nghé, Quận 1, TP. Hồ Chí Minh",
     "hotlineLabel": "Hotline",
-    "hotlineValue": "1800 8998",
+    "hotlineValue": "1800 899899",
     "emailLabel": "Email",
     "emailValue": "concierge@elysiderm.vn",
     "hoursValue": "Thứ 2 – Chủ nhật: 09:00 – 21:00",
@@ -56,22 +56,28 @@
       "viewAll": "Xem tất cả sản phẩm"
     },
     "spotlight": {
-      "tag": "Đột phá khoa học da",
+      "tag": "Tiêu điểm chăm sóc da",
       "title": "Chăm sóc da theo cách tinh tế hơn mỗi ngày",
       "description": "Sự hoà quyện giữa dưỡng chất tái tạo và công nghệ chống nắng giúp làn da luôn được nuôi dưỡng và bảo vệ trước tác động của môi trường, ngay cả khi bận rộn nhất.",
+      "spfBadgeTag": "Chỉ số chống nắng",
       "spfBadgeTitle": "SPF 50+",
-      "spfBadgeDescription": "Bảo vệ phổ rộng, kết cấu mỏng nhẹ.",
+      "spfBadgeDescription": "PA++++ ngăn ngừa 98% tổn hại do tia UVA dài.",
+      "heroIngredient": {
+        "tag": "Hoạt chất vàng",
+        "name": "Glutathione",
+        "description": "Ức chế hắc tố Melanin từ gốc, nâng tông đều màu tự nhiên."
+      },
       "cta": "Đăng ký nhận ưu đãi dành riêng cho bạn",
       "ingredients": [
-        { "name": "Ceramide NP", "description": "Củng cố hàng rào bảo vệ da." },
+        { "name": "Ceramide NP", "description": "Củng cố hàng rào lipid, khóa ẩm tối đa và ngăn ngừa mất nước biểu bì suốt 24 giờ." },
         { "name": "Panthenol (B5)", "description": "Làm dịu và phục hồi tức thì." },
-        { "name": "Niacinamide", "description": "Cải thiện đều màu da." },
-        { "name": "Arbutin & Adenosine", "description": "Hỗ trợ sáng da và tái tạo." }
+        { "name": "Niacinamide", "description": "Hỗ trợ se khít chân lông, tăng sinh ceramide tự nhiên và kiềm dầu êm mượt cả ngày." },
+        { "name": "Arbutin & Adenosine", "description": "Cặp đôi trẻ hóa danh tiếng, làm phẳng các nếp nhăn li ti và duy trì độ đàn hồi săn chắc." }
       ]
     },
     "why": {
       "title": "Vì sao phụ nữ tin chọn Elysiderm",
-      "description": "Sự khác biệt đến từ chuẩn mực Hàn Quốc và sự thấu hiểu làn da người Việt.",
+      "description": "Sự kết hợp giữa tiêu chuẩn kiểm định nghiêm ngặt từ phòng thí nghiệm Hàn Quốc và sự thấu hiểu thói quen làm đẹp của phụ nữ Việt.",
       "items": [
         { "title": "Phong Cách Hàn Quốc", "body": "Công thức phát triển theo tiêu chuẩn dermocosmetic Hàn Quốc." },
         { "title": "Thiết Kế Tinh Tế", "body": "Bao bì và trải nghiệm sử dụng tối giản, sang trọng." },
@@ -86,11 +92,12 @@
       "button": "Bắt đầu quy trình ngay"
     },
     "testimonials": {
+      "tag": "Đánh giá thực tế",
       "title": "Lời tâm sự từ phụ nữ hiện đại",
       "items": [
-        { "quote": "Làn da mình sáng và đều màu rõ rệt sau vài tuần sử dụng. Kết cấu sản phẩm nhẹ, dễ chịu.", "name": "Phương Linh", "role": "Nhân viên văn phòng" },
-        { "quote": "Chống nắng Crystal Tone Up rất hợp với da dầu của mình, không gây bí và nâng tone tự nhiên.", "name": "Thảo Nguyên", "role": "Chủ tiệm hoa" },
-        { "quote": "Phần tư vấn rất tận tình, giúp mình chọn đúng sản phẩm phù hợp với làn da nhạy cảm.", "name": "Mai Anh", "role": "Giáo viên" }
+        { "quote": "Làn da mình sáng và đều màu rõ rệt sau vài tuần sử dụng. Kết cấu sản phẩm nhẹ, dễ chịu.", "name": "Phương Linh", "role": "Nhân viên văn phòng", "rating": 5 },
+        { "quote": "Chống nắng Crystal Tone Up rất hợp với da dầu của mình, không gây bí và nâng tone tự nhiên.", "name": "Thảo Nguyên", "role": "Chủ tiệm hoa", "rating": 5 },
+        { "quote": "Phần tư vấn rất tận tình, giúp mình chọn đúng sản phẩm phù hợp với làn da nhạy cảm.", "name": "Mai Anh", "role": "Giáo viên", "rating": 5 }
       ]
     },
     "leadForm": {

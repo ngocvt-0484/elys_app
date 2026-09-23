@@ -3,10 +3,37 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
 import LeadForm from "@/components/LeadForm";
+import {
+  DiamondIcon,
+  DropletIcon,
+  FlaskIcon,
+  HandHeartIcon,
+  HeartIcon,
+  HourglassIcon,
+  LeafDuoIcon,
+  MoleculeIcon,
+  ShieldIcon,
+  SparkleIcon,
+  StarIcon,
+} from "@/components/icons";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, localizedPath } from "@/lib/locale";
 import { getAllProducts, getFeaturedProducts } from "@/lib/products";
 import type { Locale } from "@/types/i18n";
+
+const strengthIcons = [MoleculeIcon, SparkleIcon, HeartIcon];
+const ingredientIcons = [ShieldIcon, DropletIcon, SparkleIcon, LeafDuoIcon];
+const whyIcons = [FlaskIcon, DiamondIcon, HourglassIcon, HandHeartIcon];
+
+function getInitials(name: string) {
+  return name
+    .split(" ")
+    .filter(Boolean)
+    .slice(-2)
+    .map((part) => part[0])
+    .join("")
+    .toUpperCase();
+}
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
@@ -56,12 +83,23 @@ export default function HomePage({ params }: { params: { locale: string } }) {
         <h2 className="mt-3 text-center font-heading text-3xl">{dict.home.strengths.title}</h2>
         <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-black/70">{dict.home.strengths.description}</p>
         <div className="mt-10 grid gap-8 md:grid-cols-3">
-          {dict.home.strengths.items.map((item) => (
-            <div key={item.title} className="rounded-2xl border border-black/5 bg-white p-6 text-center">
-              <h3 className="font-heading text-lg">{item.title}</h3>
-              <p className="mt-2 text-sm text-black/70">{item.body}</p>
-            </div>
-          ))}
+          {dict.home.strengths.items.map((item, index) => {
+            const Icon = strengthIcons[index % strengthIcons.length];
+            return (
+              <div key={item.title} className="rounded-2xl border border-black/5 bg-white p-6">
+                <div className="flex items-start justify-between">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-black/5">
+                    <Icon className="h-5 w-5 text-black" />
+                  </span>
+                  <span className="font-heading text-2xl text-black/20">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                </div>
+                <h3 className="mt-4 font-heading text-lg">{item.title}</h3>
+                <p className="mt-2 text-sm text-black/70">{item.body}</p>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -84,36 +122,86 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16">
-        <p className="text-xs uppercase tracking-widest text-gold-dark">{dict.home.spotlight.tag}</p>
-        <h2 className="mt-3 font-heading text-3xl">{dict.home.spotlight.title}</h2>
-        <p className="mt-3 max-w-2xl text-sm text-black/70">{dict.home.spotlight.description}</p>
-        <div className="mt-6 inline-block rounded-2xl border border-black/5 bg-white p-4">
-          <p className="font-heading text-lg">{dict.home.spotlight.spfBadgeTitle}</p>
-          <p className="text-sm text-black/70">{dict.home.spotlight.spfBadgeDescription}</p>
-        </div>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {dict.home.spotlight.ingredients.map((ingredient) => (
-            <div key={ingredient.name} className="rounded-2xl border border-black/5 bg-white p-4">
-              <p className="font-medium">{ingredient.name}</p>
-              <p className="mt-1 text-sm text-black/70">{ingredient.description}</p>
+        <div className="grid gap-10 md:grid-cols-2 md:items-stretch">
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex flex-col gap-4">
+              <img
+                src="/images/home/spotlight-texture.jpg"
+                alt={dict.home.spotlight.heroIngredient.name}
+                width={700}
+                height={875}
+                className="aspect-[4/5] w-full rounded-2xl object-cover"
+              />
+              <div className="rounded-2xl border border-black/5 bg-white p-4">
+                <p className="text-xs uppercase tracking-wide text-black/50">
+                  {dict.home.spotlight.spfBadgeTag}
+                </p>
+                <p className="mt-1 font-heading text-lg">{dict.home.spotlight.spfBadgeTitle}</p>
+                <p className="mt-1 text-sm text-black/70">{dict.home.spotlight.spfBadgeDescription}</p>
+              </div>
             </div>
-          ))}
+            <div className="flex h-full flex-col gap-4">
+              <div className="rounded-2xl bg-black p-5 text-ivory">
+                <p className="text-xs uppercase tracking-wide text-gold">
+                  {dict.home.spotlight.heroIngredient.tag}
+                </p>
+                <p className="mt-2 font-heading text-xl">{dict.home.spotlight.heroIngredient.name}</p>
+                <p className="mt-2 text-sm text-ivory/70">{dict.home.spotlight.heroIngredient.description}</p>
+              </div>
+              <img
+                src="/images/home/spotlight-lifestyle.jpg"
+                alt={dict.home.spotlight.title}
+                width={700}
+                height={1020}
+                className="w-full flex-1 rounded-2xl object-cover"
+              />
+            </div>
+          </div>
+
+          <div>
+            <p className="text-xs uppercase tracking-widest text-gold-dark">{dict.home.spotlight.tag}</p>
+            <h2 className="mt-3 font-heading text-3xl">{dict.home.spotlight.title}</h2>
+            <p className="mt-3 text-sm text-black/70">{dict.home.spotlight.description}</p>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2">
+              {dict.home.spotlight.ingredients.map((ingredient, index) => {
+                const Icon = ingredientIcons[index % ingredientIcons.length];
+                return (
+                  <div key={ingredient.name} className="rounded-2xl border border-black/5 bg-white p-4">
+                    <p className="flex items-center gap-2 font-medium">
+                      <Icon className="h-5 w-5 shrink-0 text-gold-dark" />
+                      {ingredient.name}
+                    </p>
+                    <p className="mt-1 text-sm text-black/70">{ingredient.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+            <Link
+              href={localizedPath(locale, "/contact")}
+              className="mt-6 inline-flex items-center gap-1 text-sm font-medium underline"
+            >
+              {dict.home.spotlight.cta} <span aria-hidden>→</span>
+            </Link>
+          </div>
         </div>
-        <Link href={localizedPath(locale, "/contact")} className="mt-6 inline-block text-sm font-medium underline">
-          {dict.home.spotlight.cta}
-        </Link>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16">
         <h2 className="text-center font-heading text-3xl">{dict.home.why.title}</h2>
         <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-black/70">{dict.home.why.description}</p>
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {dict.home.why.items.map((item) => (
-            <div key={item.title} className="rounded-2xl border border-black/5 bg-white p-6 text-center">
-              <h3 className="font-medium">{item.title}</h3>
-              <p className="mt-2 text-sm text-black/70">{item.body}</p>
-            </div>
-          ))}
+          {dict.home.why.items.map((item, index) => {
+            const Icon = whyIcons[index % whyIcons.length];
+            return (
+              <div key={item.title} className="rounded-2xl border border-black/5 bg-white p-6">
+                <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-black/[0.03]">
+                  <Icon className="h-5 w-5 text-gold-dark" />
+                </span>
+                <h3 className="mt-4 font-medium">{item.title}</h3>
+                <p className="mt-2 text-sm text-black/70">{item.body}</p>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -132,13 +220,28 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16">
-        <h2 className="text-center font-heading text-3xl">{dict.home.testimonials.title}</h2>
+        <p className="text-center text-xs uppercase tracking-widest text-gold-dark">
+          {dict.home.testimonials.tag}
+        </p>
+        <h2 className="mt-3 text-center font-heading text-3xl">{dict.home.testimonials.title}</h2>
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {dict.home.testimonials.items.map((item) => (
             <div key={item.name} className="rounded-2xl border border-black/5 bg-white p-6">
-              <p className="text-sm text-black/70">&ldquo;{item.quote}&rdquo;</p>
-              <p className="mt-4 font-medium">{item.name}</p>
-              <p className="text-xs text-black/50">{item.role}</p>
+              <div className="flex gap-0.5 text-gold">
+                {Array.from({ length: item.rating }).map((_, i) => (
+                  <StarIcon key={i} className="h-4 w-4" />
+                ))}
+              </div>
+              <p className="mt-4 text-sm text-black/70">&ldquo;{item.quote}&rdquo;</p>
+              <div className="mt-6 flex items-center gap-3">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold/20 text-sm font-medium text-gold-dark">
+                  {getInitials(item.name)}
+                </span>
+                <div>
+                  <p className="font-medium">{item.name}</p>
+                  <p className="text-xs text-black/50">{item.role}</p>
+                </div>
+              </div>
             </div>
           ))}
         </div>
