@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import PolicyPage from "@/components/PolicyPage";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale } from "@/lib/locale";
+import { isLocale, hreflangAlternates } from "@/lib/locale";
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
-  return { title: getDictionary(params.locale).policies.termsTitle };
+  return { title: getDictionary(params.locale).policies.termsTitle, alternates: hreflangAlternates("/terms") };
 }
 
 export default function TermsPage({ params }: { params: { locale: string } }) {

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale } from "@/lib/locale";
+import { isLocale, hreflangAlternates } from "@/lib/locale";
 import type { Locale } from "@/types/i18n";
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
   const dict = getDictionary(params.locale);
-  return { title: dict.technology.title, description: dict.technology.intro };
+  return { title: dict.technology.title, description: dict.technology.intro, alternates: hreflangAlternates("/technology") };
 }
 
 export default function TechnologyPage({ params }: { params: { locale: string } }) {

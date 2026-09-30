@@ -17,7 +17,7 @@ import {
   StarIcon,
 } from "@/components/icons";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale, localizedPath } from "@/lib/locale";
+import { isLocale, localizedPath, hreflangAlternates } from "@/lib/locale";
 import { getAllProducts, getFeaturedProducts } from "@/lib/products";
 import type { Locale } from "@/types/i18n";
 
@@ -38,7 +38,11 @@ function getInitials(name: string) {
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
   const dict = getDictionary(params.locale);
-  return { title: dict.meta.defaultTitle, description: dict.meta.defaultDescription };
+  return {
+    title: dict.meta.defaultTitle,
+    description: dict.meta.defaultDescription,
+    alternates: hreflangAlternates(""),
+  };
 }
 
 export default function HomePage({ params }: { params: { locale: string } }) {

@@ -14,3 +14,19 @@ export function replaceLocaleInPath(pathname: string, nextLocale: Locale): strin
   segments[1] = nextLocale;
   return segments.join("/") || `/${nextLocale}`;
 }
+
+/**
+ * hreflang alternates for a given route, keyed by locale + x-default.
+ * `path` is the part after the locale segment, e.g. "" for the homepage or
+ * "/collections/eirlys-glutathione-cream" for a product page.
+ */
+export function hreflangAlternates(path: string) {
+  return {
+    languages: {
+      vi: localizedPath("vi", path),
+      en: localizedPath("en", path),
+      ko: localizedPath("ko", path),
+      "x-default": localizedPath("vi", path),
+    },
+  };
+}

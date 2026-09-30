@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LeadForm from "@/components/LeadForm";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale } from "@/lib/locale";
+import { isLocale, hreflangAlternates } from "@/lib/locale";
 import { getAllProducts } from "@/lib/products";
 import type { Locale } from "@/types/i18n";
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
   const dict = getDictionary(params.locale);
-  return { title: dict.contact.title, description: dict.contact.description };
+  return { title: dict.contact.title, description: dict.contact.description, alternates: hreflangAlternates("/contact") };
 }
 
 export default function ContactPage({ params }: { params: { locale: string } }) {

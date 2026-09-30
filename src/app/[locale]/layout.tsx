@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import "../globals.css";
 import { rosario, montserrat } from "@/lib/fonts";
 import { LOCALES, type Locale } from "@/types/i18n";
-import { isLocale } from "@/lib/locale";
+import { isLocale, hreflangAlternates } from "@/lib/locale";
 import { getDictionary } from "@/i18n/get-dictionary";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -18,12 +18,10 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
   const dict = getDictionary(params.locale);
 
   return {
-    metadataBase: new URL("https://elysiderm.vn"),
+    metadataBase: new URL("https://www.elysiderm.com"),
     title: { default: dict.meta.defaultTitle, template: `%s | ${dict.meta.siteName}` },
     description: dict.meta.defaultDescription,
-    alternates: {
-      languages: { vi: "/vi", en: "/en", ko: "/ko", "x-default": "/vi" },
-    },
+    alternates: hreflangAlternates(""),
   };
 }
 
@@ -51,7 +49,7 @@ export default function LocaleLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: dict.meta.siteName,
-            url: "https://elysiderm.vn",
+            url: "https://www.elysiderm.com",
             description: dict.meta.defaultDescription,
           }),
         }}

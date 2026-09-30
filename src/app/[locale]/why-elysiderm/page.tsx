@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale } from "@/lib/locale";
+import { isLocale, hreflangAlternates } from "@/lib/locale";
 import type { Locale } from "@/types/i18n";
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
   const dict = getDictionary(params.locale);
-  return { title: dict.why.title, description: dict.why.intro };
+  return { title: dict.why.title, description: dict.why.intro, alternates: hreflangAlternates("/why-elysiderm") };
 }
 
 export default function WhyElysidermPage({ params }: { params: { locale: string } }) {

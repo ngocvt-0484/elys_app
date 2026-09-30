@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
 import LeadForm from "@/components/LeadForm";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale, localizedPath } from "@/lib/locale";
+import { isLocale, localizedPath, hreflangAlternates } from "@/lib/locale";
 import {
   getAllProducts,
   getProductBySlug,
@@ -37,6 +37,7 @@ export function generateMetadata({
       description: product.shortDescription[locale],
       images: product.images,
     },
+    alternates: hreflangAlternates(`/collections/${product.slug}`),
   };
 }
 

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { LOCALES } from "@/types/i18n";
 import { getAllProducts } from "@/lib/products";
 
-const BASE_URL = "https://elysiderm.vn";
+const BASE_URL = "https://www.elysiderm.com";
 const STATIC_ROUTES = ["", "/collections", "/about", "/technology", "/why-elysiderm", "/contact", "/privacy", "/returns", "/terms"];
 
 export default function sitemap(): MetadataRoute.Sitemap {

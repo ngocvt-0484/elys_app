@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { isLocale } from "@/lib/locale";
+import { isLocale, hreflangAlternates } from "@/lib/locale";
 import { getAllProducts } from "@/lib/products";
 import type { Locale } from "@/types/i18n";
 
 export function generateMetadata({ params }: { params: { locale: string } }): Metadata {
   if (!isLocale(params.locale)) return {};
   const dict = getDictionary(params.locale);
-  return { title: dict.collections.title, description: dict.collections.description };
+  return { title: dict.collections.title, description: dict.collections.description, alternates: hreflangAlternates("/collections") };
 }
 
 export default function CollectionsPage({ params }: { params: { locale: string } }) {
