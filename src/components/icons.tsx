@@ -99,6 +99,52 @@ export function StarIcon(props: IconProps) {
   );
 }
 
+export function StarOutlineIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M12 2.5l2.9 6.4 6.9.7-5.2 4.7 1.6 6.8L12 17.8l-6.2 3.3 1.6-6.8-5.2-4.7 6.9-.7L12 2.5z" />
+    </svg>
+  );
+}
+
+export function ShieldCheckIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M12 3l7 3.1v5.3c0 4.8-3 8.9-7 10.1-4-1.2-7-5.3-7-10.1V6.1L12 3z" />
+      <path d="M9 12.2l2 2 4-4.4" />
+    </svg>
+  );
+}
+
+export function CheckCircleIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M8.5 12.3l2.3 2.3 4.7-5" />
+    </svg>
+  );
+}
+
+export function LightbulbIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9 16.5h6M9.5 19h5" />
+      <path d="M12 3.3a6 6 0 0 0-3.2 11.1c.6.4 1 1.1 1 1.9h4.4c0-.8.4-1.5 1-1.9A6 6 0 0 0 12 3.3z" />
+      <path d="M12 1.3v1.1M5.9 5l.8.8M18.1 5l-.8.8" />
+    </svg>
+  );
+}
+
+export function GlobeIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="12" cy="12" r="8.5" />
+      <path d="M3.5 12h17" />
+      <path d="M12 3.5c3 3 3 14.5 0 17c-3-2.5-3-14 0-17z" />
+    </svg>
+  );
+}
+
 export function HandHeartIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>

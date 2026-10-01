@@ -4,7 +4,7 @@
     "defaultTitle": "ELYSIDERM | Eirlys' — Premium K-Dermocosmetics",
     "defaultDescription": "ELYSIDERM | Eirlys' delivers healthy, radiant, balanced skin care grounded in Korean dermatological science."
   },
-  "header": { "subtitle": "VIETNAM", "ctaConsult": "Consult Now" },
+  "header": { "ctaConsult": "Consult Now" },
   "nav": {
     "home": "Home",
     "about": "About Elysiderm",
@@ -162,16 +162,54 @@
     "intro": "ELYSIDERM is a premium dermocosmetics brand inspired by Korean skin care science, delivering solutions that nurture healthy, radiant, balanced skin safely and sustainably.",
     "visionTitle": "Vision",
     "vision": "To become a globally trusted skin care and beauty brand, elevating everyday skin care through scientific innovation, refined aesthetics and quality.",
+    "visionCaption": "Global Vision • Seoul Standard",
     "missionTitle": "Mission",
     "mission": "To create skin care solutions grounded in modern science, combining advanced technology, in-depth research and international quality standards.",
+    "missionCaption": "Dermacosmetic Precision • Safe Formula",
+    "valuesTag": "The Golden Principle",
     "valuesTitle": "Core Values",
+    "valuesCaption": "Core Values • Philosophy",
     "values": [
       { "title": "Science First", "body": "Science is the foundation of every skin care solution." },
       { "title": "Integrity in Quality", "body": "Committed to quality, transparency and trust in every product." },
       { "title": "Purposeful Innovation", "body": "Innovating with intent to create real, lasting value." },
       { "title": "Timeless Elegance", "body": "Pursuing refinement in design, experience and brand philosophy." },
       { "title": "Lasting Impact", "body": "Building sustainable value for customers, partners and community." }
-    ]
+    ],
+    "brandStory": {
+      "tag": "Our Brand Story",
+      "title": "Resilient as the Snowdrop",
+      "subtitle": "Eirlys — A symbol of quiet inner strength and rebirth",
+      "photoCaption": { "scientific": "Galanthus nivalis", "formula": "Eirlys Bio-Cell Formula" },
+      "paragraphs": [
+        "Modern women's skin moves through an exhausting 24-hour cycle with barely a moment's rest. By day, it stands alone against dust, UV rays and blue light that wear down its natural barrier. By night, stress and sleepless hours lock away the skin's own ability to heal — a relentless loop that leaves skin not just aging, but overloaded and deeply fatigued."
+      ],
+      "quote": "In the harshest depths of winter, when everything else freezes beneath the snow, one flower quietly pushes through thick ice to reach the sun — the Snowdrop (Eirlys). Beneath its fragile white petals lies extraordinary inner strength.",
+      "afterQuoteParagraphs": [
+        "Continuously renewing itself to grow through the cold, day and night — much like the modern woman: however much pressure she faces, within her remains a pure spirit and a quiet longing to shine.",
+        "Elysiderm was born from that same empathy — and takes the name Eirlys' for its product line, as a daily reminder of that quiet resilience. We're building a scientific skin care ecosystem that works with the skin's natural rhythm to awaken radiance from the cellular level — not through complicated routines, but through focused, powerful solutions that walk beside you every step of the way."
+      ]
+    },
+    "founderLetter": {
+      "tag": "A Founder's Devotion",
+      "title": "A Letter From Our Founder",
+      "salutation": "To the proud women of Elysiderm,",
+      "paragraphs": [
+        "I'm writing this thinking of a busy morning in a big city, where you're getting ready to step out and conquer new heights. Amid that rush, I know your skin is quietly fighting its own \"harsh winter\" — time pressure, lost sleep, pollution and stress.",
+        "As someone working in dermatological science, and someone who walks alongside women, I kept asking myself: how could I bring the most effective, most urgent, most effortless solution — one that gives modern women back their radiance instantly, while still nurturing their skin's inner strength?",
+        "The answer came to me on a trip through the depths of winter, when I saw the Snowdrops. Beneath the thick, freezing snow, while everything else lay dormant, this fragile, snow-white flower still pushed through the ice to reach the sun — needing no shelter, generating its own energy to be reborn and shine. That was the moment Elysiderm was born."
+      ],
+      "quote": "With Elysiderm, skin care isn't meant to be complicated — it's an act of self-love. However demanding life gets, never settle for tired skin.",
+      "closing": "Let Elysiderm walk with you, so you can always shine with quiet, proud confidence — like a snowdrop blooming bright against the frost.",
+      "signOff": "With all my respect and affection,",
+      "founderTitle": "Founder, Elysiderm",
+      "founderRole": "Founder & Chief Formulator"
+    },
+    "standards": {
+      "title": "Korean Dermocosmetic Standard",
+      "description": "In-depth clinical research, pure formulas free from drying alcohol and parabens, preserving the skin's natural pH and barrier.",
+      "cta": "Explore Our Standard"
+    }
   },
   "technology": {
     "title": "Technology & Ingredients",

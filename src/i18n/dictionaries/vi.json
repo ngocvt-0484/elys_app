@@ -4,7 +4,7 @@
     "defaultTitle": "ELYSIDERM | Eirlys' — Dược mỹ phẩm cao cấp chuẩn Hàn Quốc",
     "defaultDescription": "ELYSIDERM | Eirlys' mang đến giải pháp chăm sóc da khoẻ mạnh, sáng mịn và cân bằng dựa trên nền tảng khoa học da liễu Hàn Quốc."
   },
-  "header": { "subtitle": "VIỆT NAM", "ctaConsult": "Tư vấn ngay" },
+  "header": { "ctaConsult": "Tư vấn ngay" },
   "nav": {
     "home": "Trang chủ",
     "about": "Về Elysiderm",
@@ -162,16 +162,54 @@
     "intro": "ELYSIDERM là thương hiệu dược mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc, mang đến các giải pháp nuôi dưỡng làn da khoẻ mạnh, sáng mịn và cân bằng một cách an toàn, bền vững.",
     "visionTitle": "Tầm nhìn",
     "vision": "Trở thành thương hiệu chăm sóc da và làm đẹp được tin cậy trên toàn cầu, nâng tầm trải nghiệm chăm sóc da hằng ngày thông qua đổi mới khoa học, thẩm mỹ tinh tế và chất lượng.",
+    "visionCaption": "Global Vision • Seoul Standard",
     "missionTitle": "Sứ mệnh",
     "mission": "Kiến tạo những giải pháp chăm sóc da dựa trên nền tảng khoa học hiện đại, kết hợp công nghệ tiên tiến, nghiên cứu chuyên sâu và tiêu chuẩn chất lượng quốc tế.",
+    "missionCaption": "Dermacosmetic Precision • Safe Formula",
+    "valuesTag": "Nguyên tắc vàng",
     "valuesTitle": "Giá trị cốt lõi",
+    "valuesCaption": "Core Values • Philosophy",
     "values": [
       { "title": "Science First", "body": "Lấy khoa học làm nền tảng cho mọi giải pháp chăm sóc da." },
       { "title": "Integrity in Quality", "body": "Cam kết chất lượng, minh bạch và đáng tin cậy trong mọi sản phẩm." },
       { "title": "Purposeful Innovation", "body": "Đổi mới có định hướng để tạo ra giá trị thực và hiệu quả lâu dài." },
       { "title": "Timeless Elegance", "body": "Theo đuổi sự tinh tế trong thiết kế, trải nghiệm và triết lý thương hiệu." },
       { "title": "Lasting Impact", "body": "Kiến tạo những giá trị bền vững cho khách hàng, đối tác và cộng đồng." }
-    ]
+    ],
+    "brandStory": {
+      "tag": "Câu chuyện thương hiệu",
+      "title": "Kiên cường như Hoa Xuyên Tuyết",
+      "subtitle": "Eirlys — Biểu tượng của nội lực tĩnh tại và sức sống tái sinh",
+      "photoCaption": { "scientific": "Galanthus nivalis", "formula": "Eirlys Bio-Cell Formula" },
+      "paragraphs": [
+        "Làn da của người phụ nữ hiện đại đang trải qua một chu kỳ kiệt sức suốt 24 giờ không ngơi nghỉ. Ban ngày, da cô độc giữa khói bụi, tia UV và ánh sáng xanh bào mòn lớp lá chắn tự nhiên. Ban đêm, áp lực và những đêm thiếu ngủ lại khoá chặt khả năng tự chữa lành của tế bào — một vòng lặp khiến làn da không chỉ lão hoá, mà còn quá tải và tổn thương sâu sắc."
+      ],
+      "quote": "Giữa mùa đông khắc nghiệt nhất, khi vạn vật đều đóng băng trước tuyết, có một loài hoa lặng lẽ xuyên qua lớp băng dày để đón ánh mặt trời — Hoa Xuyên Tuyết (Eirlys / Snowdrop). Ẩn sau sắc trắng mỏng manh là một nội lực phi thường.",
+      "afterQuoteParagraphs": [
+        "Tự chuyển hoá năng lượng để sinh trưởng cả ngày lẫn đêm trong giá rét — như người phụ nữ hiện đại: dù đối mặt bao áp lực, bên trong vẫn luôn là một tâm hồn thuần khiết và khát khao toả sáng.",
+        "Elysiderm ra đời từ sự thấu cảm sâu sắc đó — và lấy tên Eirlys' cho dòng sản phẩm, như một lời nhắc về nội lực kiên cường ấy. Chúng tôi kiến tạo một hệ sinh thái chăm sóc da khoa học, tối ưu hoá nhịp sinh học tự nhiên để thắp sáng làn da từ gốc tế bào — không cần những bước chăm sóc phức tạp, chỉ cần những giải pháp tinh gọn nhưng đủ mạnh mẽ để đồng hành cùng bạn suốt hành trình."
+      ]
+    },
+    "founderLetter": {
+      "tag": "Tâm huyết sáng lập",
+      "title": "Thư ngỏ từ người sáng lập",
+      "salutation": "Gửi những người phụ nữ kiêu hãnh của Elysiderm,",
+      "paragraphs": [
+        "Tôi viết những dòng này khi nghĩ về một buổi sáng bận rộn tại một thành phố lớn, nơi bạn đang chuẩn bị bước ra thế giới để chinh phục những đỉnh cao mới. Giữa nhịp sống hối hả ấy, tôi biết làn da của bạn đang âm thầm chống chọi với một \"mùa đông khắc nghiệt\" của riêng nó — áp lực thời gian, thiếu ngủ, ô nhiễm môi trường và stress.",
+        "Là một người làm khoa học da liễu và cũng là người đồng hành cùng phụ nữ, tôi luôn trăn trở: làm thế nào để mang lại một giải pháp tối ưu, cấp thiết và tiện lợi nhất, giúp người phụ nữ hiện đại lấy lại thần thái rạng rỡ mà vẫn nuôi dưỡng sâu sắc nội lực của làn da?",
+        "Câu trả lời đến với tôi trong một chuyến đi giữa mùa đông băng giá, khi tôi nhìn thấy những đoá Hoa Xuyên Tuyết. Giữa lớp tuyết dày lạnh buốt, loài hoa mỏng manh, trắng ngần ấy vẫn kiên cường xuyên qua băng giá để đón ánh mặt trời — không cần sự che chở, tự sinh năng lượng để tái sinh và toả sáng. Đó chính là khoảnh khắc Elysiderm ra đời."
+      ],
+      "quote": "Với Elysiderm, chăm sóc da không phải là một quy trình phức tạp, mà là một đặc quyền yêu thương. Dù cuộc sống ngoài kia có bận rộn và khắc nghiệt đến đâu, xin bạn đừng bao giờ thoả hiệp với một làn da mệt mỏi.",
+      "closing": "Hãy để Elysiderm đồng hành cùng bạn, giúp bạn luôn tự tin kiêu hãnh toả sáng — như đoá hoa xuyên tuyết bừng sáng trong băng giá đại ngàn.",
+      "signOff": "Với tất cả sự trân trọng và thương mến,",
+      "founderTitle": "Nhà sáng lập Elysiderm",
+      "founderRole": "Founder & Chief Formulator"
+    },
+    "standards": {
+      "title": "Chuẩn Da Liễu Hàn Quốc",
+      "description": "Nghiên cứu lâm sàng chuyên sâu, công thức tinh khiết không cồn khô, không paraben, bảo toàn độ pH sinh lý và hàng rào bảo vệ tự nhiên.",
+      "cta": "Khám phá quy chuẩn"
+    }
   },
   "technology": {
     "title": "Công nghệ & Thành phần",

@@ -51,13 +51,15 @@ wsl.exe -- bash -lc 'source ~/.nvm/nvm.sh && cd /home/<user>/Projects/elys_app &
 
 ## Internationalization (VI / EN / KO)
 
-- 3 ngôn ngữ: **Tiếng Việt (mặc định)**, **English**, **한국어**.
+- 3 ngôn ngữ: **Tiếng Việt**, **English (mặc định)**, **한국어**.
 - Routing: mọi trang nội dung nằm dưới `/[locale]/...` với `locale ∈ {vi, en, ko}` — kể cả tiếng
   Việt cũng có prefix `/vi/...` (không dùng "default locale không prefix", để tránh phải dùng
   Middleware — thứ không chạy được với static export).
-- `/` (route gốc, không có locale) chỉ là một trang **redirect phía client**: đọc
-  `navigator.language`, nếu khớp `en`/`ko` thì chuyển tới `/en` hoặc `/ko`, mặc định còn lại chuyển
-  tới `/vi`. Trang này không mang nội dung SEO thật — nội dung thật nằm ở `/vi`, `/en`, `/ko`.
+- `/` (route gốc, không có locale) chỉ là một trang **redirect phía client**: luôn chuyển thẳng
+  tới `/en` (không dò `navigator.language` — mọi khách truy cập `/` đều vào bản tiếng Anh mặc
+  định, kể cả trình duyệt đặt ngôn ngữ khác). Trang này không mang nội dung SEO thật — nội dung
+  thật nằm ở `/vi`, `/en`, `/ko`. Giá trị mặc định khai báo tại `DEFAULT_LOCALE` trong
+  `src/types/i18n.ts`.
 - Bản dịch lưu trong `src/i18n/dictionaries/{vi,en,ko}.json` (một object phẳng theo namespace,
   ví dụ `nav.home`, `home.hero.title`...), truy xuất qua `getDictionary(locale)` +
   hàm `t(dict, key)`.
@@ -71,7 +73,7 @@ wsl.exe -- bash -lc 'source ~/.nvm/nvm.sh && cd /home/<user>/Projects/elys_app &
   tiếng Anh** cho cả 3 locale (không dịch URL) để đơn giản hoá routing; nội dung trang vẫn dịch đầy
   đủ theo locale. Slug sản phẩm (`/collections/[slug]`) cũng cố định, không đổi theo locale.
 - SEO: mỗi trang khai báo `alternates.languages` (hreflang) trỏ tới 3 phiên bản locale +
-  `x-default` trỏ tới `/vi`.
+  `x-default` trỏ tới `/en` (theo `DEFAULT_LOCALE`).
 - **Bản dịch EN/KO trong lần triển khai đầu tiên là do AI dịch** (không phải bản dịch chuyên
   nghiệp) — cần người bản ngữ rà soát lại nội dung tiếng Hàn trước khi site lên production chính
   thức.
@@ -183,7 +185,7 @@ Thiết kế `detail.png` có các yếu tố trông giống thương mại đi�
 - Dùng Next.js Metadata API khai báo `title`/`description`/OG image riêng cho từng trang, từng
   sản phẩm, **và từng locale**.
 - `alternates.languages` (hreflang) trên mọi trang, trỏ tới bản `vi`/`en`/`ko` tương ứng +
-  `x-default` → bản `vi`.
+  `x-default` → bản `en` (locale mặc định).
 - JSON-LD: `Organization` ở layout gốc mỗi locale, `Product` (giá, ảnh, mô tả, rating nếu có) ở
   từng trang chi tiết sản phẩm.
 - `sitemap.xml` và `robots.txt` sinh tự động qua Next.js file-based metadata (`app/sitemap.ts`, `app/robots.ts`), liệt kê đủ 3 locale × toàn bộ route.

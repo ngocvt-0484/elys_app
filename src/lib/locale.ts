@@ -1,4 +1,4 @@
-import { LOCALES, type Locale } from "@/types/i18n";
+import { DEFAULT_LOCALE, LOCALES, type Locale } from "@/types/i18n";
 
 export function isLocale(value: string): value is Locale {
   return (LOCALES as readonly string[]).includes(value);
@@ -26,7 +26,7 @@ export function hreflangAlternates(path: string) {
       vi: localizedPath("vi", path),
       en: localizedPath("en", path),
       ko: localizedPath("ko", path),
-      "x-default": localizedPath("vi", path),
+      "x-default": localizedPath(DEFAULT_LOCALE, path),
     },
   };
 }
