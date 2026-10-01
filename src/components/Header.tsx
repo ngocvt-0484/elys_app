@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import type { Locale } from "@/types/i18n";
 import type { Dictionary } from "@/i18n/get-dictionary";
@@ -5,6 +8,8 @@ import { localizedPath } from "@/lib/locale";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const navItems = [
     { href: localizedPath(locale, "/"), label: dict.nav.home },
     { href: localizedPath(locale, "/about"), label: dict.nav.about },
@@ -44,26 +49,41 @@ export default function Header({ locale, dict }: { locale: Locale; dict: Diction
           </Link>
         </div>
 
-        <div className="flex items-center gap-2 xl:hidden">
+        <div className="relative flex items-center gap-2 xl:hidden">
           <LanguageSwitcher locale={locale} />
-          <details className="group relative">
-            <summary className="list-none rounded-full border border-black/10 px-3 py-2 text-sm">☰</summary>
+          <button
+            type="button"
+            onClick={() => setMenuOpen((open) => !open)}
+            aria-expanded={menuOpen}
+            aria-label="Toggle menu"
+            className="rounded-full border border-black/10 px-3 py-2 text-sm"
+          >
+            ☰
+          </button>
+
+          {menuOpen && (
             <div className="absolute right-0 top-full mt-2 w-64 space-y-4 rounded-2xl border border-black/5 bg-ivory p-5 shadow-lg">
               <nav className="flex flex-col gap-3">
                 {navItems.map((item) => (
-                  <Link key={item.href} href={item.href} className="text-sm font-medium">
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="text-sm font-medium"
+                  >
                     {item.label}
                   </Link>
                 ))}
               </nav>
               <Link
                 href={localizedPath(locale, "/contact")}
+                onClick={() => setMenuOpen(false)}
                 className="block rounded-full bg-black px-5 py-2 text-center text-sm font-medium text-ivory"
               >
                 {dict.header.ctaConsult}
               </Link>
             </div>
-          </details>
+          )}
         </div>
       </div>
     </header>

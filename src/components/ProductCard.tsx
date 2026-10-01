@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Locale } from "@/types/i18n";
 import type { Product } from "@/types/product";
 import { localizedPath } from "@/lib/locale";
+import { formatPrice } from "@/lib/currency";
 
 export default function ProductCard({ product, locale }: { product: Product; locale: Locale }) {
   return (
@@ -19,7 +20,7 @@ export default function ProductCard({ product, locale }: { product: Product; loc
       <div className="p-4">
         <h3 className="font-heading text-lg">{product.name[locale]}</h3>
         <p className="mt-2 text-sm text-black/70">{product.shortDescription[locale]}</p>
-        <p className="mt-3 font-medium">{product.price.toLocaleString("vi-VN")}₫</p>
+        <p className="mt-3 font-medium">{formatPrice(product.price, locale)}</p>
       </div>
     </Link>
   );

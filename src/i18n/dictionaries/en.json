@@ -37,7 +37,10 @@
       "description": "Discover Korean-standard skin care with ELYSIDERM — nurturing your skin every day with carefully curated products for a modern, natural and pure beauty.",
       "ctaPrimary": "Explore Collections",
       "ctaSecondary": "Get a Free Skin Consultation",
-      "trustBadges": ["Skin Care", "Refined & Gentle", "Modern Science", "Made in Korea"]
+      "trustBadges": ["Skin Care", "Refined & Gentle", "Modern Science", "Made in Korea"],
+      "certBadge": { "monogram": "KR", "title": "Derma Formula", "subtitle": "Officially Imported" },
+      "crossSellTag": "Crystal Sunscreen",
+      "crossSellCta": "Click to view"
     },
     "strengths": {
       "tag": "Exclusively ELYSIDERM",

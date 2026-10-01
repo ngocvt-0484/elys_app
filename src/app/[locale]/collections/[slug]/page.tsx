@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
+import ProductGallery from "@/components/ProductGallery";
 import LeadForm from "@/components/LeadForm";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, localizedPath, hreflangAlternates } from "@/lib/locale";
+import { formatPrice } from "@/lib/currency";
 import {
   getAllProducts,
   getProductBySlug,
@@ -79,27 +81,7 @@ export default function ProductDetailPage({
               ))}
             </div>
           )}
-          <img
-            src={product.images[0]}
-            alt={product.name[locale]}
-            width={600}
-            height={600}
-            className="w-full rounded-2xl object-cover"
-          />
-          {product.images.length > 1 && (
-            <div className="mt-4 grid grid-cols-4 gap-3">
-              {product.images.slice(1).map((image) => (
-                <img
-                  key={image}
-                  src={image}
-                  alt={product.name[locale]}
-                  width={150}
-                  height={150}
-                  className="aspect-square w-full rounded-xl object-cover"
-                />
-              ))}
-            </div>
-          )}
+          <ProductGallery images={product.images} alt={product.name[locale]} />
         </div>
 
         <div>
@@ -118,14 +100,12 @@ export default function ProductDetailPage({
           )}
 
           <div className="mt-4 flex items-baseline gap-3">
-            <p className="text-2xl font-medium">{product.price.toLocaleString("vi-VN")}₫</p>
+            <p className="text-2xl font-medium">{formatPrice(product.price, locale)}</p>
             {product.originalPrice && (
-              <p className="text-sm text-black/40 line-through">
-                {product.originalPrice.toLocaleString("vi-VN")}₫
-              </p>
+              <p className="text-sm text-black/40 line-through">{formatPrice(product.originalPrice, locale)}</p>
             )}
           </div>
-          {product.krwReferencePrice && (
+          {product.krwReferencePrice && locale !== "ko" && (
             <p className="mt-1 text-xs text-black/50">
               {dict.product.krwReferenceLabel}: {product.krwReferencePrice.toLocaleString("ko-KR")}₩
             </p>
@@ -199,7 +179,7 @@ export default function ProductDetailPage({
                   {dict.product.routineStepLabel.replace("{n}", String(step.routineStep))}
                 </p>
                 <h3 className="mt-2 font-medium">{step.name[locale]}</h3>
-                <p className="mt-2 text-sm text-black/60">{step.price.toLocaleString("vi-VN")}₫</p>
+                <p className="mt-2 text-sm text-black/60">{formatPrice(step.price, locale)}</p>
                 {step.slug === product.slug ? (
                   <p className="mt-3 text-xs font-medium text-gold-dark">{dict.product.routineSelected}</p>
                 ) : (
@@ -221,7 +201,7 @@ export default function ProductDetailPage({
                 <p className="mt-1 text-sm text-ivory/70">{bundle.description[locale]}</p>
               </div>
               <a href="#consult" className="whitespace-nowrap rounded-full bg-gold px-6 py-3 text-sm font-medium text-black">
-                {dict.product.bundleCta} {bundle.bundlePrice.toLocaleString("vi-VN")}₫
+                {dict.product.bundleCta} {formatPrice(bundle.bundlePrice, locale)}
               </a>
             </div>
           )}

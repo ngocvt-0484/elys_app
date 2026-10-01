@@ -4,8 +4,8 @@
     "collection": "alpha-melight",
     "routineStep": 1,
     "price": 650000,
-    "images": ["/images/products/alpha-melight-refining-serum-1.jpg"],
-    "featured": false,
+    "images": ["/images/products/alpha-melight-refining-serum-1.jpg", "/images/products/alpha-melight-refining-serum-2.jpg"],
+    "featured": true,
     "rating": 4.8,
     "reviewCount": 64,
     "name": {
@@ -28,11 +28,9 @@
     "krwReferencePrice": 37000,
     "images": [
       "/images/products/alpha-melight-intensive-cream-1.jpg",
-      "/images/products/alpha-melight-intensive-cream-2.jpg",
-      "/images/products/alpha-melight-intensive-cream-3.jpg",
-      "/images/products/alpha-melight-intensive-cream-4.jpg"
+      "/images/products/alpha-melight-intensive-cream-2.jpg"
     ],
-    "featured": false,
+    "featured": true,
     "rating": 5.0,
     "reviewCount": 128,
     "soldCount": 3420,
@@ -161,7 +159,7 @@
     "collection": "alpha-melight",
     "routineStep": 3,
     "price": 590000,
-    "images": ["/images/products/crystal-tone-up-sunscreen-1.jpg"],
+    "images": ["/images/products/crystal-tone-up-sunscreen-1.jpg", "/images/products/crystal-tone-up-sunscreen-2.jpg"],
     "featured": true,
     "rating": 4.9,
     "reviewCount": 96,
@@ -180,7 +178,7 @@
     "slug": "eirlys-glutathione-cream",
     "collection": "glutathione",
     "price": 650000,
-    "images": ["/images/products/glutathione-cream-1.jpg"],
+    "images": ["/images/products/glutathione-cream-1.jpg", "/images/products/glutathione-cream-2.jpg"],
     "featured": true,
     "rating": 4.7,
     "reviewCount": 52,
@@ -193,44 +191,6 @@
       "vi": "Kem dưỡng chuyên sâu hỗ trợ làn da sáng khoẻ, đều màu.",
       "en": "An intensive cream that supports brighter, more even-toned skin.",
       "ko": "더 밝고 고른 톤의 피부를 위한 집중 크림입니다."
-    }
-  },
-  {
-    "slug": "eirlys-sunscreen-box-set",
-    "collection": "sunscreen",
-    "price": 990000,
-    "images": ["/images/products/sunscreen-box-set-1.jpg"],
-    "featured": true,
-    "rating": 4.8,
-    "reviewCount": 41,
-    "name": {
-      "vi": "Eirlys' Sunscreen Box Set",
-      "en": "Eirlys' Sunscreen Box Set",
-      "ko": "Eirlys' 선크림 박스 세트"
-    },
-    "shortDescription": {
-      "vi": "Bộ chống nắng phổ rộng dành cho cả gia đình, tiện lợi mang theo.",
-      "en": "A broad-spectrum sunscreen set for the whole family, travel-friendly.",
-      "ko": "온 가족을 위한 광범위 자외선 차단 세트, 휴대하기 편리합니다."
-    }
-  },
-  {
-    "slug": "eirlys-daily-cleanser-3t-care",
-    "collection": "cleanser",
-    "price": 320000,
-    "images": ["/images/products/daily-cleanser-3t-care-1.jpg"],
-    "featured": true,
-    "rating": 4.6,
-    "reviewCount": 38,
-    "name": {
-      "vi": "Eirlys' Daily Cleanser 3T Care",
-      "en": "Eirlys' Daily Cleanser 3T Care",
-      "ko": "Eirlys' 데일리 클렌저 3T 케어"
-    },
-    "shortDescription": {
-      "vi": "Sữa rửa mặt dịu nhẹ, làm sạch sâu mà không làm khô da.",
-      "en": "A gentle cleanser that clears deeply without drying out skin.",
-      "ko": "피부를 건조하게 하지 않으면서 깊이 세정하는 순한 클렌저입니다."
     }
   }
 ]

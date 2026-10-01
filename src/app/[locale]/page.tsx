@@ -18,7 +18,7 @@ import {
 } from "@/components/icons";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, localizedPath, hreflangAlternates } from "@/lib/locale";
-import { getAllProducts, getFeaturedProducts } from "@/lib/products";
+import { getAllProducts, getFeaturedProducts, getProductBySlug } from "@/lib/products";
 import type { Locale } from "@/types/i18n";
 
 const strengthIcons = [MoleculeIcon, SparkleIcon, HeartIcon];
@@ -51,35 +51,93 @@ export default function HomePage({ params }: { params: { locale: string } }) {
   const dict = getDictionary(locale);
   const featuredProducts = getFeaturedProducts();
   const allProducts = getAllProducts();
+  const heroProduct = getProductBySlug("eirlys-glutathione-cream");
+  const crossSellProduct = getProductBySlug("eirlys-crystal-tone-up-sunscreen");
 
   return (
     <>
-      <section className="mx-auto max-w-6xl px-4 py-16 text-center">
-        <p className="text-xs uppercase tracking-widest text-gold-dark">{dict.home.hero.tag}</p>
-        <h1 className="mt-3 font-heading text-4xl md:text-5xl">
-          {dict.home.hero.titleLine1}{" "}
-          <em className="not-italic text-gold-dark">{dict.home.hero.titleLine2Emphasis}</em>
-        </h1>
-        <p className="mx-auto mt-4 max-w-2xl text-black/70">{dict.home.hero.description}</p>
-        <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-          <Link
-            href={localizedPath(locale, "/collections")}
-            className="rounded-full bg-black px-8 py-3 text-sm font-medium text-ivory"
-          >
-            {dict.home.hero.ctaPrimary}
-          </Link>
-          <Link
-            href={localizedPath(locale, "/contact")}
-            className="rounded-full border border-black px-8 py-3 text-sm font-medium"
-          >
-            {dict.home.hero.ctaSecondary}
-          </Link>
+      <section className="mx-auto max-w-6xl px-4 py-16">
+        <div className="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <p className="text-xs uppercase tracking-widest text-gold-dark">{dict.home.hero.tag}</p>
+            <h1 className="mt-3 font-heading text-4xl md:text-5xl">
+              {dict.home.hero.titleLine1}{" "}
+              <em className="not-italic text-gold-dark">{dict.home.hero.titleLine2Emphasis}</em>
+            </h1>
+            <p className="mt-4 max-w-2xl text-black/70">{dict.home.hero.description}</p>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link
+                href={localizedPath(locale, "/collections")}
+                className="rounded-full bg-black px-8 py-3 text-center text-sm font-medium text-ivory"
+              >
+                {dict.home.hero.ctaPrimary}
+              </Link>
+              <Link
+                href={localizedPath(locale, "/contact")}
+                className="rounded-full border border-black px-8 py-3 text-center text-sm font-medium"
+              >
+                {dict.home.hero.ctaSecondary}
+              </Link>
+            </div>
+            <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs text-black/60">
+              {dict.home.hero.trustBadges.map((badge) => (
+                <li key={badge}>{badge}</li>
+              ))}
+            </ul>
+          </div>
+
+          {heroProduct && (
+            <div className="relative mx-auto mt-10 max-w-sm lg:mt-0">
+              <Link
+                href={localizedPath(locale, `/collections/${heroProduct.slug}`)}
+                className="group relative block overflow-hidden rounded-3xl"
+              >
+                <img
+                  src={heroProduct.images[0]}
+                  alt={heroProduct.name[locale]}
+                  width={600}
+                  height={750}
+                  className="aspect-[4/5] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                />
+                <span className="absolute right-4 top-4 rounded-full bg-white px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-black shadow">
+                  {dict.product.badges["best-seller"]}
+                </span>
+              </Link>
+
+              <div className="absolute -top-6 right-4 flex items-center gap-3 rounded-xl bg-white p-3 shadow-lg sm:right-6">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-light/30 text-xs font-semibold text-gold-dark">
+                  {dict.home.hero.certBadge.monogram}
+                </span>
+                <div>
+                  <p className="text-xs font-semibold">{dict.home.hero.certBadge.title}</p>
+                  <p className="text-[11px] text-black/50">{dict.home.hero.certBadge.subtitle}</p>
+                </div>
+              </div>
+
+              {crossSellProduct && (
+                <Link
+                  href={localizedPath(locale, `/collections/${crossSellProduct.slug}`)}
+                  className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-xl bg-white p-3 shadow-lg sm:left-6"
+                >
+                  <img
+                    src={crossSellProduct.images[0]}
+                    alt={crossSellProduct.name[locale]}
+                    width={48}
+                    height={48}
+                    className="h-12 w-12 shrink-0 rounded-lg object-cover"
+                  />
+                  <div>
+                    <p className="text-[10px] uppercase tracking-wide text-gold-dark">
+                      {dict.home.hero.crossSellTag}
+                    </p>
+                    <p className="text-sm font-semibold leading-tight">{crossSellProduct.name[locale]}</p>
+                    <p className="text-[11px] text-black/50">{dict.home.hero.crossSellCta}</p>
+                  </div>
+                </Link>
+              )}
+            </div>
+          )}
         </div>
-        <ul className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-black/60">
-          {dict.home.hero.trustBadges.map((badge) => (
-            <li key={badge}>{badge}</li>
-          ))}
-        </ul>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16">

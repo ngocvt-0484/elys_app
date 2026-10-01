@@ -37,7 +37,10 @@
       "description": "Khám phá giải pháp chăm sóc da chuẩn Hàn Quốc cùng ELYSIDERM — nâng niu làn da mỗi ngày bằng những sản phẩm được lựa chọn kỹ lưỡng dành cho vẻ đẹp hiện đại, tự nhiên và thuần khiết.",
       "ctaPrimary": "Khám phá bộ sưu tập",
       "ctaSecondary": "Nhận tư vấn da miễn phí",
-      "trustBadges": ["Chăm sóc da", "Tinh tế & Dịu nhẹ", "Khoa học hiện đại", "Made in Korea"]
+      "trustBadges": ["Chăm sóc da", "Tinh tế & Dịu nhẹ", "Khoa học hiện đại", "Made in Korea"],
+      "certBadge": { "monogram": "KR", "title": "Công thức Derma", "subtitle": "Nhập khẩu chính ngạch" },
+      "crossSellTag": "Chống nắng pha lê",
+      "crossSellCta": "Nhấp để xem"
     },
     "strengths": {
       "tag": "Đặc quyền dành riêng ELYSIDERM",
