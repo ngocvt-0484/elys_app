@@ -32,10 +32,13 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: Diction
         </div>
         <div>
           <p className="font-medium">{dict.footer.careTitle}</p>
-          <p className="mt-2 text-sm text-black/70">{dict.footer.addressValue}</p>
-          <p className="mt-1 text-sm text-black/70">{dict.footer.hotlineLabel}: {dict.footer.hotlineValue}</p>
-          <p className="text-sm text-black/70">{dict.footer.emailLabel}: {dict.footer.emailValue}</p>
-          <p className="text-sm text-black/70">{dict.footer.hoursValue}</p>
+          <ul className="mt-2 space-y-1 text-sm text-black/70">
+            <li>{dict.footer.companyLabel}: {dict.footer.companyValue}</li>
+            <li>{dict.footer.addressLabel}: {dict.footer.addressValue}</li>
+            <li>{dict.footer.phoneLabel}: {dict.footer.phoneValue}</li>
+            <li>{dict.footer.businessRegLabel}: {dict.footer.businessRegValue}</li>
+            <li>{dict.footer.emailLabel}: {dict.footer.emailValue}</li>
+          </ul>
         </div>
       </div>
       <p className="border-t border-black/5 py-4 text-center text-xs text-black/50">

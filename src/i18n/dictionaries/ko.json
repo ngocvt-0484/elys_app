@@ -18,12 +18,16 @@
     "exploreTitle": "둘러보기",
     "policyTitle": "정책 & 고객지원",
     "careTitle": "고객센터",
-    "addressValue": "호치민시 1군 벤응에동 레러이 65번지, 사이공센터 18층",
-    "hotlineLabel": "고객센터",
-    "hotlineValue": "1800 899899",
-    "emailLabel": "이메일",
-    "emailValue": "concierge@elysiderm.vn",
-    "hoursValue": "월요일 – 일요일: 09:00 – 21:00",
+    "companyLabel": "상호명",
+    "companyValue": "주식회사 폼인더스트리",
+    "addressLabel": "사업장주소",
+    "addressValue": "인천 남동구 함박뫼로377번길 24-20 (남촌동) A동1-3층",
+    "phoneLabel": "연락처",
+    "phoneValue": "032-815-3448",
+    "businessRegLabel": "사업자등록번호",
+    "businessRegValue": "474-87-01614",
+    "emailLabel": "대표자 이메일",
+    "emailValue": "formindustry@naver.com",
     "privacy": "개인정보 처리방침",
     "returns": "교환 및 환불 정책",
     "terms": "이용약관",
@@ -41,6 +45,19 @@
       "certBadge": { "monogram": "KR", "title": "더마 포뮬러", "subtitle": "정식 수입 제품" },
       "crossSellTag": "크리스탈 선크림",
       "crossSellCta": "클릭하여 보기"
+    },
+    "heroCarousel": {
+      "slide1": {
+        "tag": "철학과 기원",
+        "titlePrefix": "눈 속에 피는",
+        "titleEmphasis": "스노우드롭의 상징",
+        "description": "순백의 눈 속에서도 꿋꿋이 피어나는 Eirlys 꽃에서 영감을 받아, 베트남 여성의 피부를 보듬는 순한 포뮬러를 만들어갑니다.",
+        "cta": "맞춤 루틴 상담 받기"
+      },
+      "slide2": {
+        "tag": "추천 제품",
+        "cta": "제품 보러 가기"
+      }
     },
     "strengths": {
       "tag": "ELYSIDERM만의 특별함",

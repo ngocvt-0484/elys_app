@@ -18,12 +18,16 @@
     "exploreTitle": "Explore",
     "policyTitle": "Policies & Support",
     "careTitle": "Care Center",
-    "addressValue": "18th Floor, Saigon Centre, 65 Le Loi, Ben Nghe, District 1, Ho Chi Minh City",
-    "hotlineLabel": "Hotline",
-    "hotlineValue": "1800 899899",
+    "companyLabel": "Company",
+    "companyValue": "Form Industry Co., Ltd. (주식회사 폼인더스트리)",
+    "addressLabel": "Address",
+    "addressValue": "1F–3F, Building A, 24-20 Hambangmoe-ro 377beon-gil (Namchon-dong), Namdong-gu, Incheon, Korea",
+    "phoneLabel": "Phone",
+    "phoneValue": "032-815-3448",
+    "businessRegLabel": "Business Registration No.",
+    "businessRegValue": "474-87-01614",
     "emailLabel": "Email",
-    "emailValue": "concierge@elysiderm.vn",
-    "hoursValue": "Mon – Sun: 09:00 – 21:00",
+    "emailValue": "formindustry@naver.com",
     "privacy": "Privacy Policy",
     "returns": "Return Policy",
     "terms": "Terms of Use",
@@ -41,6 +45,19 @@
       "certBadge": { "monogram": "KR", "title": "Derma Formula", "subtitle": "Officially Imported" },
       "crossSellTag": "Crystal Sunscreen",
       "crossSellCta": "Click to view"
+    },
+    "heroCarousel": {
+      "slide1": {
+        "tag": "Philosophy & Origin",
+        "titlePrefix": "The Symbol of the",
+        "titleEmphasis": "Snowdrop Flower",
+        "description": "Inspired by the resilient Eirlys flower blooming through pristine white snow — an endless source of inspiration behind the gentle formulas that nurture Vietnamese women's skin.",
+        "cta": "Get a Routine Consultation"
+      },
+      "slide2": {
+        "tag": "Featured Product",
+        "cta": "Explore the Product"
+      }
     },
     "strengths": {
       "tag": "Exclusively ELYSIDERM",
@@ -174,7 +191,7 @@
     "valuesCaption": "Core Values • Philosophy",
     "values": [
       { "title": "Science First", "body": "Science is the foundation of every skin care solution." },
-      { "title": "Integrity in Quality", "body": "Committed to quality, transparency and trust in every product." },
+      { "title": "Integrity in Quality", "body": "Upholding quality, transparency and trust in every product." },
       { "title": "Purposeful Innovation", "body": "Innovating with intent to create real, lasting value." },
       { "title": "Timeless Elegance", "body": "Pursuing refinement in design, experience and brand philosophy." },
       { "title": "Lasting Impact", "body": "Building sustainable value for customers, partners and community." }

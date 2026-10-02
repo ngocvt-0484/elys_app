@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
+import HeroCarousel from "@/components/HeroCarousel";
 import LeadForm from "@/components/LeadForm";
 import {
   DiamondIcon,
@@ -54,8 +55,39 @@ export default function HomePage({ params }: { params: { locale: string } }) {
   const heroProduct = getProductBySlug("eirlys-glutathione-cream");
   const crossSellProduct = getProductBySlug("eirlys-crystal-tone-up-sunscreen");
 
+  const carouselSlides = [
+    {
+      image: "/images/home/hero-slide-1.jpg",
+      tag: dict.home.heroCarousel.slide1.tag,
+      title: (
+        <>
+          {dict.home.heroCarousel.slide1.titlePrefix}{" "}
+          <em className="not-italic text-gold-dark">{dict.home.heroCarousel.slide1.titleEmphasis}</em>
+        </>
+      ),
+      description: dict.home.heroCarousel.slide1.description,
+      ctaLabel: dict.home.heroCarousel.slide1.cta,
+      ctaHref: localizedPath(locale, "/contact"),
+    },
+    ...(heroProduct
+      ? [
+          {
+            image: "/images/home/hero-slide-2.jpg",
+            tag: dict.home.heroCarousel.slide2.tag,
+            title: heroProduct.name[locale],
+            description: heroProduct.shortDescription[locale],
+            ctaLabel: dict.home.heroCarousel.slide2.cta,
+            ctaHref: localizedPath(locale, `/collections/${heroProduct.slug}`),
+            textPosition: "right" as const,
+          },
+        ]
+      : []),
+  ];
+
   return (
     <>
+      <HeroCarousel slides={carouselSlides} />
+
       <section className="mx-auto max-w-6xl px-4 py-16">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>

@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "ELYSIDERM",
-    "defaultTitle": "ELYSIDERM | Eirlys' — Dược mỹ phẩm cao cấp chuẩn Hàn Quốc",
+    "defaultTitle": "ELYSIDERM | Eirlys' — Mỹ phẩm cao cấp chuẩn Hàn Quốc",
     "defaultDescription": "ELYSIDERM | Eirlys' mang đến giải pháp chăm sóc da khoẻ mạnh, sáng mịn và cân bằng dựa trên nền tảng khoa học da liễu Hàn Quốc."
   },
   "header": { "ctaConsult": "Tư vấn ngay" },
@@ -14,16 +14,20 @@
     "contact": "Liên hệ"
   },
   "footer": {
-    "description": "Dược mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc.",
+    "description": "Mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc.",
     "exploreTitle": "Khám phá",
     "policyTitle": "Chính sách & Hỗ trợ",
     "careTitle": "Trung tâm chăm sóc",
-    "addressValue": "Tầng 18, Saigon Centre, 65 Lê Lợi, Bến Nghé, Quận 1, TP. Hồ Chí Minh",
-    "hotlineLabel": "Hotline",
-    "hotlineValue": "1800 899899",
+    "companyLabel": "Tên công ty",
+    "companyValue": "Form Industry Co., Ltd. (주식회사 폼인더스트리)",
+    "addressLabel": "Địa chỉ",
+    "addressValue": "Tầng 1–3, Toà A, 24-20 Hambangmoe-ro 377beon-gil (Namchon-dong), Namdong-gu, Incheon, Hàn Quốc",
+    "phoneLabel": "Điện thoại",
+    "phoneValue": "032-815-3448",
+    "businessRegLabel": "Mã số đăng ký kinh doanh",
+    "businessRegValue": "474-87-01614",
     "emailLabel": "Email",
-    "emailValue": "concierge@elysiderm.vn",
-    "hoursValue": "Thứ 2 – Chủ nhật: 09:00 – 21:00",
+    "emailValue": "formindustry@naver.com",
     "privacy": "Chính sách bảo mật",
     "returns": "Chính sách đổi trả",
     "terms": "Quy định sử dụng",
@@ -41,6 +45,19 @@
       "certBadge": { "monogram": "KR", "title": "Công thức Derma", "subtitle": "Nhập khẩu chính ngạch" },
       "crossSellTag": "Chống nắng pha lê",
       "crossSellCta": "Nhấp để xem"
+    },
+    "heroCarousel": {
+      "slide1": {
+        "tag": "Triết lý & Cội nguồn",
+        "titlePrefix": "Biểu Tượng",
+        "titleEmphasis": "Hoa Xuyên Tuyết",
+        "description": "Lấy cảm hứng từ đoá hoa Eirlys kiên cường hé nở trong tuyết trắng tinh khôi — nguồn cảm hứng bất tận kiến tạo công thức lành tính nâng niu làn da phụ nữ Việt.",
+        "cta": "Nhận tư vấn liệu trình"
+      },
+      "slide2": {
+        "tag": "Sản phẩm nổi bật",
+        "cta": "Khám phá sản phẩm"
+      }
     },
     "strengths": {
       "tag": "Đặc quyền dành riêng ELYSIDERM",
@@ -162,7 +179,7 @@
   "collections": { "title": "Bộ sưu tập", "description": "Khám phá toàn bộ sản phẩm chăm sóc da ELYSIDERM | Eirlys'." },
   "about": {
     "title": "Về Elysiderm",
-    "intro": "ELYSIDERM là thương hiệu dược mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc, mang đến các giải pháp nuôi dưỡng làn da khoẻ mạnh, sáng mịn và cân bằng một cách an toàn, bền vững.",
+    "intro": "ELYSIDERM là thương hiệu mỹ phẩm cao cấp lấy cảm hứng từ khoa học chăm sóc da Hàn Quốc, mang đến các giải pháp nuôi dưỡng làn da khoẻ mạnh, sáng mịn và cân bằng một cách an toàn, bền vững.",
     "visionTitle": "Tầm nhìn",
     "vision": "Trở thành thương hiệu chăm sóc da và làm đẹp được tin cậy trên toàn cầu, nâng tầm trải nghiệm chăm sóc da hằng ngày thông qua đổi mới khoa học, thẩm mỹ tinh tế và chất lượng.",
     "visionCaption": "Global Vision • Seoul Standard",
@@ -174,7 +191,7 @@
     "valuesCaption": "Core Values • Philosophy",
     "values": [
       { "title": "Science First", "body": "Lấy khoa học làm nền tảng cho mọi giải pháp chăm sóc da." },
-      { "title": "Integrity in Quality", "body": "Cam kết chất lượng, minh bạch và đáng tin cậy trong mọi sản phẩm." },
+      { "title": "Integrity in Quality", "body": "Đề cao chất lượng, minh bạch và đáng tin cậy trong mọi sản phẩm." },
       { "title": "Purposeful Innovation", "body": "Đổi mới có định hướng để tạo ra giá trị thực và hiệu quả lâu dài." },
       { "title": "Timeless Elegance", "body": "Theo đuổi sự tinh tế trong thiết kế, trải nghiệm và triết lý thương hiệu." },
       { "title": "Lasting Impact", "body": "Kiến tạo những giá trị bền vững cho khách hàng, đối tác và cộng đồng." }
