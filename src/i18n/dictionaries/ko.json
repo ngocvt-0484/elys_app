@@ -41,10 +41,7 @@
       "description": "ELYSIDERM과 함께 한국 스킨케어 표준을 경험하세요 — 현대적이고 자연스러우며 순수한 아름다움을 위해 엄선된 제품으로 매일 피부를 가꿔보세요.",
       "ctaPrimary": "컬렉션 둘러보기",
       "ctaSecondary": "무료 피부 상담 받기",
-      "trustBadges": ["스킨케어", "섬세하고 순한", "현대 과학", "메이드 인 코리아"],
-      "certBadge": { "monogram": "KR", "title": "더마 포뮬러", "subtitle": "정식 수입 제품" },
-      "crossSellTag": "크리스탈 선크림",
-      "crossSellCta": "클릭하여 보기"
+      "trustBadges": ["스킨케어", "섬세하고 순한", "현대 과학", "메이드 인 코리아"]
     },
     "heroCarousel": {
       "slide1": {
@@ -130,7 +127,6 @@
     "breadcrumbHome": "홈",
     "breadcrumbCollections": "Eirlys' 컬렉션",
     "badges": { "best-seller": "베스트셀러", "korean-patent-formula": "한국 특허 포뮬러" },
-    "labInfo": "ELYSIDERM Korea Derma-Lab · 서브 브랜드 Eirlys'",
     "ratingLabel": "{rating} · 검증된 리뷰 {count}개",
     "soldLabel": "베트남·한국 누적 판매 {count}개+",
     "krwReferenceLabel": "한국 정가",

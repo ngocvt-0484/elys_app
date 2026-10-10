@@ -53,7 +53,6 @@ export default function HomePage({ params }: { params: { locale: string } }) {
   const featuredProducts = getFeaturedProducts();
   const allProducts = getAllProducts();
   const heroProduct = getProductBySlug("eirlys-glutathione-cream");
-  const crossSellProduct = getProductBySlug("eirlys-crystal-tone-up-sunscreen");
 
   const carouselSlides = [
     {
@@ -135,38 +134,6 @@ export default function HomePage({ params }: { params: { locale: string } }) {
                   {dict.product.badges["best-seller"]}
                 </span>
               </Link>
-
-              <div className="absolute -top-6 right-4 flex items-center gap-3 rounded-xl bg-white p-3 shadow-lg sm:right-6">
-                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-light/30 text-xs font-semibold text-gold-dark">
-                  {dict.home.hero.certBadge.monogram}
-                </span>
-                <div>
-                  <p className="text-xs font-semibold">{dict.home.hero.certBadge.title}</p>
-                  <p className="text-[11px] text-black/50">{dict.home.hero.certBadge.subtitle}</p>
-                </div>
-              </div>
-
-              {crossSellProduct && (
-                <Link
-                  href={localizedPath(locale, `/collections/${crossSellProduct.slug}`)}
-                  className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-xl bg-white p-3 shadow-lg sm:left-6"
-                >
-                  <img
-                    src={crossSellProduct.images[0]}
-                    alt={crossSellProduct.name[locale]}
-                    width={48}
-                    height={48}
-                    className="h-12 w-12 shrink-0 rounded-lg object-cover"
-                  />
-                  <div>
-                    <p className="text-[10px] uppercase tracking-wide text-gold-dark">
-                      {dict.home.hero.crossSellTag}
-                    </p>
-                    <p className="text-sm font-semibold leading-tight">{crossSellProduct.name[locale]}</p>
-                    <p className="text-[11px] text-black/50">{dict.home.hero.crossSellCta}</p>
-                  </div>
-                </Link>
-              )}
             </div>
           )}
         </div>

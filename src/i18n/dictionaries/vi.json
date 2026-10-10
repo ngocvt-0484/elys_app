@@ -41,10 +41,7 @@
       "description": "Khám phá giải pháp chăm sóc da chuẩn Hàn Quốc cùng ELYSIDERM — nâng niu làn da mỗi ngày bằng những sản phẩm được lựa chọn kỹ lưỡng dành cho vẻ đẹp hiện đại, tự nhiên và thuần khiết.",
       "ctaPrimary": "Khám phá bộ sưu tập",
       "ctaSecondary": "Nhận tư vấn da miễn phí",
-      "trustBadges": ["Chăm sóc da", "Tinh tế & Dịu nhẹ", "Khoa học hiện đại", "Made in Korea"],
-      "certBadge": { "monogram": "KR", "title": "Công thức Derma", "subtitle": "Nhập khẩu chính ngạch" },
-      "crossSellTag": "Chống nắng pha lê",
-      "crossSellCta": "Nhấp để xem"
+      "trustBadges": ["Chăm sóc da", "Tinh tế & Dịu nhẹ", "Khoa học hiện đại", "Made in Korea"]
     },
     "heroCarousel": {
       "slide1": {
@@ -130,7 +127,6 @@
     "breadcrumbHome": "Trang chủ",
     "breadcrumbCollections": "Bộ sưu tập Eirlys'",
     "badges": { "best-seller": "Bán chạy nhất", "korean-patent-formula": "Công thức bằng sáng chế Hàn Quốc" },
-    "labInfo": "ELYSIDERM Korea Derma-Lab · Sub-brand Eirlys'",
     "ratingLabel": "{rating} · {count} đánh giá xác thực",
     "soldLabel": "Đã bán {count}+ tại Việt Nam và Hàn Quốc",
     "krwReferenceLabel": "Giá niêm yết tại Hàn Quốc",

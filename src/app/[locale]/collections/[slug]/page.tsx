@@ -85,8 +85,7 @@ export default function ProductDetailPage({
         </div>
 
         <div>
-          <p className="text-xs uppercase tracking-wide text-gold-dark">{dict.product.labInfo}</p>
-          <h1 className="mt-2 font-heading text-3xl">{product.name[locale]}</h1>
+          <h1 className="font-heading text-3xl">{product.name[locale]}</h1>
           {product.subtitle && <p className="mt-2 text-sm italic text-black/70">{product.subtitle[locale]}</p>}
           <p className="mt-2 text-sm text-black/60">
             {dict.product.ratingLabel

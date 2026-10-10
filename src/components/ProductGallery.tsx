@@ -22,7 +22,7 @@ export default function ProductGallery({ images, alt }: { images: string[]; alt:
           alt={alt}
           width={600}
           height={600}
-          className="w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
+          className="aspect-square w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
         />
       </div>
       {images.length > 1 && (

@@ -1,22 +1,21 @@
 [
   {
-    "slug": "eirlys-alpha-melight-refining-serum",
-    "collection": "alpha-melight",
-    "routineStep": 1,
+    "slug": "eirlys-glutathione-cream",
+    "collection": "glutathione",
     "price": 650000,
-    "images": ["/images/products/alpha-melight-refining-serum-1.jpg", "/images/products/alpha-melight-refining-serum-2.jpg"],
+    "images": ["/images/products/glutathione-cream-1.jpg", "/images/products/glutathione-cream-2.jpg", "/images/products/glutathione-cream-3.jpg", "/images/products/glutathione-cream-4.jpg"],
     "featured": true,
-    "rating": 4.8,
-    "reviewCount": 64,
+    "rating": 4.7,
+    "reviewCount": 52,
     "name": {
-      "vi": "Eirlys' Alpha-Melight™ Refining Serum",
-      "en": "Eirlys' Alpha-Melight™ Refining Serum",
-      "ko": "Eirlys' Alpha-Melight™ Refining Serum"
+      "vi": "Eirlys' Glutathione Tone-Up Cream",
+      "en": "Eirlys' Glutathione Tone-Up Cream",
+      "ko": "Eirlys' 글루타치온 톤업 크림"
     },
     "shortDescription": {
-      "vi": "Huyết thanh cô đặc lấp đầy rãnh nhăn, ức chế melanin và mở đường cho kem dưỡng thẩm thấu sâu hơn.",
-      "en": "A concentrated serum that smooths fine lines, curbs melanin, and preps skin to absorb the next step more deeply.",
-      "ko": "잔주름을 채우고 멜라닌을 억제하며, 다음 단계 크림이 더 깊이 흡수되도록 준비해주는 고농축 세럼입니다."
+      "vi": "Kem dưỡng chuyên sâu hỗ trợ làn da sáng khoẻ, đều màu.",
+      "en": "An intensive cream that supports brighter, more even-toned skin.",
+      "ko": "더 밝고 고른 톤의 피부를 위한 집중 크림입니다."
     }
   },
   {
@@ -28,7 +27,9 @@
     "krwReferencePrice": 37000,
     "images": [
       "/images/products/alpha-melight-intensive-cream-1.jpg",
-      "/images/products/alpha-melight-intensive-cream-2.jpg"
+      "/images/products/alpha-melight-intensive-cream-2.jpg",
+      "/images/products/alpha-melight-intensive-cream-3.jpg",
+      "/images/products/alpha-melight-intensive-cream-4.jpg"
     ],
     "featured": true,
     "rating": 5.0,
@@ -159,7 +160,7 @@
     "collection": "alpha-melight",
     "routineStep": 3,
     "price": 590000,
-    "images": ["/images/products/crystal-tone-up-sunscreen-1.jpg", "/images/products/crystal-tone-up-sunscreen-2.jpg"],
+    "images": ["/images/products/crystal-tone-up-sunscreen-1.jpg"],
     "featured": true,
     "rating": 4.9,
     "reviewCount": 96,
@@ -175,22 +176,23 @@
     }
   },
   {
-    "slug": "eirlys-glutathione-cream",
-    "collection": "glutathione",
+    "slug": "eirlys-alpha-melight-refining-serum",
+    "collection": "alpha-melight",
+    "routineStep": 1,
     "price": 650000,
-    "images": ["/images/products/glutathione-cream-1.jpg", "/images/products/glutathione-cream-2.jpg"],
+    "images": ["/images/products/alpha-melight-refining-serum-1.jpg"],
     "featured": true,
-    "rating": 4.7,
-    "reviewCount": 52,
+    "rating": 4.8,
+    "reviewCount": 64,
     "name": {
-      "vi": "Eirlys' Glutathione Tone-Up Cream",
-      "en": "Eirlys' Glutathione Tone-Up Cream",
-      "ko": "Eirlys' 글루타치온 톤업 크림"
+      "vi": "Eirlys' Alpha-Melight™ Refining Serum",
+      "en": "Eirlys' Alpha-Melight™ Refining Serum",
+      "ko": "Eirlys' Alpha-Melight™ Refining Serum"
     },
     "shortDescription": {
-      "vi": "Kem dưỡng chuyên sâu hỗ trợ làn da sáng khoẻ, đều màu.",
-      "en": "An intensive cream that supports brighter, more even-toned skin.",
-      "ko": "더 밝고 고른 톤의 피부를 위한 집중 크림입니다."
+      "vi": "Huyết thanh cô đặc lấp đầy rãnh nhăn, ức chế melanin và mở đường cho kem dưỡng thẩm thấu sâu hơn.",
+      "en": "A concentrated serum that smooths fine lines, curbs melanin, and preps skin to absorb the next step more deeply.",
+      "ko": "잔주름을 채우고 멜라닌을 억제하며, 다음 단계 크림이 더 깊이 흡수되도록 준비해주는 고농축 세럼입니다."
     }
   }
 ]
