@@ -22,9 +22,14 @@ export default function Header({ locale, dict }: { locale: Locale; dict: Diction
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-ivory/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
-        <Link href={localizedPath(locale, "/")} className="flex shrink-0 items-center gap-2.5">
-          <img src="/images/brand/logo-badge.png" alt="" width={240} height={240} className="h-9 w-9" />
-          <span className="font-heading text-xl tracking-wide">ELYSIDERM</span>
+        <Link href={localizedPath(locale, "/")} className="flex shrink-0 items-center">
+          <img
+            src="/images/brand/logo-wordmark.png"
+            alt="ELYSIDERM"
+            width={373}
+            height={176}
+            className="h-11 w-auto"
+          />
         </Link>
 
         <nav className="hidden flex-1 justify-center gap-5 xl:flex">

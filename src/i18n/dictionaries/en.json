@@ -29,7 +29,7 @@
     "emailLabel": "Email",
     "emailValue": "formindustry@naver.com",
     "privacy": "Privacy Policy",
-    "returns": "Return Policy",
+    "returns": "Sales Policy",
     "terms": "Terms of Use",
     "copyright": "© {year} ELYSIDERM Vietnam. All rights belong to Elysiderm-Cosmetics Korea Group."
   },
@@ -146,6 +146,9 @@
     "routineSelected": "Selected",
     "routineViewDetail": "View details",
     "bundleCta": "Get the bundle for only",
+    "infoTitle": "Product Information",
+    "highlightActivesTitle": "Featured Ingredients",
+    "benefitsTitle": "Benefits",
     "tabs": { "technology": "Technology & Ingredients", "usage": "How to Use", "reviews": "Real Reviews" },
     "scienceFirstTitle": "Science First",
     "scienceFirstBody": "Science is the foundation of every skin care solution — transparent down to the exact percentage of every active.",
@@ -250,9 +253,7 @@
   "contact": { "title": "Contact", "description": "Leave your details and the ELYSIDERM team will reach out to you shortly." },
   "policies": {
     "privacyTitle": "Privacy Policy",
-    "privacyBody": "ELYSIDERM is committed to protecting customer data, using contact information only for consultation and customer care, and never sharing it with third parties without consent.",
-    "returnsTitle": "Return Policy",
-    "returnsBody": "Products may be returned within 7 days if the seal is intact, unused, and accompanied by a proof of purchase.",
+    "returnsTitle": "Sales Policy",
     "termsTitle": "Terms of Use",
     "termsBody": "All content on this website is owned by ELYSIDERM. Please contact us before copying or using it for commercial purposes."
   }

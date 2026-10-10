@@ -3,7 +3,12 @@
     "slug": "eirlys-glutathione-cream",
     "collection": "glutathione",
     "price": 650000,
-    "images": ["/images/products/glutathione-cream-1.jpg", "/images/products/glutathione-cream-2.jpg", "/images/products/glutathione-cream-3.jpg", "/images/products/glutathione-cream-4.jpg"],
+    "images": [
+      "/images/products/glutathione-cream-1.jpg",
+      "/images/products/glutathione-cream-2.jpg",
+      "/images/products/glutathione-cream-3.jpg",
+      "/images/products/glutathione-cream-4.jpg"
+    ],
     "featured": true,
     "rating": 4.7,
     "reviewCount": 52,
@@ -13,13 +18,99 @@
       "ko": "Eirlys' 글루타치온 톤업 크림"
     },
     "shortDescription": {
-      "vi": "Kem dưỡng chuyên sâu hỗ trợ làn da sáng khoẻ, đều màu.",
-      "en": "An intensive cream that supports brighter, more even-toned skin.",
-      "ko": "더 밝고 고른 톤의 피부를 위한 집중 크림입니다."
-    }
+      "vi": "Kem dưỡng ban ngày giúp dưỡng trắng, mờ thâm nám và nâng tông da tức thì.",
+      "en": "A daytime cream that helps brighten skin, fade dark spots and instantly lift skin tone.",
+      "ko": "미백, 기미·잡티 완화, 즉각적인 톤업에 도움을 주는 데이 크림입니다."
+    },
+    "description": {
+      "vi": "Kem Dưỡng Elysiderm Eirlys' Glutathione Whitening Tone Up Cream Plus là dòng kem dưỡng ban ngày giúp dưỡng trắng, mờ thâm nám và nâng tông da tức thì.",
+      "en": "Elysiderm Eirlys' Glutathione Whitening Tone Up Cream Plus is a daytime cream that helps brighten skin, fade dark spots and melasma, and instantly lift skin tone.",
+      "ko": "Elysiderm Eirlys' Glutathione Whitening Tone Up Cream Plus는 미백, 기미·잡티 완화, 즉각적인 톤업에 도움을 주는 데이 크림입니다."
+    },
+    "activeHighlights": [
+      {
+        "name": "Glutathione",
+        "description": {
+          "vi": "Glutathione giúp làm trắng da và mờ thâm nám, sạm da, giúp đánh tan melanin từ các tế bào tạo sắc tố, giúp da trở nên sáng hơn và đều màu.",
+          "en": "Glutathione helps brighten skin and fade dark spots, melasma and dullness by breaking down melanin from pigment-producing cells, leaving skin brighter and more even-toned.",
+          "ko": "Glutathione은 색소 생성 세포의 멜라닌을 분해하여 미백과 기미·잡티·칙칙함 완화에 도움을 주며, 피부를 더 밝고 고르게 가꿔줍니다."
+        }
+      },
+      {
+        "name": "Arbutin",
+        "description": {
+          "vi": "Arbutin có khả năng làm trắng da mà còn giúp đều màu da và mờ thâm sạm nám một cách hiệu quả. Đặc biệt, hoạt chất này còn ức chế và ngăn rối loạn sắc tố, đảm bảo an toàn cho làn da mà không gây ra tác dụng phụ.",
+          "en": "Arbutin not only brightens skin but also effectively evens out skin tone and fades dark spots and melasma. It also inhibits and helps prevent pigmentation disorders, keeping skin safe without side effects.",
+          "ko": "Arbutin은 미백뿐 아니라 피부 톤을 고르게 하고 기미·잡티를 효과적으로 완화합니다. 또한 색소 침착 이상을 억제·예방하여 부작용 없이 피부를 안전하게 지켜줍니다."
+        }
+      },
+      {
+        "name": "Niacinamide",
+        "description": {
+          "vi": "Niacinamide không chỉ cải thiện tình trạng lão hóa da mà còn hạn chế tình trạng tăng sắc tố da. Thành phần này còn giúp điều tiết lượng dầu thừa, cung cấp dưỡng chất cho làn da khỏe mạnh.",
+          "en": "Niacinamide not only improves signs of skin aging but also limits hyperpigmentation. It also helps regulate excess oil and nourishes skin for a healthy complexion.",
+          "ko": "Niacinamide는 피부 노화 개선은 물론 색소 침착을 억제합니다. 또한 과도한 유분을 조절하고 영양을 공급하여 피부를 건강하게 가꿔줍니다."
+        }
+      },
+      {
+        "name": "Adenosine",
+        "description": {
+          "vi": "Adenosine có tác dụng trẻ hoá, tăng sinh collagen giúp giảm hiện tượng chảy xệ. Đồng thời, adenosine còn kích thích lưu thông máu trên da, giúp hồi phục các tổn thương và làm đầy các rãnh nhăn, mang lại làn da mịn màng và trẻ trung.",
+          "en": "Adenosine has a rejuvenating effect and boosts collagen production to reduce sagging. It also stimulates microcirculation in the skin, helping repair damage and fill in wrinkles for smooth, youthful-looking skin.",
+          "ko": "Adenosine은 피부에 활력을 주고 콜라겐 생성을 촉진하여 처짐을 완화합니다. 또한 피부 혈액 순환을 촉진하여 손상 회복을 돕고 주름을 채워 매끄럽고 생기 있는 피부로 가꿔줍니다."
+        }
+      }
+    ],
+    "details": [
+      {
+        "vi": "Kết cấu chất kem màu trắng sữa mỏng nhẹ, thẩm thấu nhanh, không gây bết rít hay bóng dầu.",
+        "en": "Light, milky-white cream texture that absorbs quickly without stickiness or greasiness.",
+        "ko": "가볍고 부드러운 우윳빛 크림 제형으로 빠르게 흡수되며 끈적임이나 번들거림이 없습니다."
+      },
+      {
+        "vi": "Phù hợp cho mọi loại da.",
+        "en": "Suitable for all skin types.",
+        "ko": "모든 피부 타입에 적합합니다."
+      }
+    ],
+    "benefits": [
+      {
+        "vi": "Duy trì độ ẩm cần thiết cho da, mang lại cảm giác mềm mượt.",
+        "en": "Maintains essential moisture for a soft, smooth feel.",
+        "ko": "피부에 필요한 수분을 유지하여 부드럽고 매끄러운 느낌을 줍니다."
+      },
+      {
+        "vi": "Hỗ trợ dưỡng trắng làm đều màu da.",
+        "en": "Helps brighten and even out skin tone.",
+        "ko": "미백과 피부 톤 균일화에 도움을 줍니다."
+      },
+      {
+        "vi": "Duy trì độ đàn hồi, hỗ trợ làm giảm sự xuất hiện của nếp nhăn.",
+        "en": "Maintains elasticity and helps reduce the appearance of wrinkles.",
+        "ko": "탄력을 유지하고 주름 개선에 도움을 줍니다."
+      }
+    ],
+    "usageSteps": [
+      {
+        "vi": "Làm sạch da mặt và lau khô.",
+        "en": "Cleanse your face and pat dry.",
+        "ko": "얼굴을 깨끗이 세안한 후 물기를 닦아줍니다."
+      },
+      {
+        "vi": "Lấy một lượng kem vừa đủ, thoa đều lên mặt và cổ, massage nhẹ nhàng cho đến khi kem thẩm thấu.",
+        "en": "Take an appropriate amount of cream, apply evenly to face and neck, and massage gently until absorbed.",
+        "ko": "적당량의 크림을 덜어 얼굴과 목에 고르게 펴 바른 후 흡수될 때까지 부드럽게 마사지합니다."
+      },
+      {
+        "vi": "Dùng mỗi ngày vào buổi sáng.",
+        "en": "Use every morning.",
+        "ko": "매일 아침 사용합니다."
+      }
+    ]
   },
   {
     "slug": "eirlys-alpha-melight-intensive-cream",
+    "hideRoutine": true,
     "collection": "alpha-melight",
     "routineStep": 2,
     "price": 680000,
@@ -36,122 +127,129 @@
     "reviewCount": 128,
     "soldCount": 3420,
     "stockCount": 15,
-    "badges": ["best-seller", "korean-patent-formula"],
+    "badges": [
+      "best-seller",
+      "korean-patent-formula"
+    ],
     "name": {
-      "vi": "Eirlys' Alpha-Melight™ Intensive Cream",
-      "en": "Eirlys' Alpha-Melight™ Intensive Cream",
-      "ko": "Eirlys' Alpha-Melight™ Intensive Cream"
-    },
-    "subtitle": {
-      "vi": "Kem Dưỡng Trắng & Căng Bóng Phục Hồi Chuyên Sâu (50ml / 1.69 fl. oz.)",
-      "en": "Intensive Brightening & Plumping Repair Cream (50ml / 1.69 fl. oz.)",
-      "ko": "속깊은 브라이트닝 & 탄력 리페어 크림 (50ml / 1.69 fl. oz.)"
+      "vi": "Kem Dưỡng Elysiderm Eirlys' Alpha Melight Cấp Ẩm Dưỡng Sáng Da Ban Đêm",
+      "en": "Eirlys' Alpha Melight Cream",
+      "ko": "Eirlys' Alpha Melight Cream"
     },
     "shortDescription": {
-      "vi": "Kem dưỡng chuyên sâu, hỗ trợ ức chế melanin tận gốc.",
-      "en": "An intensive cream that helps target melanin at its root.",
-      "ko": "멜라닌을 근본적으로 억제하는 데 도움을 주는 집중 크림입니다."
+      "vi": "Kem dưỡng ban đêm giúp dưỡng trắng, cấp ẩm sâu và làm mờ thâm nám, tàn nhang.",
+      "en": "A night cream that helps brighten, deeply hydrate and fade dark spots and freckles.",
+      "ko": "미백, 깊은 보습, 기미·주근깨 완화에 도움을 주는 나이트 크림입니다."
     },
     "description": {
-      "vi": "Trọng tâm của liệu trình Alpha-Melight™, kết hợp Alpha-Bisabolol, Glutathione và Ceramide NP giúp làn da khoẻ mạnh, đều màu và rạng rỡ hơn theo thời gian.",
-      "en": "The centerpiece of the Alpha-Melight™ ritual, combining Alpha-Bisabolol, Glutathione and Ceramide NP for healthier, more even, more radiant skin over time.",
-      "ko": "Alpha-Melight™ 리추얼의 핵심 제품으로, 알파비사보롤, 글루타치온, 세라마이드 NP가 결합되어 시간이 지날수록 더 건강하고 고르며 빛나는 피부로 가꿔줍니다."
+      "vi": "Kem dưỡng Eirlys' Alpha Melight Cream là sản phẩm cao cấp từ Hàn Quốc, chuyên dưỡng trắng, cấp ẩm sâu và làm mờ thâm nám/tàn nhang vào ban đêm.",
+      "en": "Eirlys' Alpha Melight Cream is a premium Korean night cream that brightens, deeply hydrates and helps fade dark spots and freckles while you sleep.",
+      "ko": "Eirlys' Alpha Melight Cream은 한국의 프리미엄 나이트 크림으로, 밤사이 미백과 깊은 보습, 기미·주근깨 완화에 도움을 줍니다."
     },
-    "philosophyQuote": {
-      "vi": "\"Reveal Your Natural Radiance – Khơi mở vẻ đẹp rạng rỡ tự nhiên\". Kết cấu vàng óng siêu thẩm thấu trong 30 giây, mang lại làn da bóng nước Glass Skin suốt 24 giờ mà không hề bết dính.",
-      "en": "\"Reveal Your Natural Radiance.\" A golden, ultra-absorbing texture that sinks in within 30 seconds, delivering 24-hour Glass Skin glow without any stickiness.",
-      "ko": "\"Reveal Your Natural Radiance – 자연스러운 빛을 깨우다\". 30초 만에 흡수되는 골든 텍스처로, 끈적임 없이 24시간 유리 피부 광채를 선사합니다."
-    },
-    "keyActives": [
+    "activeHighlights": [
       {
-        "name": "Alpha-Melight™ (Alpha-Bisabolol)",
-        "percentage": "0.5%",
+        "name": "Alpha-Melight™",
         "description": {
-          "vi": "Ức chế enzym sinh melanin, hỗ trợ làm mờ đốm nâu.",
-          "en": "Inhibits melanin-producing enzymes, helping fade brown spots.",
-          "ko": "멜라닌 생성 효소를 억제하여 갈색 반점을 옅어지게 돕습니다."
+          "vi": "Alpha-Melight™ (Alpha-Bisabolol) chiết xuất từ cây Candeia, hỗ trợ làm sáng da thông qua việc giảm sản sinh melanin.",
+          "en": "Alpha-Melight™ (Alpha-Bisabolol), derived from the Candeia tree, helps brighten skin by reducing melanin production.",
+          "ko": "Candeia 나무에서 추출한 Alpha-Melight™(Alpha-Bisabolol)는 멜라닌 생성을 줄여 피부를 밝게 가꾸는 데 도움을 줍니다."
         }
       },
       {
-        "name": "Glutathione 99%",
+        "name": "Niacinamide",
         "description": {
-          "vi": "Chống oxy hoá mạnh, hỗ trợ da sáng đều màu.",
-          "en": "A powerful antioxidant that supports brighter, more even skin.",
-          "ko": "강력한 항산화 성분으로 피부 톤을 밝고 고르게 정돈합니다."
+          "vi": "Niacinamide (Vitamin B3) giúp làm đều màu da, giảm tình trạng da xỉn màu và hỗ trợ củng cố hàng rào bảo vệ da.",
+          "en": "Niacinamide (Vitamin B3) helps even out skin tone, reduce dullness and strengthen the skin barrier.",
+          "ko": "Niacinamide(Vitamin B3)는 피부 톤을 고르게 하고 칙칙함을 줄이며 피부 장벽 강화에 도움을 줍니다."
         }
       },
       {
-        "name": "Ceramide NP",
+        "name": "Glutathione",
         "description": {
-          "vi": "Củng cố hàng rào lipid, giữ ẩm chuyên sâu.",
-          "en": "Strengthens the lipid barrier for deep hydration.",
-          "ko": "지질 장벽을 강화해 깊은 보습을 돕습니다."
+          "vi": "Glutathione chống oxy hóa, hỗ trợ làm sáng và cải thiện sắc da.",
+          "en": "Glutathione provides antioxidant protection and helps brighten and improve complexion.",
+          "ko": "Glutathione은 항산화 작용으로 피부를 밝히고 안색 개선에 도움을 줍니다."
         }
       },
       {
-        "name": "Panthenol B5 & Niacinamide",
+        "name": "Alpha-Arbutin",
         "description": {
-          "vi": "Làm dịu và phục hồi tức thì.",
-          "en": "Soothes and repairs instantly.",
-          "ko": "즉각적인 진정과 재생 효과."
+          "vi": "Alpha Arbutin hỗ trợ làm giảm sự xuất hiện của đốm nâu và cải thiện độ tươi sáng.",
+          "en": "Alpha-Arbutin helps reduce the appearance of brown spots and improve radiance.",
+          "ko": "Alpha-Arbutin은 갈색 반점을 옅어 보이게 하고 피부 광채 개선에 도움을 줍니다."
+        }
+      },
+      {
+        "name": "Licorice & Vitamin E",
+        "description": {
+          "vi": "Chiết xuất cam thảo & Vitamin E: Làm dịu, dưỡng mềm và hỗ trợ chống oxy hóa cho da.",
+          "en": "Licorice extract & Vitamin E soothe, soften and provide antioxidant support for the skin.",
+          "ko": "감초 추출물 & Vitamin E는 피부를 진정시키고 부드럽게 하며 항산화에 도움을 줍니다."
+        }
+      },
+      {
+        "name": "Sodium Hyaluronate",
+        "description": {
+          "vi": "Sodium Hyaluronate cấp nước, giúp da duy trì độ ẩm và vẻ ngoài căng bóng, mềm mại.",
+          "en": "Sodium Hyaluronate hydrates, helping skin stay moisturized with a plump, supple look.",
+          "ko": "Sodium Hyaluronate는 수분을 공급하여 피부가 촉촉하고 탱탱하며 부드럽게 유지되도록 돕습니다."
         }
       }
     ],
-    "ingredientStats": [
-      { "label": { "vi": "Alpha-Bisabolol", "en": "Alpha-Bisabolol", "ko": "알파비사보롤" }, "value": "0.5%" },
-      { "label": { "vi": "Glutathione Tinh Khiết", "en": "Pure Glutathione", "ko": "고순도 글루타치온" }, "value": "99%" },
-      { "label": { "vi": "Ceramide NP Bio", "en": "Ceramide NP Bio", "ko": "세라마이드 NP 바이오" }, "value": "10.000ppm" },
-      { "label": { "vi": "Sodium Hyaluronate", "en": "Sodium Hyaluronate", "ko": "소듐 히알루로네이트" }, "value": "5D" }
+    "details": [
+      {
+        "vi": "Kết cấu chất kem mỏng nhẹ, thẩm thấu nhanh, không gây nhờn rít.",
+        "en": "Lightweight cream texture that absorbs quickly without greasiness.",
+        "ko": "가볍고 빠르게 흡수되며 끈적임이 없는 크림 제형입니다."
+      },
+      {
+        "vi": "Phù hợp cho mọi loại da.",
+        "en": "Suitable for all skin types.",
+        "ko": "모든 피부 타입에 적합합니다."
+      }
     ],
-    "fullIngredientList": [
-      "Water", "Butylene Glycol", "Glycerin", "Caprylic/Capric Triglyceride", "Alpha-Bisabolol",
-      "Glutathione", "Ceramide NP", "Sodium Hyaluronate", "Panthenol", "Niacinamide", "Adenosine",
-      "Camellia Sinensis Leaf Extract", "Centella Asiatica Extract", "1,2-Hexanediol", "Ethylhexylglycerin"
+    "benefits": [
+      {
+        "vi": "Giúp làm sáng và đều màu da chỉ sau thời gian ngắn sử dụng.",
+        "en": "Helps brighten and even out skin tone after a short period of use.",
+        "ko": "짧은 사용 기간 후 피부를 밝고 고르게 가꾸는 데 도움을 줍니다."
+      },
+      {
+        "vi": "Hỗ trợ cung cấp độ ẩm sâu cho làn da, giúp da luôn mềm mại, mịn màng.",
+        "en": "Delivers deep hydration, keeping skin soft and smooth.",
+        "ko": "피부에 깊은 보습을 공급하여 부드럽고 매끄럽게 유지합니다."
+      },
+      {
+        "vi": "Giúp giảm thiểu các dấu hiệu lão hóa, mang lại làn da trẻ trung hơn.",
+        "en": "Helps minimize signs of aging for a more youthful-looking complexion.",
+        "ko": "노화 징후를 줄여 더 생기 있는 피부로 가꿔줍니다."
+      },
+      {
+        "vi": "Hỗ trợ cung cấp độ ẩm cần thiết, làm giảm hiện tượng khô ráp da.",
+        "en": "Provides essential moisture and helps reduce dryness and roughness.",
+        "ko": "필요한 수분을 공급하여 건조함과 거칠어짐을 줄여줍니다."
+      }
     ],
     "usageSteps": [
       {
-        "vi": "Sau bước làm sạch và cân bằng da, lấy lượng vừa đủ ra lòng bàn tay.",
-        "en": "After cleansing and toning, take an adequate amount into your palm.",
-        "ko": "세안과 토너 사용 후 적당량을 손바닥에 덜어냅니다."
+        "vi": "Sau khi làm sạch da, toner và serum.",
+        "en": "After cleansing, toner and serum.",
+        "ko": "세안 후 토너와 세럼을 사용합니다."
       },
       {
-        "vi": "Thoa đều lên mặt và cổ, massage nhẹ nhàng theo chuyển động tròn.",
-        "en": "Apply evenly to face and neck, gently massaging in circular motions.",
-        "ko": "얼굴과 목에 고르게 바른 후 원을 그리듯 부드럽게 마사지합니다."
+        "vi": "Lấy một lượng kem vừa đủ ra tay.",
+        "en": "Take an appropriate amount of cream into your hand.",
+        "ko": "적당량의 크림을 손에 덜어냅니다."
       },
       {
-        "vi": "Sử dụng sáng và tối để đạt hiệu quả tối ưu.",
-        "en": "Use morning and night for optimal results.",
-        "ko": "아침저녁으로 사용하면 더욱 효과적입니다."
-      }
-    ],
-    "reviews": [
-      {
-        "author": "Ngọc Hân",
-        "rating": 5,
-        "text": {
-          "vi": "Da mình sáng và căng bóng thấy rõ chỉ sau 2 tuần, không hề gây bí da.",
-          "en": "My skin visibly brightened and plumped in just 2 weeks, without feeling clogged.",
-          "ko": "2주 만에 피부가 눈에 띄게 밝고 탱탱해졌어요, 답답함도 없었습니다."
-        }
+        "vi": "Nhẹ nhàng thoa kem lên mặt và cổ theo chuyển động tròn từ trong ra ngoài, tránh vùng mắt. Massage nhẹ để kem thẩm thấu tốt hơn vào da.",
+        "en": "Gently apply to face and neck in circular motions from the center outward, avoiding the eye area. Massage lightly to help the cream absorb.",
+        "ko": "얼굴 안쪽에서 바깥쪽으로 원을 그리듯 얼굴과 목에 부드럽게 바르고, 눈가는 피해주세요. 가볍게 마사지하여 흡수를 돕습니다."
       },
       {
-        "author": "Thu Trang",
-        "rating": 5,
-        "text": {
-          "vi": "Kết cấu mỏng nhẹ, thấm nhanh, rất hợp với da hỗn hợp thiên dầu của mình.",
-          "en": "Lightweight texture that absorbs quickly, great for my combination-oily skin.",
-          "ko": "가볍고 빠르게 흡수되는 제형이라 복합성/지성 피부인 저에게 잘 맞아요."
-        }
-      },
-      {
-        "author": "Bảo Trâm",
-        "rating": 4.5,
-        "text": {
-          "vi": "Sản phẩm tốt, giá hơi cao nhưng xứng đáng để đầu tư lâu dài.",
-          "en": "Great product, a bit pricey but worth the long-term investment.",
-          "ko": "제품은 좋지만 가격이 다소 있는 편이에요. 그래도 장기적으로 투자할 가치가 있습니다."
-        }
+        "vi": "Sử dụng hằng ngày vào buổi tối.",
+        "en": "Use every evening.",
+        "ko": "매일 저녁 사용합니다."
       }
     ]
   },

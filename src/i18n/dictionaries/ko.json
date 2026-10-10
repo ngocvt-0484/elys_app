@@ -29,7 +29,7 @@
     "emailLabel": "대표자 이메일",
     "emailValue": "formindustry@naver.com",
     "privacy": "개인정보 처리방침",
-    "returns": "교환 및 환불 정책",
+    "returns": "판매 정책",
     "terms": "이용약관",
     "copyright": "© {year} ELYSIDERM 베트남. 모든 권리는 Elysiderm-Cosmetics Korea 그룹에 있습니다."
   },
@@ -146,6 +146,9 @@
     "routineSelected": "선택됨",
     "routineViewDetail": "자세히 보기",
     "bundleCta": "번들 특가",
+    "infoTitle": "제품 정보",
+    "highlightActivesTitle": "주요 성분",
+    "benefitsTitle": "효능",
     "tabs": { "technology": "기술 & 성분", "usage": "사용 방법", "reviews": "실제 리뷰" },
     "scienceFirstTitle": "Science First",
     "scienceFirstBody": "과학은 모든 스킨케어 솔루션의 기초입니다 — 모든 활성 성분의 정확한 함량까지 투명하게 공개합니다.",
@@ -250,9 +253,7 @@
   "contact": { "title": "문의하기", "description": "정보를 남겨주시면 ELYSIDERM 팀이 곧 연락드리겠습니다." },
   "policies": {
     "privacyTitle": "개인정보 처리방침",
-    "privacyBody": "ELYSIDERM은 고객 정보를 보호하며, 연락처 정보는 상담 및 고객 관리 목적으로만 사용하고 동의 없이 제3자와 공유하지 않습니다.",
-    "returnsTitle": "교환 및 환불 정책",
-    "returnsBody": "봉인이 훼손되지 않고 미사용 상태이며 구매 영수증이 있는 경우 7일 이내 교환 및 환불이 가능합니다.",
+    "returnsTitle": "판매 정책",
     "termsTitle": "이용약관",
     "termsBody": "본 웹사이트의 모든 콘텐츠는 ELYSIDERM의 소유입니다. 복제 또는 상업적 사용 전에 반드시 문의해 주세요."
   }

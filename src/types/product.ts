@@ -21,6 +21,8 @@ export interface Product {
   slug: string;
   collection: string;
   routineStep?: number;
+  /** Hide the routine + bundle block on this product's detail page. */
+  hideRoutine?: boolean;
   price: number;
   originalPrice?: number;
   krwReferencePrice?: number;
@@ -35,6 +37,9 @@ export interface Product {
   subtitle?: LocalizedText;
   shortDescription: LocalizedText;
   description?: LocalizedText;
+  activeHighlights?: KeyActive[];
+  details?: LocalizedText[];
+  benefits?: LocalizedText[];
   philosophyQuote?: LocalizedText;
   keyActives?: KeyActive[];
   ingredientStats?: IngredientStat[];

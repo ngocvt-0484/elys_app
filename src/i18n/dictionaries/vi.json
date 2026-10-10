@@ -29,7 +29,7 @@
     "emailLabel": "Email",
     "emailValue": "formindustry@naver.com",
     "privacy": "Chính sách bảo mật",
-    "returns": "Chính sách đổi trả",
+    "returns": "Chính sách bán hàng",
     "terms": "Quy định sử dụng",
     "copyright": "© {year} ELYSIDERM Việt Nam. Toàn bộ quyền thuộc về tập đoàn Elysiderm-Cosmetics Korea."
   },
@@ -146,6 +146,9 @@
     "routineSelected": "Đang chọn",
     "routineViewDetail": "Xem chi tiết",
     "bundleCta": "Mua combo chỉ",
+    "infoTitle": "Thông tin sản phẩm",
+    "highlightActivesTitle": "Thành phần nổi bật",
+    "benefitsTitle": "Công dụng",
     "tabs": { "technology": "Công nghệ & Thành phần", "usage": "Hướng dẫn sử dụng", "reviews": "Đánh giá thực tế" },
     "scienceFirstTitle": "Science First",
     "scienceFirstBody": "Lấy khoa học làm nền tảng cho mọi giải pháp chăm sóc da. Minh bạch từng % độ hoạt chất.",
@@ -250,9 +253,7 @@
   "contact": { "title": "Liên hệ", "description": "Để lại thông tin, đội ngũ ELYSIDERM sẽ liên hệ tư vấn cho bạn trong thời gian sớm nhất." },
   "policies": {
     "privacyTitle": "Chính sách bảo mật",
-    "privacyBody": "ELYSIDERM cam kết bảo mật thông tin khách hàng, chỉ sử dụng dữ liệu liên hệ để tư vấn và chăm sóc khách hàng, không chia sẻ cho bên thứ ba khi chưa có sự đồng ý.",
-    "returnsTitle": "Chính sách đổi trả",
-    "returnsBody": "Sản phẩm được đổi trả trong vòng 7 ngày nếu còn nguyên tem, chưa qua sử dụng và có hoá đơn mua hàng.",
+    "returnsTitle": "Chính sách bán hàng",
     "termsTitle": "Quy định sử dụng",
     "termsBody": "Nội dung trên website thuộc quyền sở hữu của ELYSIDERM. Vui lòng liên hệ trước khi sao chép hoặc sử dụng cho mục đích thương mại."
   }

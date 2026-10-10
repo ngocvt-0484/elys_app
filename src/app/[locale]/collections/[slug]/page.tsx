@@ -4,6 +4,15 @@ import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
 import ProductGallery from "@/components/ProductGallery";
 import LeadForm from "@/components/LeadForm";
+import { CheckCircleIcon, DiamondIcon, DropletIcon, LeafDuoIcon, SparkleIcon } from "@/components/icons";
+
+// Literal class names so Tailwind picks them up; keyed by item count.
+const mdGridCols: Record<number, string> = {
+  2: "md:grid-cols-2",
+  3: "md:grid-cols-3",
+  4: "md:grid-cols-2 lg:grid-cols-4",
+};
+const benefitIcons = [DropletIcon, SparkleIcon, DiamondIcon, LeafDuoIcon];
 import { getDictionary } from "@/i18n/get-dictionary";
 import { isLocale, localizedPath, hreflangAlternates } from "@/lib/locale";
 import { formatPrice } from "@/lib/currency";
@@ -162,7 +171,72 @@ export default function ProductDetailPage({
         </div>
       </div>
 
-      {routineProducts.length > 1 && (
+      {product.activeHighlights && product.activeHighlights.length > 0 && (
+        <div className="mt-20 overflow-hidden rounded-3xl bg-white">
+          <div className="h-1 bg-gradient-to-r from-gold-dark via-gold-light to-gold" />
+          <div className="grid gap-10 p-6 md:p-10 lg:grid-cols-5 lg:gap-14">
+            <div className="lg:col-span-2">
+              <p className="text-xs uppercase tracking-widest text-gold-dark">{dict.product.infoTitle}</p>
+              <h2 className="mt-3 font-heading text-3xl leading-tight">{product.name[locale]}</h2>
+              {product.description && (
+                <p className="mt-5 leading-relaxed text-black/70">{product.description[locale]}</p>
+              )}
+              {product.details && product.details.length > 0 && (
+                <ul className="mt-8 space-y-3 border-t border-black/5 pt-6">
+                  {product.details.map((item, index) => (
+                    <li key={index} className="flex gap-3 text-sm text-black/70">
+                      <CheckCircleIcon className="h-5 w-5 shrink-0 text-gold-dark" />
+                      <span>{item[locale]}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <div className="lg:col-span-3">
+              <p className="text-xs uppercase tracking-widest text-black/50">{dict.product.highlightActivesTitle}</p>
+              <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                {product.activeHighlights.map((active, index) => (
+                  <div key={active.name} className="rounded-2xl border border-black/5 bg-ivory p-5">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <h3 className="font-heading text-xl">{active.name}</h3>
+                      <span className="font-heading text-sm text-gold-dark">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                    </div>
+                    <div className="mt-3 h-px w-10 bg-gold-dark/60" />
+                    <p className="mt-3 text-sm leading-relaxed text-black/65">{active.description[locale]}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {product.benefits && product.benefits.length > 0 && (
+        <div className="mt-20">
+          <div className="text-center">
+            <h2 className="font-heading text-3xl">{dict.product.benefitsTitle}</h2>
+            <div className="mx-auto mt-4 h-px w-16 bg-gold-dark" />
+          </div>
+          <div className={`mt-10 grid gap-6 ${mdGridCols[product.benefits.length] ?? "md:grid-cols-3"}`}>
+            {product.benefits.map((item, index) => {
+              const Icon = benefitIcons[index % benefitIcons.length];
+              return (
+                <div key={index} className="rounded-2xl border border-black/5 bg-white p-6 text-center">
+                  <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-gold-dark via-gold-light to-gold">
+                    <Icon className="h-6 w-6 text-black" />
+                  </span>
+                  <p className="mt-4 text-sm leading-relaxed text-black/70">{item[locale]}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {!product.hideRoutine && routineProducts.length > 1 && (
         <div className="mt-20">
           <h2 className="font-heading text-2xl">{dict.product.routineTitle}</h2>
           <p className="mt-2 max-w-2xl text-sm text-black/70">{dict.product.routineDescription}</p>
@@ -232,13 +306,22 @@ export default function ProductDetailPage({
       )}
 
       {product.usageSteps && product.usageSteps.length > 0 && (
-        <div className="mt-20">
-          <h2 className="font-heading text-2xl">{dict.product.tabs.usage}</h2>
-          <ol className="mt-4 space-y-3 text-sm text-black/70">
+        <div className="mt-20 rounded-3xl bg-gold-light/20 p-6 md:p-10">
+          <h2 className="text-center font-heading text-3xl">{dict.product.tabs.usage}</h2>
+          <ol
+            className="relative mt-10 grid gap-8 md:grid-cols-[repeat(var(--steps),minmax(0,1fr))] md:gap-6"
+            style={{ ["--steps" as string]: product.usageSteps.length }}
+          >
+            <span
+              aria-hidden
+              className="absolute left-[calc(50%/var(--steps))] right-[calc(50%/var(--steps))] top-6 hidden h-px bg-gold-dark/40 md:block"
+            />
             {product.usageSteps.map((step, index) => (
-              <li key={index} className="flex gap-3">
-                <span className="font-heading text-gold-dark">{index + 1}.</span>
-                <span>{step[locale]}</span>
+              <li key={index} className="relative flex gap-4 md:flex-col md:items-center md:text-center">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-gold-dark bg-ivory font-heading text-lg text-gold-dark">
+                  {index + 1}
+                </span>
+                <p className="pt-3 text-sm leading-relaxed text-black/70 md:pt-0">{step[locale]}</p>
               </li>
             ))}
           </ol>

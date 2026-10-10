@@ -1,0 +1,668 @@
+{
+  "company": {
+    "name": {
+      "vi": "ELYSIDERM VIỆT NAM",
+      "en": "ELYSIDERM VIETNAM",
+      "ko": "ELYSIDERM 베트남"
+    },
+    "addressLabel": {
+      "vi": "Trụ sở chính",
+      "en": "Head office",
+      "ko": "본사"
+    },
+    "address": {
+      "vi": "Tòa H301S05 đường Bùi Viện, EcoRiver, phường Tân Hưng, TP Hải Phòng",
+      "en": "Building H301S05, Bui Vien Street, EcoRiver, Tan Hung Ward, Hai Phong City",
+      "ko": "하이퐁시 떤흥동 에코리버 부이비엔 거리 H301S05동"
+    }
+  },
+  "contact": {
+    "fanpage": "https://www.facebook.com/EirlysVietnam",
+    "hotline": "0982.181.615",
+    "email": "eirlys.glutathionevn@gmail.com"
+  },
+  "blocks": {
+    "vi": [
+      {
+        "type": "p",
+        "text": "Elysiderm cam kết nghiêm túc thực hiện trách nhiệm của mình liên quan đến bảo mật thông tin, quyền riêng tư của khách hàng khi bạn tham gia giao dịch với chúng tôi theo các quy định của pháp luật Việt Nam. Chúng tôi nhận biết tầm quan trọng của dữ liệu cá nhân mà bạn đã tin tưởng cung cấp và chúng tôi có trách nhiệm quản lý, thực hiện các biện pháp để bảo vệ trong quá trình sử dụng, tiết lộ với bất kỳ bên thứ ba nào trong phạm vi cho phép và xử lý dữ liệu cá nhân của bạn một cách thích hợp. Elysiderm tạo ra chính sách bảo mật này để quý khách có thể hiểu hơn về những cam kết mà Elysiderm thực hiện trong việc thu thập, sử dụng và chia sẻ thông tin cũng như việc bảo mật thông tin khách hàng."
+      },
+      {
+        "type": "h2",
+        "text": "1. Mục đích, phạm vi sử dụng và thời gian lưu trữ thông tin"
+      },
+      {
+        "type": "h3",
+        "text": "1.1. Mục đích, phạm vi sử dụng thông tin"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Để phục vụ quản lý, điều hành, xem xét và/hoặc xử lý đơn đặt hàng/giao dịch của bạn với chúng tôi hoặc với các bên thứ ba thông qua các đơn vị dịch vụ trung gian.",
+          "Để giải quyết hoặc tạo điều kiện thuận lợi cho dịch vụ chăm sóc khách hàng, chúng tôi có thể sử dụng các thông tin này để hỗ trợ kịp thời theo các yêu cầu từ bạn.",
+          "Để phục vụ mục đích xác minh, đánh giá pháp lý hoặc để nhận biết khách hàng.",
+          "Để lập số liệu thống kê, nghiên cứu nhằm duy trì sổ sách nội bộ hoặc nhằm mục đích phát triển, nâng cao chất lượng phục vụ khách hàng.",
+          "Để đáp ứng các thủ tục pháp lý hoặc các yêu cầu của cơ quan nhà nước có thẩm quyền khi được yêu cầu mà việc tiết lộ thông tin là cần thiết, đúng với pháp luật.",
+          "Chúng tôi sẽ có thể thu thập, sử dụng, xử lý dữ liệu cá nhân của bạn phụ thuộc vào từng hoàn cảnh cụ thể mà mục đích đó có thể không được liệt kê ở trên. Tuy nhiên, Elysiderm sẽ thông báo cho bạn về mục đích đó tại thời điểm chúng tôi xin sự cho phép của bạn, trừ khi được phép theo các quy định của pháp luật."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.2. Những người hoặc tổ chức có thể được tiếp cận với thông tin đó"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Elysiderm biết rằng việc bảo mật thông tin cá nhân của khách hàng là rất quan trọng. Chúng tôi sẽ áp dụng các biện pháp để bảo mật thông tin của bạn. Chúng tôi chỉ cho phép nhân viên của Elysiderm Việt Nam, các đối tác của chúng tôi là các đơn vị dịch vụ trung gian như dịch vụ vận chuyển, dịch vụ thanh toán trung gian hoặc theo lệnh của tòa án hay bất kỳ cơ quan nhà nước có thẩm quyền nhằm (i) tuân thủ quy định của pháp luật; (ii) thực thi nghĩa vụ theo các điều khoản quy định tại hợp đồng/giao dịch; (iii) đáp ứng các yêu cầu của bạn về dịch vụ khách hàng; (iv) bảo vệ quyền, tài sản hoặc sự an toàn của chúng tôi và của bạn.",
+          "Chúng tôi sẽ có thể thu thập, sử dụng, tiết lộ hoặc xử lý dữ liệu cá nhân của bạn phụ thuộc vào từng hoàn cảnh cụ thể mà những cá nhân, tổ chức đó có thể không được liệt kê ở trên. Tuy nhiên, Elysiderm Việt Nam sẽ thông báo cho bạn về người tiếp cận và mục đích đó tại thời điểm chúng tôi xin sự cho phép của bạn, trừ khi được phép theo quy định của pháp luật. Các đối tác của chúng tôi cam kết chỉ sử dụng các thông tin này vào mục đích thực thi nghĩa vụ, có lợi cho khách hàng mà không được sử dụng vào mục đích thương mại hay mục đích khác khi chưa có sự đồng ý của chúng tôi và của bạn."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.3. Chúng tôi sẽ có thể thu thập dữ liệu cá nhân của bạn khi"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Bạn đăng ký tài khoản trên Website với chúng tôi;",
+          "Khi bạn đồng ý hoặc cung cấp các tài liệu, thông tin liên quan trong lúc tương tác giữa bạn với chúng tôi bao gồm nhưng không giới hạn qua các cuộc gọi điện thoại từ số hotline của Elysiderm Việt Nam (có thể được ghi âm lại), email, ứng dụng truyền thông xã hội, thư từ, gặp gỡ trực tiếp.",
+          "Khi bạn liên kết tài khoản Elysiderm Việt Nam với tài khoản mạng xã hội, các tài khoản bên ngoài khác hoặc sử dụng các tính năng mạng xã hội phù hợp với các chính sách của nhà cung cấp.",
+          "Khi bạn cung cấp ý kiến phản hồi hoặc gửi khiếu nại cho chúng tôi.",
+          "Các trường hợp trên không nhằm mục đích liệt kê đầy đủ các trường hợp mà chỉ đưa ra một số trường hợp phổ biến về thời điểm dữ liệu cá nhân của bạn có thể bị thu thập."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.4. Phạm vi thu thập dữ liệu"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Dữ liệu cá nhân mà Elysiderm Việt Nam có thể thu thập bao gồm: họ tên; địa chỉ email; địa chỉ giao nhận hàng hóa và/hoặc thanh toán; tài khoản ngân hàng và thông tin thanh toán; số điện thoại; hình ảnh, âm thanh hoặc video mở hàng/kiểm tra hàng; các thông tin khác về người dùng khi bạn đăng nhập để sử dụng các dịch vụ liên kết chính thống tại Website của chúng tôi hoặc bất kỳ thông tin nào mà chúng tôi đã thông báo xin sự cung cấp và cho phép từ bạn.",
+          "Nếu bạn không muốn chúng tôi thu thập thông tin/dữ liệu cá nhân nói trên, bạn có thể không cung cấp hoặc vào bất kỳ lúc nào bằng cách thông báo bằng văn bản hoặc qua email đến chúng tôi. Tuy nhiên, lưu ý rằng việc từ chối hoặc hủy bỏ cho phép chúng tôi thu thập, sử dụng hoặc xử lý dữ liệu cá nhân của bạn có thể làm ảnh hưởng đến giao dịch của bạn với chúng tôi và/hoặc ảnh hưởng đến việc bạn sử dụng các dịch vụ với nền tảng được liên kết tại Website.",
+          "Chúng tôi không cố ý thu thập thông tin cá nhân của người chưa đủ 15 tuổi mà không có sự kiểm soát của cha mẹ hoặc người đại diện hợp pháp. Nếu quý khách chưa đủ 15 tuổi, xin vui lòng không cung cấp cho chúng tôi bất kỳ thông tin cá nhân gì. Nếu chúng tôi xác định được người dùng chưa đủ 15 tuổi và đã gửi thông tin cá nhân mà không có sự kiểm soát của người đại diện hợp pháp, chúng tôi sẽ xoá bỏ thông tin cá nhân này khỏi dữ liệu của chúng tôi mà không cần thông báo trước."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.5. Thời gian lưu trữ và cam kết bảo mật"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Thời gian lưu trữ là 1 năm kể từ thời điểm đơn hàng cuối cùng phát sinh.",
+          "Chúng tôi thực hiện các biện pháp bảo mật khác nhau và luôn nỗ lực để đảm bảo sự an toàn dữ liệu cá nhân của bạn trên các hệ thống quản lý của chúng tôi. Dữ liệu cá nhân của bạn sẽ được lưu trữ bằng các mạng bảo mật và chỉ có thể truy cập được bởi một số nhân viên được quyền truy cập đặc biệt. Tuy nhiên, chúng tôi không thể có sự đảm bảo an ninh tuyệt đối bởi các sự cố phát sinh, trường hợp có sự cố xảy ra chúng tôi sẽ dùng mọi biện pháp để khắc phục và hạn chế rủi ro nhất.",
+          "Chúng tôi cam kết thực hiện duy trì dữ liệu cá nhân đúng quy định của pháp luật. Trong trường hợp cần thiết và trong phạm vi cho phép của pháp luật, chúng tôi có thể tiêu hủy dữ liệu cá nhân của bạn một cách an toàn mà không cần thông báo trước."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Thương hiệu và bản quyền"
+      },
+      {
+        "type": "p",
+        "text": "Mọi quyền sở hữu trí tuệ (đã đăng ký hoặc chưa đăng ký) bao gồm nhưng không giới hạn nội dung thông tin và tất cả các thiết kế, văn bản, đồ họa, phần mềm, hình ảnh, video, âm nhạc, âm thanh, biên dịch phần mềm, mã nguồn và phần mềm cơ bản đều là tài sản của chúng tôi. Toàn bộ nội dung của trang web được bảo vệ bởi luật pháp Việt Nam và các công ước quốc tế."
+      },
+      {
+        "type": "h2",
+        "text": "3. Quy định sửa đổi thông tin và xoá tài khoản"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Nếu quý khách muốn thay đổi các thông tin cá nhân trên tài khoản đã đăng ký, quý khách có thể đăng nhập và cập nhật, sửa đổi trên tài khoản của mình ở website https://www.elysiderm.com/ hoặc liên hệ với chúng tôi qua email, số hotline của Elysiderm Việt Nam để được hướng dẫn và hỗ trợ.",
+          "Nếu quý khách muốn xoá tài khoản và toàn bộ thông tin cá nhân, lịch sử mua hàng trên website, vui lòng liên hệ với chúng tôi qua email: eirlys.glutathionevn@gmail.com"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Thay đổi về chính sách"
+      },
+      {
+        "type": "p",
+        "text": "Chính sách bảo mật thông tin này có thể được thay đổi để phù hợp với nhu cầu của Elysiderm Việt Nam cũng như của khách hàng và phù hợp với các quy định của pháp luật mà không cần thông báo trước (nếu có)."
+      },
+      {
+        "type": "h2",
+        "text": "5. Đơn vị thu thập, quản lý thông tin"
+      },
+      {
+        "type": "company"
+      },
+      {
+        "type": "p",
+        "text": "Nếu quý khách có bất kỳ thắc mắc hoặc khiếu nại nào về các quy định bảo mật thông tin khách hàng của chúng tôi hoặc phát hiện thông tin cá nhân của mình bị sử dụng sai mục đích, bị vi phạm thì vui lòng liên hệ qua các kênh như sau để được giải đáp và hỗ trợ:"
+      },
+      {
+        "type": "contact"
+      },
+      {
+        "type": "part",
+        "text": "Chính sách giải quyết khiếu nại"
+      },
+      {
+        "type": "h3",
+        "text": "1. Phạm vi áp dụng"
+      },
+      {
+        "type": "p",
+        "text": "Áp dụng cho tất cả các trường hợp khiếu nại liên quan đến chất lượng sản phẩm và hoạt động kinh doanh của Elysiderm."
+      },
+      {
+        "type": "h3",
+        "text": "2. Đối tượng khiếu nại"
+      },
+      {
+        "type": "p",
+        "text": "Tất cả các khách hàng liên quan trực tiếp đến nội dung khiếu nại."
+      },
+      {
+        "type": "h3",
+        "text": "3. Hình thức khiếu nại"
+      },
+      {
+        "type": "p",
+        "text": "Khách hàng khi có khiếu nại có thể lựa chọn một trong các hình thức sau để phản ánh khiếu nại:"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Gửi thư điện tử về địa chỉ email: eirlys.glutathionevn@gmail.com",
+          "Gọi đến tổng đài Chăm sóc khách hàng: 0982.181.615",
+          "Gửi thư qua bưu điện hoặc khiếu nại trực tiếp tại địa chỉ văn phòng công ty: Tòa H301S05 đường Bùi Viện, EcoRiver, phường Tân Hưng, TP Hải Phòng"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Quy trình giải quyết khiếu nại"
+      },
+      {
+        "type": "step",
+        "label": "Bước 1",
+        "title": "Tiếp nhận khiếu nại",
+        "items": [
+          {
+            "text": "Khách Hàng khi có khiếu nại cần cung cấp cho Elysiderm các thông tin sau:",
+            "checks": [
+              "Thông tin khách hàng khiếu nại và phương thức liên lạc (số điện thoại hoặc email);",
+              "Thông tin sản phẩm khiếu nại (nếu là khiếu nại sản phẩm) gồm hình ảnh của sản phẩm tại thời điểm khiếu nại, số LOT và hạn sử dụng hoặc các thông tin, hình ảnh tình trạng, các giấy tờ có liên quan đến nội dung khiếu nại."
+            ]
+          },
+          "Trong vòng 01 ngày làm việc kể từ thời điểm tiếp nhận khiếu nại: Bộ phận chăm sóc khách hàng gửi thông tin xác nhận việc tiếp nhận khiếu nại bằng thư điện tử thông qua địa chỉ email eirlys.glutathionevn@gmail.com (đối với khiếu nại qua thư điện tử hoặc khiếu nại qua bưu điện, tổng đài có phương thức liên lạc bằng email) hoặc xác nhận tiếp nhận khiếu nại bằng số điện thoại tổng đài 0982.181.615 (đối với khiếu nại qua tổng đài hoặc qua bưu điện có phương thức liên lạc bằng số điện thoại) hoặc xác nhận tiếp nhận khiếu nại bằng văn bản đối với khiếu nại trực tiếp tại địa chỉ văn phòng của công ty.",
+          "Khách hàng có trách nhiệm cung cấp thêm các thông tin, tài liệu có liên quan nội dung khiếu nại theo yêu cầu của Bộ phận chăm sóc khách hàng trong quá trình tiếp nhận và giải quyết khiếu nại (đối với trường hợp các thông tin, tài liệu khách hàng cung cấp chưa đầy đủ để tiến hành thực hiện xác minh, phân tích và đánh giá chính xác)."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "Bước 2",
+        "title": "Xử lý khiếu nại",
+        "items": [
+          "Trong vòng 03 ngày làm việc kể từ thời điểm tiếp nhận khiếu nại của khách hàng, bộ phận Chăm sóc khách hàng sẽ chủ động kiểm tra, giải quyết trong phạm vi chức năng và quyền hạn của mình và liên hệ các bộ phận phụ trách liên quan để cập nhật thông tin về giải quyết khiếu nại.",
+          "Đối với các khiếu nại cần nghiên cứu hồ sơ chuyên sâu hoặc kiểm định sản phẩm sẽ được chuyển đến các bộ phận có liên quan để thực hiện xử lý và giải quyết theo từng trường hợp. Thời hạn xác minh và xử lý không quá 30 ngày kể từ ngày tiếp nhận khiếu nại, trừ các trường hợp phức tạp cần thực hiện theo thời gian xử lý của các tổ chức có chức năng liên quan."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "Bước 3",
+        "title": "Giải quyết khiếu nại",
+        "items": [
+          "Trong vòng 02 ngày làm việc kể từ ngày kết thúc việc xác minh và xử lý tại Bước 2, bộ phận Chăm sóc khách hàng gửi phản hồi kết quả và phương án giải quyết phù hợp đến khách hàng theo các phương thức liên lạc tương ứng tại Bước 1.",
+          "Trường hợp khách hàng chưa đồng ý với kết quả, phương án giải quyết khiếu nại và cung cấp thêm các thông tin liên quan (nếu có) thì bộ phận Chăm sóc khách hàng tiếp tục thực hiện tiếp nhận thông tin, xác minh xử lý khiếu nại theo trình tự từ Bước 1 và phản hồi kết luận cuối cùng đến khách hàng. Thời gian giải quyết khiếu nại tối đa là 90 ngày, trừ các trường hợp phức tạp cần xác minh xử lý theo thời gian của các tổ chức có chức năng liên quan đề cập tại Bước 2.",
+          "Trường hợp khách hàng vẫn tiếp tục không đồng ý với kết luận và phương án giải quyết khiếu nại cuối cùng của công ty thì hai bên thực hiện giải quyết khiếu nại tại cơ quan nhà nước có thẩm quyền hoặc thực hiện khởi kiện tại Tòa án có thẩm quyền để giải quyết trong thời hạn 90 ngày kể từ ngày kết luận cuối cùng của công ty được gửi đến khách hàng."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "Bước 4",
+        "title": "Kết thúc khiếu nại",
+        "items": [
+          "Lưu hồ sơ và kết thúc khiếu nại.",
+          "Các thông tin, dữ liệu trao đổi giữa Elysiderm và khách hàng trong quá trình tiếp nhận và giải quyết khiếu nại sẽ được công ty lưu trữ trong thời hạn 01 năm. Dữ liệu này là cơ sở pháp lý khi giải quyết các tranh chấp, khiếu nại (nếu có).",
+          "Các bên có trách nhiệm thực hiện bảo mật dữ liệu cá nhân và các thông tin liên quan trong quá trình giải quyết khiếu nại theo quy định của pháp luật. Các bên không được tiết lộ, cung cấp hoặc sử dụng trái phép các thông tin này dưới bất kỳ hình thức nào trừ trường hợp được pháp luật cho phép hoặc có sự chấp thuận bằng văn bản của bên còn lại. Bên vi phạm nghĩa vụ bảo mật thông tin có trách nhiệm bồi thường toàn bộ mọi thiệt hại bao gồm nhưng không giới hạn các thiệt hại thực tế phát sinh và thiệt hại về uy tín, danh dự, nhân phẩm, khủng hoảng truyền thông,… cho bên còn lại và chịu trách nhiệm theo quy định của pháp luật."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Quý khách vui lòng liên hệ với chúng tôi trong trường hợp có thắc mắc, cần sự hỗ trợ và phản hồi qua các kênh sau:"
+      },
+      {
+        "type": "contact"
+      }
+    ],
+    "en": [
+      {
+        "type": "p",
+        "text": "Elysiderm is committed to fulfilling its responsibilities regarding the security of customer information and privacy when you transact with us, in accordance with the laws of Vietnam. We recognize the importance of the personal data you have entrusted to us, and we are responsible for managing it, taking measures to protect it during use, disclosing it to third parties only to the extent permitted, and processing your personal data appropriately. Elysiderm has created this privacy policy so that you can better understand our commitments regarding the collection, use and sharing of information, as well as the protection of customer information."
+      },
+      {
+        "type": "h2",
+        "text": "1. Purpose, scope of use and retention period of information"
+      },
+      {
+        "type": "h3",
+        "text": "1.1. Purpose and scope of use"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "To manage, operate, review and/or process your orders/transactions with us or with third parties through intermediary service providers.",
+          "To resolve or facilitate customer care services; we may use this information to support you promptly according to your requests.",
+          "For verification, legal assessment or customer identification purposes.",
+          "To compile statistics and research for maintaining internal records or for developing and improving the quality of our customer service.",
+          "To comply with legal procedures or requests from competent state authorities when disclosure of information is necessary and lawful.",
+          "We may collect, use and process your personal data depending on specific circumstances for purposes that may not be listed above. However, Elysiderm will notify you of such purposes at the time we request your permission, unless otherwise permitted by law."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.2. Persons or organizations that may access the information"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Elysiderm understands that protecting customers' personal information is very important. We will apply measures to secure your information. We only grant access to employees of Elysiderm Vietnam and our partners that are intermediary service providers such as shipping and payment intermediary services, or pursuant to an order of a court or any competent state authority, in order to (i) comply with the law; (ii) perform obligations under the terms of a contract/transaction; (iii) respond to your customer service requests; (iv) protect the rights, property or safety of us and of you.",
+          "We may collect, use, disclose or process your personal data depending on specific circumstances involving individuals or organizations that may not be listed above. However, Elysiderm Vietnam will notify you of who will access the data and for what purpose at the time we request your permission, unless otherwise permitted by law. Our partners commit to using this information only to perform their obligations for the benefit of customers, and not for commercial or other purposes without our and your consent."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.3. We may collect your personal data when"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "You register an account with us on the Website;",
+          "You agree to or provide relevant documents and information while interacting with us, including but not limited to phone calls to the Elysiderm Vietnam hotline (which may be recorded), email, social media applications, letters and in-person meetings.",
+          "You link your Elysiderm Vietnam account with a social media account or other external accounts, or use social media features in accordance with the provider's policies.",
+          "You provide feedback or submit a complaint to us.",
+          "The above cases are not intended to be exhaustive; they only describe some common situations in which your personal data may be collected."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.4. Scope of data collected"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Personal data that Elysiderm Vietnam may collect includes: full name; email address; delivery and/or billing address; bank account and payment information; phone number; images, audio or video of unboxing/product inspection; other user information when you log in to use official linked services on our Website; or any information we have notified you of and requested your permission to provide.",
+          "If you do not want us to collect the personal information/data mentioned above, you may choose not to provide it, or withdraw at any time by notifying us in writing or by email. Please note, however, that refusing or withdrawing permission for us to collect, use or process your personal data may affect your transactions with us and/or your use of services on platforms linked to the Website.",
+          "We do not knowingly collect personal information from persons under 15 years of age without the supervision of a parent or legal guardian. If you are under 15, please do not provide us with any personal information. If we determine that a user under 15 has submitted personal information without the supervision of a legal guardian, we will delete that information from our data without prior notice."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.5. Retention period and security commitment"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Data is retained for 1 year from the date of the most recent order.",
+          "We implement various security measures and always strive to ensure the safety of your personal data in our management systems. Your personal data is stored on secure networks and can only be accessed by a limited number of employees with special access rights. However, we cannot guarantee absolute security against unforeseen incidents; should an incident occur, we will take every measure to remedy it and minimize risk.",
+          "We commit to retaining personal data in accordance with the law. Where necessary and to the extent permitted by law, we may securely destroy your personal data without prior notice."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. Trademarks and copyright"
+      },
+      {
+        "type": "p",
+        "text": "All intellectual property rights (registered or unregistered), including but not limited to information content and all designs, text, graphics, software, images, video, music, sound, software compilations, source code and underlying software, are our property. All content on this website is protected by Vietnamese law and international conventions."
+      },
+      {
+        "type": "h2",
+        "text": "3. Updating information and deleting your account"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "If you wish to change the personal information on your registered account, you can log in and update it on your account at website https://www.elysiderm.com/, or contact us by email or the Elysiderm Vietnam hotline for guidance and support.",
+          "If you wish to delete your account and all personal information and purchase history on the website, please contact us by email: eirlys.glutathionevn@gmail.com"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. Policy changes"
+      },
+      {
+        "type": "p",
+        "text": "This privacy policy may be amended to suit the needs of Elysiderm Vietnam and its customers and to comply with legal regulations, without prior notice (if any)."
+      },
+      {
+        "type": "h2",
+        "text": "5. Entity collecting and managing information"
+      },
+      {
+        "type": "company"
+      },
+      {
+        "type": "p",
+        "text": "If you have any questions or complaints about our customer information privacy policy, or discover that your personal information has been misused or violated, please contact us through the following channels for answers and support:"
+      },
+      {
+        "type": "contact"
+      },
+      {
+        "type": "part",
+        "text": "Complaint Resolution Policy"
+      },
+      {
+        "type": "h3",
+        "text": "1. Scope"
+      },
+      {
+        "type": "p",
+        "text": "Applies to all complaints related to product quality and the business activities of Elysiderm."
+      },
+      {
+        "type": "h3",
+        "text": "2. Who may file a complaint"
+      },
+      {
+        "type": "p",
+        "text": "All customers directly related to the subject of the complaint."
+      },
+      {
+        "type": "h3",
+        "text": "3. How to file a complaint"
+      },
+      {
+        "type": "p",
+        "text": "Customers may choose one of the following methods to submit a complaint:"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Send an email to: eirlys.glutathionevn@gmail.com",
+          "Call the Customer Care hotline: 0982.181.615",
+          "Send a letter by post or file a complaint in person at the company office: Building H301S05, Bui Vien Street, EcoRiver, Tan Hung Ward, Hai Phong City"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. Complaint resolution process"
+      },
+      {
+        "type": "step",
+        "label": "Step 1",
+        "title": "Receiving the complaint",
+        "items": [
+          {
+            "text": "When filing a complaint, customers need to provide Elysiderm with the following information:",
+            "checks": [
+              "Information about the complaining customer and contact method (phone number or email);",
+              "Information about the product concerned (for product complaints), including photos of the product at the time of the complaint, LOT number and expiry date, or other information, photos of its condition, and documents related to the complaint."
+            ]
+          },
+          "Within 01 working day of receiving the complaint, the Customer Care department will confirm receipt by email from eirlys.glutathionevn@gmail.com (for complaints submitted by email, or by post/hotline with an email contact), by phone from the hotline 0982.181.615 (for complaints submitted via the hotline, or by post with a phone contact), or in writing for complaints filed in person at the company office.",
+          "Customers are responsible for providing additional information and documents related to the complaint as requested by the Customer Care department during the receiving and resolution process (where the information and documents provided are insufficient for accurate verification, analysis and assessment)."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "Step 2",
+        "title": "Handling the complaint",
+        "items": [
+          "Within 03 working days of receiving the customer's complaint, the Customer Care department will proactively review and resolve it within its functions and authority, and liaise with the relevant departments to provide updates on the resolution.",
+          "Complaints that require in-depth review or product testing will be forwarded to the relevant departments to be handled case by case. Verification and handling will take no more than 30 days from the date the complaint is received, except for complex cases that depend on the processing time of relevant specialized organizations."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "Step 3",
+        "title": "Resolving the complaint",
+        "items": [
+          "Within 02 working days after verification and handling in Step 2 are completed, the Customer Care department will send the results and an appropriate resolution to the customer via the corresponding contact method in Step 1.",
+          "If the customer does not agree with the result or proposed resolution and provides additional relevant information (if any), the Customer Care department will continue to receive the information and verify and handle the complaint following the process from Step 1, then send the final conclusion to the customer. The maximum time to resolve a complaint is 90 days, except for complex cases that require verification according to the timelines of the relevant organizations mentioned in Step 2.",
+          "If the customer still does not agree with the company's final conclusion and resolution, both parties will resolve the complaint at a competent state authority or file a lawsuit at a competent court within 90 days from the date the company's final conclusion is sent to the customer."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "Step 4",
+        "title": "Closing the complaint",
+        "items": [
+          "File the records and close the complaint.",
+          "Information and data exchanged between Elysiderm and the customer during the receiving and resolution of the complaint will be retained by the company for 01 year. This data serves as the legal basis for resolving any disputes or complaints (if any).",
+          "Both parties are responsible for protecting personal data and related information during the complaint resolution process in accordance with the law. Neither party may disclose, provide or use this information without authorization in any form, except where permitted by law or with the written consent of the other party. The party that breaches its confidentiality obligation shall compensate the other party for all damages, including but not limited to actual damages and damage to reputation, honor, dignity, media crises, etc., and shall be held liable in accordance with the law."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Please contact us if you have any questions or need support and feedback through the following channels:"
+      },
+      {
+        "type": "contact"
+      }
+    ],
+    "ko": [
+      {
+        "type": "p",
+        "text": "Elysiderm은 귀하가 당사와 거래할 때 베트남 법률에 따라 고객 정보 보안 및 개인정보 보호와 관련된 책임을 성실히 이행할 것을 약속합니다. 당사는 귀하가 신뢰하여 제공한 개인정보의 중요성을 인식하고 있으며, 이를 관리하고 사용 과정에서 보호 조치를 시행하며, 허용된 범위 내에서만 제3자에게 공개하고 귀하의 개인정보를 적절하게 처리할 책임이 있습니다. Elysiderm은 고객이 정보의 수집, 이용 및 공유와 고객 정보 보호에 관한 당사의 약속을 더 잘 이해할 수 있도록 본 개인정보 처리방침을 마련하였습니다."
+      },
+      {
+        "type": "h2",
+        "text": "1. 정보의 이용 목적, 범위 및 보관 기간"
+      },
+      {
+        "type": "h3",
+        "text": "1.1. 정보의 이용 목적 및 범위"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "당사 또는 중개 서비스 업체를 통한 제3자와의 주문/거래를 관리, 운영, 검토 및/또는 처리하기 위해.",
+          "고객 서비스를 해결하거나 원활하게 제공하기 위해, 귀하의 요청에 따라 신속히 지원하는 데 이 정보를 이용할 수 있습니다.",
+          "확인, 법적 평가 또는 고객 식별 목적을 위해.",
+          "내부 기록 유지 또는 고객 서비스 품질 개발·향상을 위한 통계 및 연구를 위해.",
+          "정보 공개가 필요하고 법에 부합하는 경우, 법적 절차 또는 관할 국가기관의 요청에 응하기 위해.",
+          "당사는 위에 열거되지 않은 목적으로 구체적인 상황에 따라 귀하의 개인정보를 수집, 이용, 처리할 수 있습니다. 다만, 법률에서 달리 허용하는 경우를 제외하고 Elysiderm은 귀하의 동의를 구하는 시점에 해당 목적을 귀하에게 알려드립니다."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.2. 정보에 접근할 수 있는 개인 또는 조직"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Elysiderm은 고객의 개인정보 보호가 매우 중요하다는 것을 알고 있으며, 귀하의 정보를 보호하기 위한 조치를 적용합니다. 당사는 Elysiderm 베트남의 직원, 배송 서비스·결제 중개 서비스 등 중개 서비스 업체인 당사의 파트너, 또는 법원이나 관할 국가기관의 명령에 따라서만 접근을 허용하며, 그 목적은 (i) 법률 준수, (ii) 계약/거래 조항에 따른 의무 이행, (iii) 귀하의 고객 서비스 요청 대응, (iv) 당사와 귀하의 권리, 재산 또는 안전 보호입니다.",
+          "당사는 위에 열거되지 않은 개인 또는 조직과 관련된 구체적인 상황에 따라 귀하의 개인정보를 수집, 이용, 공개 또는 처리할 수 있습니다. 다만, 법률에서 달리 허용하는 경우를 제외하고 Elysiderm 베트남은 귀하의 동의를 구하는 시점에 접근자와 그 목적을 귀하에게 알려드립니다. 당사의 파트너는 이 정보를 고객에게 이익이 되는 의무 이행 목적으로만 사용하며, 당사와 귀하의 동의 없이 상업적 또는 기타 목적으로 사용하지 않을 것을 약속합니다."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.3. 당사가 귀하의 개인정보를 수집할 수 있는 경우"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "귀하가 웹사이트에서 당사에 계정을 등록하는 경우;",
+          "귀하가 당사와 소통하는 과정에서 관련 자료와 정보에 동의하거나 제공하는 경우로, Elysiderm 베트남 핫라인 통화(녹음될 수 있음), 이메일, 소셜 미디어 애플리케이션, 우편, 직접 만남 등을 포함하되 이에 국한되지 않습니다.",
+          "귀하가 Elysiderm 베트남 계정을 소셜 미디어 계정 또는 기타 외부 계정과 연결하거나, 제공업체의 정책에 따라 소셜 미디어 기능을 사용하는 경우.",
+          "귀하가 당사에 의견을 제공하거나 불만을 제기하는 경우.",
+          "위의 경우는 모든 경우를 열거하기 위한 것이 아니며, 귀하의 개인정보가 수집될 수 있는 일반적인 경우의 예시일 뿐입니다."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.4. 수집하는 정보의 범위"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "Elysiderm 베트남이 수집할 수 있는 개인정보에는 성명, 이메일 주소, 배송 및/또는 청구 주소, 은행 계좌 및 결제 정보, 전화번호, 개봉/제품 확인 사진·음성·영상, 귀하가 당사 웹사이트의 공식 연동 서비스를 이용하기 위해 로그인할 때의 기타 사용자 정보, 또는 당사가 귀하에게 고지하고 제공 및 동의를 요청한 모든 정보가 포함됩니다.",
+          "위의 개인정보 수집을 원하지 않으시면 제공하지 않으시거나, 언제든지 서면 또는 이메일로 당사에 통지하여 철회하실 수 있습니다. 다만, 당사의 개인정보 수집, 이용 또는 처리를 거부하거나 철회하는 경우 당사와의 거래 및/또는 웹사이트에 연동된 플랫폼의 서비스 이용에 영향을 줄 수 있음을 유의해 주십시오.",
+          "당사는 부모 또는 법정대리인의 관리 없이 만 15세 미만인 자의 개인정보를 고의로 수집하지 않습니다. 만 15세 미만인 경우 당사에 어떠한 개인정보도 제공하지 마십시오. 만 15세 미만의 사용자가 법정대리인의 관리 없이 개인정보를 제출한 사실이 확인되면, 당사는 사전 통지 없이 해당 개인정보를 당사 데이터에서 삭제합니다."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "1.5. 보관 기간 및 보안 약속"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "보관 기간은 마지막 주문 발생 시점부터 1년입니다.",
+          "당사는 다양한 보안 조치를 시행하며, 당사 관리 시스템에서 귀하의 개인정보 안전을 보장하기 위해 항상 노력합니다. 귀하의 개인정보는 보안 네트워크에 저장되며 특별 접근 권한을 가진 일부 직원만 접근할 수 있습니다. 다만, 예기치 못한 사고로 인해 절대적인 보안을 보장할 수는 없으며, 사고가 발생할 경우 모든 조치를 취해 이를 해결하고 위험을 최소화하겠습니다.",
+          "당사는 법률 규정에 따라 개인정보를 보관할 것을 약속합니다. 필요한 경우 법률이 허용하는 범위 내에서 사전 통지 없이 귀하의 개인정보를 안전하게 파기할 수 있습니다."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "2. 상표 및 저작권"
+      },
+      {
+        "type": "p",
+        "text": "정보 콘텐츠와 모든 디자인, 텍스트, 그래픽, 소프트웨어, 이미지, 영상, 음악, 음향, 소프트웨어 편집물, 소스 코드 및 기반 소프트웨어를 포함하되 이에 국한되지 않는 모든 지식재산권(등록 여부와 관계없이)은 당사의 자산입니다. 본 웹사이트의 모든 콘텐츠는 베트남 법률 및 국제 협약에 의해 보호됩니다."
+      },
+      {
+        "type": "h2",
+        "text": "3. 정보 수정 및 계정 삭제"
+      },
+      {
+        "type": "list",
+        "style": "alpha",
+        "items": [
+          "등록된 계정의 개인정보를 변경하시려면 웹사이트 https://www.elysiderm.com/에서 로그인하여 계정 정보를 업데이트·수정하시거나, 이메일 또는 Elysiderm 베트남 핫라인으로 연락하여 안내와 지원을 받으실 수 있습니다.",
+          "계정 및 웹사이트상의 모든 개인정보와 구매 내역을 삭제하시려면 이메일로 연락해 주십시오: eirlys.glutathionevn@gmail.com"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "4. 정책 변경"
+      },
+      {
+        "type": "p",
+        "text": "본 개인정보 처리방침은 Elysiderm 베트남과 고객의 필요 및 법률 규정에 맞추어 사전 통지 없이(해당되는 경우) 변경될 수 있습니다."
+      },
+      {
+        "type": "h2",
+        "text": "5. 정보 수집 및 관리 주체"
+      },
+      {
+        "type": "company"
+      },
+      {
+        "type": "p",
+        "text": "당사의 고객 정보 보호 규정에 관한 문의나 불만이 있으시거나, 귀하의 개인정보가 목적 외로 사용되거나 침해된 사실을 발견하신 경우 아래 채널로 연락하시면 답변과 지원을 받으실 수 있습니다:"
+      },
+      {
+        "type": "contact"
+      },
+      {
+        "type": "part",
+        "text": "고객 불만 처리 방침"
+      },
+      {
+        "type": "h3",
+        "text": "1. 적용 범위"
+      },
+      {
+        "type": "p",
+        "text": "Elysiderm의 제품 품질 및 영업 활동과 관련된 모든 불만 사항에 적용됩니다."
+      },
+      {
+        "type": "h3",
+        "text": "2. 불만 제기 대상"
+      },
+      {
+        "type": "p",
+        "text": "불만 내용과 직접 관련된 모든 고객."
+      },
+      {
+        "type": "h3",
+        "text": "3. 불만 제기 방법"
+      },
+      {
+        "type": "p",
+        "text": "고객은 다음 방법 중 하나를 선택하여 불만을 제기할 수 있습니다:"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "이메일 발송: eirlys.glutathionevn@gmail.com",
+          "고객센터 핫라인 전화: 0982.181.615",
+          "우편 발송 또는 회사 사무실 방문 접수: 하이퐁시 떤흥동 에코리버 부이비엔 거리 H301S05동"
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "4. 불만 처리 절차"
+      },
+      {
+        "type": "step",
+        "label": "1단계",
+        "title": "불만 접수",
+        "items": [
+          {
+            "text": "불만을 제기하는 고객은 Elysiderm에 다음 정보를 제공해야 합니다:",
+            "checks": [
+              "불만을 제기하는 고객의 정보 및 연락 방법(전화번호 또는 이메일);",
+              "불만 대상 제품 정보(제품 관련 불만인 경우): 불만 제기 시점의 제품 사진, LOT 번호 및 사용 기한, 또는 상태에 관한 기타 정보·사진 및 불만 내용과 관련된 서류."
+            ]
+          },
+          "불만 접수 후 1영업일 이내에 고객관리 부서는 이메일 eirlys.glutathionevn@gmail.com을 통해 접수 확인을 보내거나(이메일 접수 또는 이메일 연락처가 있는 우편·핫라인 접수의 경우), 핫라인 0982.181.615로 접수를 확인하거나(핫라인 접수 또는 전화 연락처가 있는 우편 접수의 경우), 회사 사무실 방문 접수의 경우 서면으로 접수를 확인합니다.",
+          "고객은 불만 접수 및 처리 과정에서 고객관리 부서의 요청에 따라 불만 내용과 관련된 추가 정보와 자료를 제공할 책임이 있습니다(고객이 제공한 정보와 자료가 정확한 확인, 분석 및 평가를 진행하기에 충분하지 않은 경우)."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "2단계",
+        "title": "불만 처리",
+        "items": [
+          "고객의 불만 접수 후 3영업일 이내에 고객관리 부서는 자체 기능과 권한 범위 내에서 적극적으로 검토·처리하며, 관련 담당 부서와 연락하여 처리 현황을 업데이트합니다.",
+          "심층적인 자료 검토나 제품 검사가 필요한 불만은 관련 부서로 이관되어 사안별로 처리됩니다. 확인 및 처리 기한은 불만 접수일로부터 30일을 넘지 않으며, 관련 전문 기관의 처리 기간에 따라야 하는 복잡한 경우는 예외로 합니다."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "3단계",
+        "title": "불만 해결",
+        "items": [
+          "2단계의 확인 및 처리가 완료된 날로부터 2영업일 이내에 고객관리 부서는 1단계의 해당 연락 방법으로 고객에게 결과와 적절한 해결 방안을 회신합니다.",
+          "고객이 결과 또는 해결 방안에 동의하지 않고 추가 관련 정보를 제공하는 경우(해당 시), 고객관리 부서는 1단계부터의 절차에 따라 정보를 계속 접수하고 확인·처리한 후 최종 결론을 고객에게 회신합니다. 불만 해결의 최대 기간은 90일이며, 2단계에서 언급한 관련 기관의 일정에 따라 확인·처리가 필요한 복잡한 경우는 예외로 합니다.",
+          "고객이 회사의 최종 결론 및 해결 방안에 계속 동의하지 않는 경우, 양측은 회사의 최종 결론이 고객에게 발송된 날로부터 90일 이내에 관할 국가기관에서 불만을 해결하거나 관할 법원에 소송을 제기하여 해결합니다."
+        ]
+      },
+      {
+        "type": "step",
+        "label": "4단계",
+        "title": "불만 종결",
+        "items": [
+          "기록을 보관하고 불만을 종결합니다.",
+          "불만 접수 및 처리 과정에서 Elysiderm과 고객 간에 주고받은 정보와 데이터는 회사가 1년간 보관합니다. 이 데이터는 분쟁 또는 불만 해결 시(해당되는 경우) 법적 근거가 됩니다.",
+          "양측은 법률 규정에 따라 불만 처리 과정에서 개인정보 및 관련 정보를 보호할 책임이 있습니다. 법률이 허용하는 경우 또는 상대방의 서면 동의가 있는 경우를 제외하고, 어떠한 형태로든 이 정보를 무단으로 공개, 제공 또는 사용할 수 없습니다. 정보 보호 의무를 위반한 측은 실제 발생한 손해 및 명성, 명예, 인격 손상, 미디어 위기 등을 포함하되 이에 국한되지 않는 모든 손해를 상대방에게 배상하고 법률에 따른 책임을 집니다."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "문의 사항이 있으시거나 지원 및 피드백이 필요하시면 아래 채널로 연락해 주십시오:"
+      },
+      {
+        "type": "contact"
+      }
+    ]
+  }
+}

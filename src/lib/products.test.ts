@@ -15,7 +15,7 @@ describe("products data layer", () => {
 
   it("finds a product by slug", () => {
     const product = getProductBySlug("eirlys-alpha-melight-intensive-cream");
-    expect(product?.name.en).toBe("Eirlys' Alpha-Melight™ Intensive Cream");
+    expect(product?.name.en).toBe("Eirlys' Alpha Melight Cream");
   });
 
   it("returns undefined for an unknown slug", () => {
